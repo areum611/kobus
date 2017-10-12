@@ -5,7 +5,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link href='/kobus/css/main.css' rel='stylesheet'/>
+<!-- <link rel='stylesheet' href="/kobus/css/main.css" /> -->
+<link rel='stylesheet' href='/kobus/css/login.css'/>
 </head>
 <body>
 <div class="navbar-wrapper">
