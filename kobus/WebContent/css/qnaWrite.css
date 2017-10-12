@@ -5,7 +5,9 @@
 	color: #fcc500;
 	font-size: 45px;
 }
-
+body{
+	background-image: url(/kobus/image/Q&A.jpg);
+}
 .section-content {
 	text-align: center;
 }
