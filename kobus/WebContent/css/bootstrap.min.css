@@ -4606,7 +4606,8 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 		float: left
 	}
 	.navbar-nav>li>a {
-		padding-top: 30px;
+	margin-top:15px;
+		padding-top: 15px;
 		padding-bottom: 15px
 	}
 }
@@ -7249,3 +7250,4 @@ footer iframe {
 .sm li a img {
     width:32px;
 }
+

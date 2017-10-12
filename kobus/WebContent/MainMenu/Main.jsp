@@ -5,14 +5,51 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+
+<!-- 부트스트랩 링크 -->
 <link rel="stylesheet" href="/kobus/css/bootstrap.min.css">
+<style type="text/css">
+.navbar-wrapper{
+clear:both;}
+</style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<style type="text/css">
+<!-- 부트스트랩 끝-->
 
-</style>
+<!-- <script src="/kobus/js/jquery-1.10.2.min.js"></script> -->
+<!-- bxSlider Javascript file -->
+<script src="/kobus/js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="/kobus/css/jquery.bxslider.css" rel="stylesheet" />
+<script type="text/javascript">
+$(function(){
+	var slider = $('#slide_banner').bxSlider({
+
+		  maxSlides: 1,
+		  slideWidth: 800	,
+		  slideMargin: 0,
+		  //ticker: true,
+		  speed: 400,
+		  auto: true,
+		  //pager : true
+		  //autoHover : true,
+		  moveSlides : 1,
+	});
+	
+	$('#prevBtn').click(function(){
+		slider.goToPrevSlide();
+		return false; // <a>태그의 이벤트 차단하기
+	});
+	
+	$('#nextBtn').click(function(){
+		slider.goToNextSlide();
+		return false; // <a>태그의 이벤트 차단하기
+	});
+});
+</script>
 </head>
 <body>
+<!-- Menu Bar -->
 <div class="navbar-wrapper">
     <div class="container-fluid">
         <nav class="navbar navbar-fixed-top">
@@ -65,6 +102,19 @@
     </div>
 </div>
 
+<!-- BXSlider -->
+<div id="banner_wrap">
+      <ul id="slide_banner">
+         <li><a href="#"><img src="/kobus/image/고터1.png" alt="고터1" /></a></li>
+         <li><a href="#"><img src="/kobus/image/고터2.png" alt="고터2" /></a></li>
+         <li><a href="#"><img src="/kobus/image/고터3.png" alt="고터3" /></a></li>
+         <li><a href="#"><img src="/kobus/image/고터4.png" alt="고터4" /></a></li>
+      </ul>
+      <p><a href="#" id="prevBtn"><img src="/kobus/image/prev_btn.png" alt="이전버튼" /></a></p>
+      <p><a href="#" id="nextBtn"><img src="/kobus/image/next_btn.png" alt="다음버튼" /></a></p>
+   </div>
+
+<!-- Footer -->
 <footer>
     <div class="footerHeader" ></div>
     <div class="container">
