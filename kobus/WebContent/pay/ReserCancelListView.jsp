@@ -44,14 +44,13 @@
                 </div>
                 <ul class="list-group list-group-flush text-center">
                 <li class="list-group-item"><i class="icon-ok text-danger"></i>예매번호 : 20170927580774</li>
-                    <li class="list-group-item"><i class="icon-ok text-danger"></i>등급번호 : 고속</li>
-                    <li class="list-group-item"><i class="icon-ok text-danger"></i>매수 : 일반 2명</li>
-                    <li class="list-group-item"><i class="icon-ok text-danger"></i>좌석 : 03,04</li>
-                    <li class="list-group-item"><i class="icon-ok text-danger"></i>총 결제금액 : 9600원</li>
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>결제금 : 4800원</li>
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>취소 위약금 : 0원</li>
+                    <li class="list-group-item"><i class="icon-ok text-danger"></i>총 반환금액 : 4800원</li>
                 </ul>
-                <div class="panel-footer">
-                    <a class="btn btn-lg btn-block btn-danger" href="http://www.jquery2dotnet.com">예매취소</a>
-                </div>
+<!--                 <div class="panel-footer"> -->
+<!--                     <a class="btn btn-lg btn-block btn-danger" href="http://www.jquery2dotnet.com">예매취소</a> -->
+<!--                 </div> -->
             </div>
         </div>
         </div>

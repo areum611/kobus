@@ -16,22 +16,10 @@
 </head>
 <body>
 <div class="container">
-	<div class="row">
-        <div class="col-xs-12">
-            <ul class="nav nav-pills nav-justified thumbnail">
-                <li><a href="#">
-                    <h4 class="list-group-item-heading">예약내역</h4>
-                </a></li>
-                <li class="active"><a href="#">
-                    <h4 class="list-group-item-heading">취소내역</h4>
-                </a></li>
-            </ul>
-        </div>
-	</div>
-</div>
-
-<div class="container">
     <div class="row">
+    <h4>
+            	예매완료
+        </h4>
         <div class="col-md-4">
             <div class="panel panel-danger">
                 <div class="panel-heading">
@@ -50,7 +38,7 @@
                     <li class="list-group-item"><i class="icon-ok text-danger"></i>총 결제금액 : 9600원</li>
                 </ul>
                 <div class="panel-footer">
-                    <a class="btn btn-lg btn-block btn-danger" href="http://www.jquery2dotnet.com">예매취소</a>
+                    <a class="btn btn-lg btn-block btn-danger" href="http://www.jquery2dotnet.com">예매확인</a>
                 </div>
             </div>
         </div>
