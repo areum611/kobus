@@ -136,7 +136,6 @@ $(function(){
 				alt="다음버튼" /></a>
 		</p>
 	</div>
-
 	<!-- Footer -->
 	<footer>
 	<div class="footerHeader"></div>
