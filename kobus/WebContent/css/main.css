@@ -2,6 +2,12 @@
 body{
     background: #8999A8;
 }
+
+.navbar-wrapper {
+	height: 200px;
+	
+}
+
 .navbar, .dropdown-menu{
 background:rgba(255,255,255,0.25);
 border: none;
@@ -53,6 +59,10 @@ border: none;
     background: #fff;
 }
 
+.banner_wrap {
+	height: 900px;
+	
+}
 
 .footerHeader {
     width: 100%;
