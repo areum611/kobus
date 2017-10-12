@@ -21,12 +21,12 @@ clear:both;}
 <script src="/kobus/js/jquery.bxslider.min.js"></script>
 <!-- bxSlider CSS file -->
 <link href="/kobus/css/jquery.bxslider.css" rel="stylesheet" />
+
 <script type="text/javascript">
 $(function(){
 	var slider = $('#slide_banner').bxSlider({
-
 		  maxSlides: 1,
-		  slideWidth: 800	,
+		  slideWidth: 800,
 		  slideMargin: 0,
 		  //ticker: true,
 		  speed: 400,
