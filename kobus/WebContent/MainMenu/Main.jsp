@@ -7,7 +7,8 @@
 <title>Insert title here</title>
 
 <!-- 부트스트랩 링크 -->
-<link rel="stylesheet" href="/kobus/css/bootstrap.min.css">
+<link rel="stylesheet" href="/kobus/css/bootstrap.min2.css">
+
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script
@@ -74,7 +75,7 @@
 									aria-expanded="false">test </a></li>
 								<li><a href="#">Add New</a></li>
 							</ul></li>
-						<li><a href="#">예매</a></li>
+						<li><a href="#">예'y매</a></li>
 						<li class=" dropdown"><a href="#" class="dropdown-toggle "
 							data-toggle="dropdown" role="button" aria-haspopup="true"
 							aria-expanded="false">층별안내 <span class="caret"></span></a>

@@ -15,7 +15,9 @@
 	<link rel="stylesheet" type="text/css" href="https://www.kobus.co.kr/css/layout.css">
 	<link rel="stylesheet" type="text/css" href="https://www.kobus.co.kr/css/content.css">
 	<link rel="shortcut icon" href="https://www.kobus.co.kr/images/favicon.ico">
-	
+<!-- 	<link rel="stylesheet"type="text/css"  href="../css/layout.css" /> -->
+<!-- <link rel="stylesheet" type="text/css" -->
+<!-- 	href="../css/content.css"> -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
 <script type="text/javascript">
