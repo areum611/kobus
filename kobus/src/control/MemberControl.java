@@ -28,7 +28,7 @@ public class MemberControl extends HttpServlet {
 		
 		commandMap.put("login-page", new CommandNull("login.jsp"));
 		commandMap.put("main-page", new CommandNull("Main.jsp"));
-		commandMap.put("join-complete", new JoinCommandMem("joinComplete.jsp"));
+//		commandMap.put("join-complete", new JoinCommandMem("joinComplete.jsp"));
 	}
 	
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

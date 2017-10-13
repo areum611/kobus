@@ -6,7 +6,6 @@
 	content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-
 <title>고속버스통합예매</title>
 
 <link rel="stylesheet" type="text/css"
@@ -17,7 +16,6 @@
 <link rel="stylesheet" type="text/css"
 	href="/kobus/css/content.css">
 <link rel="shortcut icon" href="https://kobus.co.kr/images/favicon.ico">
-
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css"
@@ -35,15 +33,12 @@
 <script type="text/javascript" src="https://kobus.co.kr/js/security.js"></script>
 </head>
 
-
-
 <body class="main">
 	<div id="wrap">
 		<script type="text/javascript"
 			src="/kobus/js/left.js"></script>
 		<script type="text/javascript">
 			//<![CDATA[
-
 			//]]>
 		</script>
 
@@ -51,16 +46,12 @@
 			<div class="dimmed"></div>
 			<div id="contents">
 				<script type="text/javascript" src="https://kobus.co.kr/js/kor/main/Main.js"></script>
-
 				<script type="text/javascript"
 					src="https://kobus.co.kr/js/common/kor/popup/RotInfPup.js"></script>
 				<script type="text/javascript" src="https://kobus.co.kr/js/kor/mrs/rotinf/RotInf.js"></script>
 				<script type="text/javascript" src="https://kobus.co.kr/js/kor/mrs/mrscfm/MrsCfmLgn.js"></script>
 
-
-
 				<!-- 부모페이지에 아래의 hidden 필드를 선언해주어야 한다. 참고 : RotInf.jsp-->
-
 				<!-- 출/도착지 선택 레이어팝업 -->
 				<div class="remodal pop_place full" data-remodal-id="popPlace"
 					role="dialog">
@@ -159,7 +150,7 @@
 						<div class="route_box">
 							<div class="tab_wrap tab_type1" id="rtrpYnAll">
 								<div class="tab_cont">
-									<ul class="place">
+									<ul jjhclass="place">
 										<li><a href="#" id="readDeprInfoList"
 											onclick="fnReadDeprInfoList(event);"> <span class="name">출발지</span>
 												<p class="text empty">
