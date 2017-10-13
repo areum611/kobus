@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import command.Command;
 import command.CommandException;
 import command.CommandNull;
+import command.member.JoinCommandMem;
 
 public class MemberControl extends HttpServlet {
 	private HashMap commandMap;
@@ -21,7 +22,7 @@ public class MemberControl extends HttpServlet {
 	public MemberControl() {
 		super();
 		initCommand();
-	}
+	} 
 	
 	private void initCommand() {
 		commandMap = new HashMap();

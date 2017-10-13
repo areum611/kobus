@@ -8,7 +8,6 @@ public class MemberModel {
 	private String m_tel;
 	private String m_email;
 	private int m_born;
-	private String m_gender;
 	private String m_gubun; 
 	
 	
@@ -41,12 +40,6 @@ public class MemberModel {
 	}
 	public void setM_born(int m_born) {
 		this.m_born = m_born;
-	}
-	public String getM_gender() {
-		return m_gender;
-	}
-	public void setM_gender(String m_gender) {
-		this.m_gender = m_gender;
 	}
 	public String getM_gubun() {
 		return m_gubun;
