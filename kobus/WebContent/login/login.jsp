@@ -1,4 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="model.MemberModel.*, command.*" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,17 +44,6 @@
 						<div class="footer">
 							<a href="#forgotid">아이디 찾기</a> &nbsp; <a href="#forgotpassword">비밀번호
 								찾기</a>
-						</div>
-						<div class="tab-pane fade" id="forgotid">
-							<form method="post" action='' name="forgot_id">
-								<p>회원가입시 입력한 휴대폰번호를 입력하세요.</p>
-								<input type="text" class="span12" name="tid" id="tid"
-									placeholder="휴대폰번호를 입력하세요">
-								<p>
-									<button type="submit" class="btn btn-primary">확인</button>
-									<a href="#login" data-toggle="tab">로그인</a>
-								</p>
-							</form>
 						</div>
 					</form>
 				</div>
