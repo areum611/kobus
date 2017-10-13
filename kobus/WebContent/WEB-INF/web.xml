@@ -24,7 +24,6 @@
 	<servlet-mapping>
 		<servlet-name>MemberControl</servlet-name>
 		<url-pattern>/login</url-pattern>
-		<url-pattern>*.login</url-pattern>
 	</servlet-mapping>
 
 	<servlet>
@@ -54,7 +53,7 @@
 	<servlet-mapping>
 		<servlet-name>ReserControl</servlet-name>
 		<url-pattern>/reser</url-pattern>
-		<url-pattern>*./reser</url-pattern>
+		<url-pattern>*.reser</url-pattern>
 	</servlet-mapping>
 
 

@@ -16,7 +16,7 @@ import command.member.JoinCommandMem;
 
 public class MemberControl extends HttpServlet {
 	private HashMap commandMap;
-	private String jspDir = "/login/";
+	private String jspDir = "/view/login/";
 	private String error = "error.jsp";
 	
 	public MemberControl() {
