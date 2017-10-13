@@ -9,176 +9,53 @@
 
 <title>고속버스통합예매</title>
 
-
-
-
-
-
-
 <link rel="stylesheet" type="text/css"
 	href="https://kobus.co.kr/css/reset.css">
 <link rel="stylesheet" type="text/css"
 	href="https://kobus.co.kr/css/plugin.css">
 <link rel="stylesheet" href="/kobus/css/layout.css" />
 <link rel="stylesheet" type="text/css"
-	href="https://kobus.co.kr/css/content.css">
+	href="/kobus/css/content.css">
 <link rel="shortcut icon" href="https://kobus.co.kr/images/favicon.ico">
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css"
+	href="https://kobus.co.kr/css/ui.jqgrid.custom.css" />
 
-<script type="text/javascript">
-	/*********************************************
-	 * 상수
-	 *********************************************/
-</script>
+<script type="text/javascript"
+	src="https://kobus.co.kr/js/jquery-1.12.4.min.js"></script>
 
+<script type="text/javascript" src="https://kobus.co.kr/js/ui.js"></script>
+<script type="text/javascript" src="https://kobus.co.kr/js/plugin.js"></script>
+<script type="text/javascript" src="https://kobus.co.kr/js/common.js"></script>
 
-<link rel="stylesheet" type="text/css" href="https://kobus.co.kr/css/ui.jqgrid.custom.css" />
-
-<script type="text/javascript" src="https://kobus.co.kr/js/jquery-1.12.4.min.js"></script>
-<script type="text/javascript">
-	//쿠키 가져오기
-	function getCookie(name) {
-		var nameOfCookie = name + "=";
-		var x = 0;
-		while (x <= document.cookie.length) {
-			var y = (x + nameOfCookie.length);
-			if (document.cookie.substring(x, y) == nameOfCookie) {
-				if ((endOfCookie = document.cookie.indexOf(";", y)) == -1) {
-					endOfCookie = document.cookie.length;
-				}
-				return unescape(document.cookie.substring(y, endOfCookie));
-			}
-			x = document.cookie.indexOf(" ", x) + 1;
-			if (x == 0) {
-				break;
-			}
-		}
-		return "";
-	}
-	//쿠키 넣기
-	function setCookie(name, value, expiredays) {
-		var todayDate = new Date();
-		todayDate.setDate(todayDate.getDate() + expiredays);
-		document.cookie = name + "=" + escape(value) + "; path=/; expires="
-				+ todayDate.toGMTString() + ";"
-	}
-
-	// 상단 네비게이션, 모바일 좌측, 모바일 하단 언어선택 설정
-	var lngCdCookie = getCookie("LNG_CD");
-
-	lngCdCookie = (lngCdCookie != null && lngCdCookie != undefined && lngCdCookie != "") ? lngCdCookie
-			: "";
-	var lngCd = (lngCdCookie == "EN" || lngCdCookie == "CN" || lngCdCookie == "JP") ? lngCdCookie
-			: "KO";
-	$(document)
-			.ready(
-					function() {
-						if (navigator.userAgent.toUpperCase().indexOf("MSIE 5") >= 0
-								|| navigator.userAgent.toUpperCase().indexOf(
-										"MSIE 6") >= 0
-								|| navigator.userAgent.toUpperCase().indexOf(
-										"MSIE 7") >= 0
-								|| navigator.userAgent.toUpperCase().indexOf(
-										"MSIE 8") >= 0) {
-							// IE 8 이하
-							if (location.href.indexOf("/underIE8.do") < 0) {
-								// IE 8 이하 페이지 아님
-								location.href = "/underIE8.do";
-								return false;
-							}
-						}
-						if (window.innerWidth < 768) {
-							setCookie("IS_MOBILE_YN_WIDTH", "Y", 365);
-							if (lngCd == "KO"
-									&& location.href.indexOf("/cmn/") < 0
-									&& location.href
-											.indexOf("/mrs/mrsrecppub.do") < 0
-									&& location.href
-											.indexOf("/mrs/mrsrecppub4.do") < 0
-									&& location.href.indexOf("/underIE8.do") < 0) {
-								location.href = "/mblIdx.do";
-								return false;
-							}
-						} else {
-							setCookie("IS_MOBILE_YN_WIDTH", "N", 365);
-						}
-						// 타이틀 수정
-						if ($("h2").length > 0) {
-							$("title").text(
-									$("title").text() + " - "
-											+ $("h2:eq(0)").text());
-						}
-						var $objBody = $("body");
-						if (!($objBody.hasClass("KO")
-								|| $objBody.hasClass("EN")
-								|| $objBody.hasClass("CN") || $objBody
-								.hasClass("JP"))) {
-							$objBody.addClass(lngCd);
-						}
-						if (location.href.indexOf("/mngr/") < 0) {
-							$(
-									"#lng_cd_navi option[value='" + lngCd
-											+ "'],#lng_cd_foot option[value='"
-											+ lngCd + "']").attr("selected",
-									"selected");
-							$("#lng_cd_navi,#lng_cd_foot")
-									.unbind("change")
-									.bind(
-											"change",
-											function() {
-												var tempCd = this.value;
-												lngCd = (tempCd != null
-														&& tempCd != undefined
-														&& tempCd != "" && (tempCd == "EN"
-														|| tempCd == "CN" || tempCd == "JP")) ? tempCd
-														: "KO";
-												setCookie("LNG_CD", lngCd, 1);
-												lngCdCookie = lngCd;
-												//document.location.reload();
-												location.href = "/main.do";
-											});
-						}
-					});
-</script>
-<script type="text/javascript" src="/js/ui.js"></script>
-<script type="text/javascript" src="/js/plugin.js"></script>
-<script type="text/javascript" src="/js/common.js"></script>
-
-<script type="text/javascript" src="/js/jquery/jquery.number.js"></script>
-<script type="text/javascript" src="/js/security.js"></script>
+<script type="text/javascript"
+	src="https://kobus.co.kr/js/jquery/jquery.number.js"></script>
+<script type="text/javascript" src="https://kobus.co.kr/js/security.js"></script>
 </head>
 
 
 
 <body class="main">
 	<div id="wrap">
-		<script type="text/javascript" src="/js/common/left.js"></script>
+		<script type="text/javascript"
+			src="/kobus/js/left.js"></script>
 		<script type="text/javascript">
 			//<![CDATA[
 
 			//]]>
 		</script>
 
-
-
-
-
-
-
-		<!-- wrap -->
-		<!-- contents -->
-
 		<div id="contentWrap">
 			<div class="dimmed"></div>
 			<div id="contents">
-				<script type="text/javascript" src="/js/kor/main/Main.js"></script>
+				<script type="text/javascript" src="https://kobus.co.kr/js/kor/main/Main.js"></script>
 
 				<script type="text/javascript"
-					src="/js/common/kor/popup/RotInfPup.js"></script>
-				<script type="text/javascript" src="/js/kor/mrs/rotinf/RotInf.js"></script>
-				<script type="text/javascript" src="/js/kor/mrs/mrscfm/MrsCfmLgn.js"></script>
+					src="https://kobus.co.kr/js/common/kor/popup/RotInfPup.js"></script>
+				<script type="text/javascript" src="https://kobus.co.kr/js/kor/mrs/rotinf/RotInf.js"></script>
+				<script type="text/javascript" src="https://kobus.co.kr/js/kor/mrs/mrscfm/MrsCfmLgn.js"></script>
 
 
 
