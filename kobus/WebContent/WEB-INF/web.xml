@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>jsp</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>HelloServlet</servlet-name>
+		<servlet-class>test.HelloServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HelloServlet</servlet-name>
+		<url-pattern>/HelloServlet</url-pattern>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MemberControl</servlet-name>
+		<servlet-class>control.MemberControl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MemberControl</servlet-name>
+		<url-pattern>/login</url-pattern>
+		<url-pattern>*.login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>NoticeControl</servlet-name>
+		<servlet-class>control.NoticeControl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NoticeControl</servlet-name>
+		<url-pattern>/notice</url-pattern>
+		<url-pattern>*.notice</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>QnaControl</servlet-name>
+		<servlet-class>control.QnaControl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>QnaControl</servlet-name>
+		<url-pattern>/qna</url-pattern>
+		<url-pattern>*.qna</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ReserControl</servlet-name>
+		<servlet-class>control.ReserControl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReserControl</servlet-name>
+		<url-pattern>/reser</url-pattern>
+		<url-pattern>*./reser</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>

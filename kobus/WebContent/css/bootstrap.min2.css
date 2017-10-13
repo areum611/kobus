@@ -4595,7 +4595,7 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 		background-image: none
 	}
 }
-/*ê¹€ë¯¼ìš°*/
+/*±è¹Î¿ì*/
 @media ( min-width :768px) {
 	.navbar-nav {
 		float: left;
