@@ -84,16 +84,7 @@ $(function(){
 								<li><a href="#">View Managers</a></li>
 								<li><a href="#">Add New</a></li>
 							</ul></li>
-						<li class=" dropdown"><a href="#"
-							class="dropdown-toggle active" data-toggle="dropdown"
-							role="button" aria-haspopup="true" aria-expanded="false">고객센터
-								<span class="caret"></span>
-						</a>
-							<ul class="dropdown-menu">
-								<li><a href="#">View Staff</a></li>
-								<li><a href="#">Add New</a></li>
-								<li><a href="#">Bulk Upload</a></li>
-							</ul></li>
+						<li class=" dropdown"><a href="<%=pjName %>/qna?cmd=qna-page">고객센터</a></li>
 
 					</ul>
 					<ul class="nav navbar-nav pull-right">
