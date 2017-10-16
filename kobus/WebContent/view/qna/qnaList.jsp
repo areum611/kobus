@@ -2,7 +2,7 @@
 <%@ page import="java.util.List" %>
 <%@ page import="model.QnaModel" %>    
 <%@ page import="service.QnaService" %>  
-  
+  <% String pjName="/kobus"; %>
   <!-- 서비스의 메소드 호출  -->
   <%
   List <QnaModel> mList = ( List <QnaModel>)request.getAttribute("qnaList");
@@ -28,7 +28,7 @@
 <body>
 	<div class="container">
 		<hr />
-		<input type='button' value='글쓰기' id='bWrite'>
+		<a href="<%=pjName %>/qna?cmd=qnaWrite-page" id="write" name='write'><input type='button' value='글쓰기' id='bWrite'></a>
 		<% for( QnaModel qnamodel : mList ) { %>
 		<div class="row">
 			<div class="col-md-6">

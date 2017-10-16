@@ -25,7 +25,8 @@ public class QnaControl extends HttpServlet{
 	private void initCommand() {
 		commandMap = new HashMap();
 		commandMap.put("qna-page",	new QnaCommandList("qnaList.jsp") ); 
-		commandMap.put("write-page",new CommandNull("qnaWrite.jsp") );
+		commandMap.put("qnaWrite-page",new CommandNull("qnaWrite.jsp") );
+		commandMap.put("qnaWriteConfirm-page", new QnaCommandInput("qnaWriteConfirm.jsp"));
 	}
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -65,6 +66,5 @@ public class QnaControl extends HttpServlet{
 
 		RequestDispatcher reqDp = getServletContext().getRequestDispatcher(jspDir + nextPage);
 		reqDp.forward(request, response);
-
 	}
 }

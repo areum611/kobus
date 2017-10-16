@@ -9,6 +9,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import model.QnaModel;
+import mybatis.guest.model.Comment;
 
 public class QnaRepository {
 	private String namespage = "mapper.QnaMapper";
@@ -33,5 +34,21 @@ public class QnaRepository {
 			sess.close();
 		}
 	}
+	
+	public Integer qnaInsert(QnaModel qm) {
+		SqlSession sess = getSqlSessionFactory().openSession();
+		try {
+		int result = sess.insert(namespage+".insertComment", qm);
+		if( result >0) {
+			sess.commit();
+		}else {
+			sess.rollback();
+		}
+		return result;
+		}finally {
+			sess.close();
+		}
+	}
+	
 
 }

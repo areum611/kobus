@@ -24,4 +24,8 @@ public class QnaService {
 		return (List<QnaModel>)repo.qnaList();
 	}
 	
+	public Integer qnaInsert(QnaModel qm) {
+		return repo.qnaInsert(qm);
+	}
+	
 }
