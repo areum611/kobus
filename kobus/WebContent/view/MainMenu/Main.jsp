@@ -76,7 +76,7 @@ $(function(){
 									aria-expanded="false">test </a></li>
 								<li><a href="#">Add New</a></li>
 							</ul></li>
-						<li><a href="#">예'y매</a></li>
+						<li><a href="#">예매</a></li>
 						<li class=" dropdown"><a href="#" class="dropdown-toggle "
 							data-toggle="dropdown" role="button" aria-haspopup="true"
 							aria-expanded="false">층별안내 <span class="caret"></span></a>
