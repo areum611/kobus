@@ -1,1 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper.NoticeMapper">
+<!-- 	<select id="selectAll" parameterType="hashmap" resultType="model.0"> -->
+<!-- 		select -->
+<!-- 		m_id, -->
+<!-- 		m_password, -->
+<!-- 		m_tel, -->
+<!-- 		m_email, -->
+<!-- 		m_born, -->
+<!-- 		m_gubun -->
+<!-- 		from member -->
+<!-- 		<where> -->
+<!-- 			<if test="m_tel != null"> -->
+<!-- 				m_tel = #{m_tel} -->
+<!-- 			</if> -->
+<!-- 			<if test="m_id != null"> -->
+<!-- 				m_id = #{m_id} -->
+<!-- 			</if> -->
+<!-- 		</where> -->
+<!-- 	</select> -->
+
+	<insert id="insertNotice" parameterType="NoticeModel">
+		INSERT
+		INTO notice
+		VALUES (1, #{N_WRITER}, #{M_TITLE}, #{N_CONTENT},
+		sysdate, 0)
+	</insert>
+
+
+</mapper>

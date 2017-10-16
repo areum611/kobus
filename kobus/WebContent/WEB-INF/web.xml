@@ -3,7 +3,7 @@
 	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	id="WebApp_ID" version="3.1">
-	<display-name>jsp</display-name>
+	<display-name>Jsp</display-name>
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
@@ -54,7 +54,7 @@
 	<servlet-mapping>
 		<servlet-name>ReserControl</servlet-name>
 		<url-pattern>/reser</url-pattern>
-		<url-pattern>*./reser</url-pattern>
+		<url-pattern>*.reser</url-pattern>
 	</servlet-mapping>
 
 
