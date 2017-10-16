@@ -6,6 +6,9 @@ public class MemberModel {
 	private String m_id;
 	private String m_password;
 	private String m_tel;
+	private String m_tel1;
+	private String m_tel2;
+	private String m_tel3;
 	private String m_email;
 	private int m_born;
 	private String m_gubun; 
@@ -23,12 +26,7 @@ public class MemberModel {
 	public void setM_password(String m_password) {
 		this.m_password = m_password;
 	}
-	public String getM_tel() {
-		return m_tel;
-	}
-	public void setM_tel(String m_tel) {
-		this.m_tel = m_tel;
-	}
+
 	public String getM_email() {
 		return m_email;
 	}
@@ -47,5 +45,31 @@ public class MemberModel {
 	public void setM_gubun(String m_gubun) {
 		this.m_gubun = m_gubun;
 	}
+	public String getM_tel1() {
+		return m_tel1;
+	}
+	public void setM_tel1(String m_tel1) {
+		this.m_tel1 = m_tel1;
+	}
+	public String getM_tel2() {
+		return m_tel2;
+	}
+	public void setM_tel2(String m_tel2) {
+		this.m_tel2 = m_tel2;
+	}
+	public String getM_tel3() {
+		return m_tel3;
+	}
+	public void setM_tel3(String m_tel3) {
+		this.m_tel3 = m_tel3;
+	}
+	public String getM_tel() {
+		return m_tel;
+	}
+	public void setM_tel(String m_tel) {
+		this.m_tel = m_tel;
+	}
+	
+	
 	
 }

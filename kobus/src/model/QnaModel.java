@@ -4,7 +4,7 @@ public class QnaModel {
 	private int a_id;
 	private int g_id;
 	private int s_id;
-	private String q_contnent;
+	private String q_content;
 	private String q_date;
 	private int q_hit;
 	private String m_id;
@@ -31,11 +31,11 @@ public class QnaModel {
 	public void setS_id(int s_id) {
 		this.s_id = s_id;
 	}
-	public String getQ_contnent() {
-		return q_contnent;
+	public String getQ_content() {
+		return q_content;
 	}
-	public void setQ_contnent(String q_contnent) {
-		this.q_contnent = q_contnent;
+	public void setQ_content(String q_content) {
+		this.q_content = q_content;
 	}
 	public String getQ_date() {
 		return q_date;

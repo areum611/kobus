@@ -1,6 +1,8 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page import="model.MemberModel.*, command.*" %>
-
+<%@ page import="model.MemberModel.*, command.*"%>
+<%
+	String pjName = "/kobus";
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,27 +27,29 @@
 				<div class="card"></div>
 				<div class="card">
 					<h1 class="title">로그인</h1>
-					<form>
+					<form name="login-form" method="post"
+						action="<%=pjName%>/login?cmd=login-ok">
 						<div class="input-container">
-							<input type="text" id="Username" required="required" /> <label
-								for="Username">아이디</label>
+							<input type="text" id="m_id" name="m_id" required="required" />
+							<label for="m_id">아이디</label>
 							<div class="bar"></div>
 						</div>
 						<div class="input-container">
-							<input type="password" id="Password" required="required" /> <label
-								for="Password">비밀번호</label>
+							<input type="password" id="m_password" name="m_password"
+								required="required" /> <label for="m_password">비밀번호</label>
 							<div class="bar"></div>
 						</div>
 						<div class="button-container">
-							<button>
+							<button type="submit" >
 								<span>Go</span>
 							</button>
 						</div>
-						<div class="footer">
-							<a href="#forgotid">아이디 찾기</a> &nbsp; <a href="#forgotpassword">비밀번호
-								찾기</a>
-						</div>
 					</form>
+					<div class="footer">
+						<a href="#forgotid">아이디 찾기</a> &nbsp; <a href="#forgotpassword">비밀번호
+							찾기</a>
+					</div>
+
 				</div>
 				<div class="card alt">
 					<div class="toggle"></div>
@@ -53,34 +57,44 @@
 						회원가입
 						<div class="close"></div>
 					</h1>
-					<form>
+					<form method="post" id="join_form"
+						action="<%=pjName%>/login?cmd=join-complete">
 						<div class="input-container">
-							<input type="text" id="Username" required="required" /> <label
-								for="Username">아이디</label>
+							<input type="text" id="join_id" name="join_id"
+								required="required" /> <label for="join_id">아이디</label>
 							<div class="bar"></div>
 						</div>
 						<div class="input-container">
-							<input type="password" id="Password" required="required" /> <label
-								for="Password">비밀번호</label>
+							<input type="password" id="join_password" name="join_password"
+								required="required" /> <label for="join_password">비밀번호</label>
+							<div class="bar"></div>
+						</div>
+						<div class="input-container ">
+							<input type="password" id="join_password_repeat"
+								name="join_password_repeat" required="required" /> <label
+								for="join_password_repeat">비밀번호 확인</label>
+							<div class="bar"></div>
+						</div>
+						<div class="input-container tel">
+							<input type="tel" id="join_tel1" name="join_tel1"
+								required="required" /> - <input type="tel" id="join_tel2"
+								name="join_tel2" required="required" /> - <input type="tel"
+								id="join_tel3" name="join_tel3" required="required" /> <label
+								for="join_tel">전화번호</label>
 							<div class="bar"></div>
 						</div>
 						<div class="input-container">
-							<input type="password" id="Repeat Password" required="required" />
-							<label for="Repeat Password">비밀번호 확인</label>
+							<input type="email" id="join_email" name="join_email"
+								required="required" /> <label for="join_email">이메일</label>
 							<div class="bar"></div>
 						</div>
 						<div class="input-container">
-							<input type="email" id="email" required="required" /> <label
-								for="email">이메일</label>
-							<div class="bar"></div>
-						</div>
-						<div class="input-container">
-							<input type="text" id="born" required="required" /> <label
-								for="born">생년월일(YYYYMMDD)</label>
+							<input type="text" id="join_born" name="join_born"
+								required="required" /> <label for="join_born">생년월일(YYYYMMDD)</label>
 							<div class="bar"></div>
 						</div>
 						<div class="button-container">
-							<button>
+							<button type="submit" form="join_form">
 								<span>Next</span>
 							</button>
 						</div>

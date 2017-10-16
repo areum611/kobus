@@ -1,6 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<% String pjName="/kobus"; %>
+<%
+	String pjName = "/kobus";
+%>
+<%
+	String m_id = (String)session.getAttribute("m_id");
+%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -22,29 +27,29 @@
 <link href="/kobus/css/jquery.bxslider.css" rel="stylesheet" />
 
 <script type="text/javascript">
-$(function(){
-	var slider = $('#slide_banner').bxSlider({
-		  maxSlides: 1,
-		  slideWidth: 800,
-		  slideMargin: 0,
-		  //ticker: true,
-		  speed: 400,
-		  auto: true,
-		  //pager : true
-		  //autoHover : true,
-		  moveSlides : 1,
-	});
+	$(function() {
+		var slider = $('#slide_banner').bxSlider({
+			maxSlides : 1,
+			slideWidth : 800,
+			slideMargin : 0,
+			//ticker: true,
+			speed : 400,
+			auto : true,
+			//pager : true
+			//autoHover : true,
+			moveSlides : 1,
+		});
 
-	$('#prevBtn').click(function() {
-		slider.goToPrevSlide();
-		return false; // <a>태그의 이벤트 차단하기
-	});
+		$('#prevBtn').click(function() {
+			slider.goToPrevSlide();
+			return false; // <a>태그의 이벤트 차단하기
+		});
 
-	$('#nextBtn').click(function() {
-		slider.goToNextSlide();
-		return false; // <a>태그의 이벤트 차단하기
-	});	
-});
+		$('#nextBtn').click(function() {
+			slider.goToNextSlide();
+			return false; // <a>태그의 이벤트 차단하기
+		});
+	});
 </script>
 </head>
 <body>
@@ -84,21 +89,26 @@ $(function(){
 								<li><a href="#">View Managers</a></li>
 								<li><a href="#">Add New</a></li>
 							</ul></li>
-						<li class=" dropdown"><a href="#"
-							class="dropdown-toggle active" data-toggle="dropdown"
-							role="button" aria-haspopup="true" aria-expanded="false">고객센터
-								<span class="caret"></span>
-						</a>
-							<ul class="dropdown-menu">
-								<li><a href="#">View Staff</a></li>
-								<li><a href="#">Add New</a></li>
-								<li><a href="#">Bulk Upload</a></li>
-							</ul></li>
+						<li class=" dropdown"><a href="<%=pjName %>/qna?cmd=qna-page">고객센터</a></li>
 
 					</ul>
 					<ul class="nav navbar-nav pull-right">
-						<li><a href="<%=pjName %>/login?cmd=login-page" id="login" name='login'>로그인 </a>
+						<%
+							if (m_id == null) {
+						%>
+						<li><a href="<%=pjName%>/login?cmd=login-page" id="login"
+							name='login'>로그인 </a>
 						<li><a href="#" id='join' name='join'>회원가입 </a></li>
+						<%
+							} // end of if 
+							else {
+						%>
+						<li><a href="#" id='login_id' name='login_id'><%= m_id %>님</a></li>
+						<li><a href="<%= pjName %>/login?cmd=logout-page" id='logout' name='logout'>로그아웃 </a></li>
+						<%
+							}
+						%>
+
 					</ul>
 				</div>
 			</div>

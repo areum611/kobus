@@ -7,6 +7,10 @@ import com.sun.xml.internal.ws.protocol.soap.MessageCreationException;
 
 import command.Command;
 import command.CommandException;
+import model.QnaModel;
+import mvc.guest.model.Message;
+import mvc.guest.model.MessageDao;
+import service.QnaService;
 
 public class QnaCommandInput implements Command {
 	private String next;
@@ -17,6 +21,11 @@ public class QnaCommandInput implements Command {
 	
 	public String execute(HttpServletRequest request, HttpServletResponse response) throws CommandException {
 		try {
+		
+			QnaModel qm = new QnaModel();
+			qm.setQ_content( request.getParameter("q_content"));
+			
+			QnaService.getInstance().qnaInsert(qm);
 			
 		}catch(MessageCreationException ex){
 			throw new CommandException("CommandInput.java < 입력시 > " + ex.toString() ); 

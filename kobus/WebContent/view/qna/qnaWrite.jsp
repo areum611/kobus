@@ -26,7 +26,7 @@
 	</div>
 	<div class="contact-section">
 		<div class="container">
-			<form>
+			<form method='post' action='kobus/qna?cmd='>
 				<div id='labeldiv'>
 					<label for="description"> Message</label>
 				</div>
@@ -35,7 +35,7 @@
 						placeholder="메세지를 입력하세요"></textarea>
 				</div>
 				<div id='sbButton'>
-					<button type="button" class="btn btn-default submit">
+					<button type="submit" class="btn btn-default submit">
 						<i class="fa fa-paper-plane" aria-hidden="true"></i> 보내기
 					</button>
 					<button type="button" class="btn btn-default submit">뒤로가기</button>
