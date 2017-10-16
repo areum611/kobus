@@ -40,6 +40,22 @@ public class MemberRepository {
 			sess.close();
 		}
 	}
+	
+	// 로그인하기
+	public String selectLogin(MemberModel mm) {
+		SqlSession sess = getSqlSessionFactory().openSession();
+		try {
+//			HashMap hash = new HashMap();
+//			hash.put("m_id", mm.getM_id());
+//			hash.put("m_password", mm.getM_password());
+			MemberModel result = null;
+			result = sess.selectOne(namespage + ".selectAll", mm);
+			return result.getM_id();
+		} finally {
+			sess.close();
+		}
+		
+	}
 
 	// 아이디찾기
 	public String selectId(String m_tel) {

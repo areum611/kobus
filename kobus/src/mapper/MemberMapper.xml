@@ -5,7 +5,7 @@
  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="mapper.MemberMapper">
-	<select id="selectAll" parameterType="hashmap" resultType="model.0">
+	<select id="selectAll" parameterType="Membermodel" resultType="Membermodel">
 		select
 		m_id,
 		m_password,
@@ -13,7 +13,7 @@
 		m_email,
 		m_born,
 		m_gubun
-		from member
+		from ko_member
 		<where>
 			<if test="m_tel != null">
 				m_tel = #{m_tel}
@@ -21,15 +21,17 @@
 			<if test="m_id != null">
 				m_id = #{m_id}
 			</if>
+			<if test="m_password != null">
+				AND m_password = #{m_password}
+			</if>
 		</where>
 	</select>
+	
+	
 
 	<insert id="insertMember" parameterType="MemberModel">
-		INSERT
-		INTO member
-		VALUES (#{m_id}, #{m_password}, #{m_tel}, #{m_email},
-		#{m_born}, #{m_gubun})
-
+		INSERT INTO ko_member (m_id, m_password, m_tel, m_email, m_born)
+		VALUES (#{m_id}, #{m_password}, #{m_tel}, #{m_email}, #{m_born})
 	</insert>
 
 

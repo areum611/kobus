@@ -13,6 +13,7 @@ import command.Command;
 import command.CommandException;
 import command.CommandNull;
 import command.member.JoinCommandMem;
+import command.member.LoginCommandOk;
 
 public class MemberControl extends HttpServlet {
 	private HashMap commandMap;
@@ -28,8 +29,9 @@ public class MemberControl extends HttpServlet {
 		commandMap = new HashMap();
 		
 		commandMap.put("login-page", new CommandNull("login.jsp"));
-		commandMap.put("main-page", new CommandNull("Main.jsp"));
-//		commandMap.put("join-complete", new JoinCommandMem("joinComplete.jsp"));
+		commandMap.put("join-complete", new JoinCommandMem("joinComplete.jsp"));
+		commandMap.put("login-ok", new LoginCommandOk("loginOk.jsp"));
+		commandMap.put("logout-page", new CommandNull("logout.jsp"));
 	}
 	
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

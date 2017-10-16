@@ -22,6 +22,10 @@ private static MemberService service;
 		return repo.insertMember(m);
 	}
 	
+	public String selectLogin(MemberModel mm) {
+		return repo.selectLogin(mm);
+	}
+	
 	public String selectId(String m_tel) {
 		return repo.selectId(m_tel);
 	}
