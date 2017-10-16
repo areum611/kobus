@@ -23,9 +23,7 @@ public class NoticeCommandInput implements Command{
 		NM.setN_content(request.getParameter("n_content"));
 		
 		NoticeService.getInstance().insertNotice(NM);
-		
-		request.setAttribute("NoticeParam", NM);
-//		
+
 	return next;
 	}
 

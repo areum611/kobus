@@ -25,7 +25,7 @@
     <div class="row">
         <div class="col-md-8">
             <div class="well well-sm">
-                <form method='post' action='NoticeControl?cmd=input-firm'>
+                <form method='post' action='notice?cmd=input-firm'>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
@@ -59,7 +59,6 @@
                 </form>
             </div>
         </div>
-       
     </div>
 </div>
 

@@ -11,13 +11,12 @@ import javax.servlet.http.HttpServletResponse;
 
 import command.Command;
 import command.CommandException;
-import command.CommandNull;
 import command.notice.NoticeCommandInput;
 
 
 public class NoticeControl extends HttpServlet {
 	private HashMap commandMap;
-	private String jspDir = "/notice/";
+	private String jspDir = "/view/notice/";
 	private String error = "error.jsp";
 	
 	public NoticeControl() {
@@ -29,7 +28,7 @@ public class NoticeControl extends HttpServlet {
 		commandMap = new HashMap();
 		
 //		commandMap.put("login-page", new CommandNull("login.jsp"));
-//		commandMap.put("main-page", new CommandNull("noticeMain.jsp"));
+//		commandMap.put("main-page", new CommandNull("noticeInputForm.jsp"));
 		commandMap.put("input-firm", new NoticeCommandInput("noticeSave.jsp"));
 	}
 	
@@ -69,6 +68,6 @@ public class NoticeControl extends HttpServlet {
 		
 		RequestDispatcher reqDp = getServletContext().getRequestDispatcher(jspDir + nextPage);
 		reqDp.forward(request, response);
-		
+
 	}
 }

@@ -201,7 +201,7 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 
 /* title_wrap bg */
 /* 예매 상단 비쥬얼 */
-.title_wrap.route_chk, .title_wrap.ticketingT { background: url(/images/page/visual_route_bg.jpg) center 0 no-repeat; background-size: cover;}
+.title_wrap.route_chk, .title_wrap.ticketingT { background: url(/kobus/image/visual_route_bg.jpg) center 0 no-repeat; background-size: cover;}
 /* 예매확인 상단 비쥬얼 */
 .title_wrap.chk_ticket, .title_wrap.checkTicketingT { background: url(/images/page/visual_chkTicket_bg.jpg) center 0 no-repeat; background-size: cover;}
 /* 운행정보 상단 비쥬얼 */
@@ -563,7 +563,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .detailBox_head .box_refresh {width:98px; height:100%; padding:8px; border-right:1px solid #e6e6e6; box-sizing:border-box;}
 .detailBox_head.col3 .box_refresh {width:65px;}
 .btn_refresh {width:100%; height:100%; background-color:#f3f4f6;}
-.btn_refresh span { display:block; width:100%; height:100%; background:url(/images/common/ico_refresh_s.png) center center no-repeat; text-indent:-9999px;}
+.btn_refresh span { display:block; width:100%; height:100%; background:url(/kobus/image/ico_refresh_s.png) center center no-repeat; text-indent:-9999px;}
 
 .detailBox_head .count_seat {width:calc(100% - 98px);}
 .detailBox_head .count_seat .inner {width:100%;}
@@ -621,7 +621,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .seat31 .seatList span.last_seat:nth-child(3n+3) {margin-left:8px;}
 .seat31 .seatList span.last_seat.last {margin-left:8px;}
 /* 28석 버스 */
-.seat28 {background:url(/images/common/bg_bus28.png) 50% 33px no-repeat;}
+.seat28 {background:url(/kobus/image/bg_bus28.png) 50% 33px no-repeat;}
 .seat28 .seatList {width:235px; margin:0 auto; padding:171px 20px 0 20px; font-size:0; box-sizing:border-box;}
 .seat28 .seatList span {margin:0 0 7px 8px;}
 .seat28 .seatList span:nth-child(3n+1) {margin-left:0;}
@@ -647,7 +647,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .seatList span {display:inline-block; position:relative; width:40px; height:45px;}
 .seatBox {position:relative;}
 .seatBox input {display:block; position:absolute; left:0; top:0; opacity:0;}
-.seatBox label {display:block; position:relative; width:100%; height:100%; background:url(/images/common/bg_busSeat_s.png) 0 0 no-repeat; text-align:center; color:#999; font-size:12px; line-height:35px;}
+.seatBox label {display:block; position:relative; width:100%; height:100%; background:url(/kobus/image/bg_busSeat_s.png) 0 0 no-repeat; text-align:center; color:#999; font-size:12px; line-height:35px;}
 
 .seatBox.handi label {background-position:0 -96px;}
 .seatBox.disabled label {background-position:0 -144px;}
