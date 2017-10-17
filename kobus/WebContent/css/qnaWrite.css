@@ -5,11 +5,10 @@
 	color: #fcc500;
 	font-size: 45px;
 }
-body{
-	background-image: url(/kobus/image/Q&A.jpg);
-}
+
 .section-content {
 	text-align: center;
+	color:skyblue;
 }
 
 #contact {
@@ -18,12 +17,12 @@ body{
 	width: 100%;
 	width: 100vw;
 	height: 550px;
-	background: #3a6186; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #3a6186, #89253e);
+/* 	background: #3a6186; fallback for old browsers */
+/* 	background: -webkit-linear-gradient(to left, #3a6186, #89253e); */
 	/* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #3a6186, #89253e);
+/* 	background: linear-gradient(to left, #3a6186, #89253e); */
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	color: #fff;
+	color: gray;
 }
 
 .contact-section {
@@ -49,6 +48,7 @@ body{
 	line-height: 1em;
 	font-weight: normal;
 	text-align: center;
+	
 }
 
 .form-control {
@@ -68,10 +68,48 @@ textarea.form-control {
 /* 	float: right; */
 	width: 150px;
 	background-color: transparent;
-	color: #fff;
+	color: gray;
 }
 
 #sbButton{
 	margin-top:30px;
 	text-align: center;
+}
+
+#qna_confirm{
+	text-align: center;
+	font-size: 30px;
+	color: skyblue;
+	font-weight: bold;
+	margin-top:5%;
+}
+
+
+#qna_black{
+	text-align: center;
+	margin-top:10%;
+	
+}
+#qna_back:link{
+	padding:5px;
+	border: 1px solid black;
+	font-weight: bold;
+	text-decoration: none; color: black;
+}
+
+#qna_back:active{
+	font-weight: bold;
+	text-decoration: none; color: blue;
+}
+
+#qna_back:visited{
+	border: 1px solid black;
+	font-weight: bold;
+	text-decoration: none; color: black;
+}
+
+#qna_back:hover{
+	border: 1px solid black;
+	font-weight: bold;
+	text-decoration: none; color: skyblue;
 }

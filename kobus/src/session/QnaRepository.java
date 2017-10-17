@@ -1,6 +1,10 @@
 package session;
 
 import java.io.InputStream;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
 
 import org.apache.ibatis.io.Resources;
@@ -37,7 +41,7 @@ public class QnaRepository {
 	public Integer qnaInsert(QnaModel qm) {
 		SqlSession sess = getSqlSessionFactory().openSession();
 		try {
-		int result = sess.insert(namespage+".insertComment", qm);
+		int result = sess.insert(namespage+".qnaInsert", qm);
 		if( result >0) {
 			sess.commit();
 		}else {
@@ -49,5 +53,14 @@ public class QnaRepository {
 		}
 	}
 	
+	public int getGroupId()
+	{
+		SqlSession sess = getSqlSessionFactory().openSession();
+		try {
+			return sess.selectOne(namespage+".qnaGroupId");
+		}finally {
+			sess.close();
+		}
+	}
 
 }
