@@ -9,14 +9,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import command.Command;
-import command.CommandException;
-import command.CommandNull;
-import command.qna.QnaCommandList;
+import command.*;
 
 public class ReserControl extends HttpServlet{
 	private HashMap commandMap;
-	private String jspDir = "/Reservation/";
+	private String jspDir = "/view/Reservation/";
 	private String error = "error.jsp";
 	
 	public ReserControl() {
@@ -26,7 +23,7 @@ public class ReserControl extends HttpServlet{
 	
 	private void initCommand() {
 		commandMap = new HashMap();
-		commandMap.put("main-page",	new QnaCommandList("reserMain.jsp") ); 
+		commandMap.put("reser-main", new CommandNull("mainSearch.jsp") ); 
 	}
 	
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
