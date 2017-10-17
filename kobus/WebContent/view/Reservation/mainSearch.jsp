@@ -21,7 +21,7 @@
 	href="https://kobus.co.kr/css/ui.jqgrid.custom.css" />
 
 <script type="text/javascript"
-	src="https://kobus.co.kr/js/jquery-1.12.4.min.js"></script>
+	src="/kobus/js/jquery-1.12.4.min.js"></script>
 
 <script type="text/javascript" src="https://kobus.co.kr/js/ui.js"></script>
 <script type="text/javascript" src="https://kobus.co.kr/js/plugin.js"></script>
@@ -143,8 +143,8 @@
 				</div>
 				<div class="main_box clfix">
 					<p class="main_tab">
-						<a href="#" class="tab1 on"><span>고속버스예매</span></a> 
-						<a href="#"	class="tab2"><span>예매확인</span> </a> 
+						<a href="#" class="tab1 on"><span>고속버스예매</span></a> <a href="#"
+							class="tab2"><span>예매확인</span> </a>
 					</p>
 					<div class="main_cont">
 						<div class="route_box">
