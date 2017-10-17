@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	  <% String pjName="/kobus"; %>
+	  <% String m_id = (String)session.getAttribute("m_id"); %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -22,16 +24,17 @@
 			<span class="content-header wow fadeIn " data-wow-delay="0.2s"
 				data-wow-duration="2s">Q & A</span>
 		</h1>
-		<h3>답변 소요시간은 평균 1~2일 입니다.</h3>
+		<h3>답변 소요시간은 평균 <FONT STYLE="color:red">1~2일</FONT> 입니다.</h3>
 	</div>
 	<div class="contact-section">
 		<div class="container">
-			<form method='post' action='kobus/qna?cmd='>
+			<form method='post' action="<%=pjName %>/qna?cmd=qnaWriteConfirm-page">
+			<input type='hidden' name='m_id' value='<%=m_id%>'>
 				<div id='labeldiv'>
 					<label for="description"> Message</label>
 				</div>
 				<div class="form-group">
-					<textarea class="form-control" id="description"
+					<textarea class="form-control" name="q_content" id="description"
 						placeholder="메세지를 입력하세요"></textarea>
 				</div>
 				<div id='sbButton'>

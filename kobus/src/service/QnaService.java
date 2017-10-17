@@ -1,5 +1,6 @@
 package service;
 
+import java.text.DecimalFormat;
 import java.util.List;
 
 import model.QnaModel;
@@ -8,7 +9,7 @@ import session.QnaRepository;
 
 public class QnaService {
 
-	private static QnaService service;
+	private static QnaService service = null;
 
 	public static QnaService getInstance() {
 		if(service == null) service = new QnaService();
@@ -24,8 +25,12 @@ public class QnaService {
 		return (List<QnaModel>)repo.qnaList();
 	}
 	
-	public Integer qnaInsert(QnaModel qm) {
+	public int qnaInsert(QnaModel qm) {
 		return repo.qnaInsert(qm);
 	}
 	
+	public int groupId() {
+		return repo.getGroupId();
+	}
+
 }

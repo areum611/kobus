@@ -20,8 +20,12 @@
 <link rel="stylesheet" type="text/css"
 	href="https://kobus.co.kr/css/ui.jqgrid.custom.css" />
 
+<<<<<<< HEAD
 <!-- <script type="text/javascript" -->
 <!-- 	src="/kobus/js/jquery-1.12.4.min.js"></script> -->
+=======
+<script type="text/javascript" src="/kobus/js/jquery-1.12.4.min.js"></script>
+>>>>>>> branch 'master' of https://github.com/areum611/kobus.git
 
 <script type="text/javascript" src="https://kobus.co.kr/js/ui.js"></script>
 <script type="text/javascript" src="https://kobus.co.kr/js/plugin.js"></script>
@@ -46,7 +50,7 @@
 				<script type="text/javascript"
 					src="https://kobus.co.kr/js/kor/main/Main.js"></script>
 				<script type="text/javascript"
-					src="https://kobus.co.kr/js/common/kor/popup/RotInfPup.js"></script>
+					src="/kobus/js/popup.js"></script>
 				<script type="text/javascript"
 					src="https://kobus.co.kr/js/kor/mrs/rotinf/RotInf.js"></script>
 				<script type="text/javascript"

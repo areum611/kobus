@@ -3,9 +3,9 @@
 <!DOCTYPE mapper
  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
- 
+
 <mapper namespace="mapper.QnaMapper">
-	<select id="selectAll"  resultType="QnaModel">
+	<select id="selectAll" resultType="QnaModel">
 		select
 		a_id,
 		g_id,
@@ -16,4 +16,13 @@
 		m_id
 		from ko_qna
 	</select>
+
+<select id='qnaGroupId' resultType="int">
+select qna_gid.nextval groupId from dual
+</select>
+
+	<insert id="qnaInsert" parameterType="QnaModel">
+		INSERT INTO ko_qna 
+		VALUES(qna_aid.nextval, #{g_id}, #{s_id}, #{q_content}, sysdate, 0 , #{m_id})
+	</insert>
 </mapper>
