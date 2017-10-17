@@ -1,5 +1,14 @@
 <%@ page contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@ page import="java.util.List" %>
+<%@ page import="model.NoticeModel" %>    
+<%@ page import="service.NoticeService" %>  
+      <% String pjName="/kobus"; %>
+  <!-- 서비스의 메소드 호출  -->
+  <%
+  List <NoticeModel> mList = ( List <NoticeModel>)request.getAttribute("noticeList");
+ 
+ %>
 <!DOCTYPE>
 <html>
 <head>
@@ -35,27 +44,26 @@
                       
                        <th>Delete</th>
                    </thead>
-    <tbody>
     
+		<% for( NoticeModel NM : mList ) { %>
+    
+    <tbody>
     <tr>
     <td><input type="checkbox" class="checkthis" /></td>
-    <td>Mohsin</td>
-    <td>Irshad</td>
-    <td>CB 106/107 Street # 11 Wah Cantt Islamabad Pakistan</td>
-    <td>isometric.mohsin@gmail.com</td>
-    <td>+923335586757</td>
+    <td><%=NM.getN_id() %></td>
+    <td><%=NM.getN_title() %></td>
+    <td><%=NM.getN_writer() %></td>
+    <td><%=NM.getN_date() %></td>
+    <td><%=NM.getN_hit() %></td>
     <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
     <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
     </tr>
-    
-   
-    
-   
-    
+ 
     </tbody>
-        
+    <% } %>   
+      
 </table>
-
+  <a href="<%=pjName %>/notice?cmd=input-form" id="write" name='write'><input type='button' value='글쓰기' id='bWrite'></a>
 <div class="clearfix"></div>
 <ul class="pagination pull-right">
   <li class="disabled"><a href="#"><span class="glyphicon glyphicon-chevron-left"></span></a></li>
