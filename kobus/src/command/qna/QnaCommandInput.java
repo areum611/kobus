@@ -3,13 +3,10 @@ package command.qna;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.sun.xml.internal.ws.protocol.soap.MessageCreationException;
-
 import command.Command;
 import command.CommandException;
 import model.QnaModel;
-import mvc.guest.model.Message;
-import mvc.guest.model.MessageDao;
+
 import service.QnaService;
 
 public class QnaCommandInput implements Command {
@@ -27,7 +24,7 @@ public class QnaCommandInput implements Command {
 			
 			QnaService.getInstance().qnaInsert(qm);
 			
-		}catch(MessageCreationException ex){
+		}catch(Exception ex){
 			throw new CommandException("CommandInput.java < 입력시 > " + ex.toString() ); 
 		}
 		return next;

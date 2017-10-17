@@ -2,62 +2,40 @@
 <!DOCTYPE configuration
  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
  "http://mybatis.org/dtd/mybatis-3-config.dtd">
-<configuration>
-<properties resource="db.properties"></properties>
-
-
-<!-- <settings> -->
-<!-- <setting name="mapUnderscoreToCamelCase" value="true"/> -->
-<!-- </settings> -->
-=======
->>>>>>> branch 'master' of https://github.com/areum611/kobus.git
-
-<!-- 여러개의 별칭 설정 -->
-<<<<<<< HEAD
-<typeAliases>
-<!-- <typeAlias type="model.MemberModel" alias="MemberModel"/> 주소에 별칭주기 -->
-<typeAlias type="model.NoticeModel" alias="NoticeModel"/>
-<!-- <typeAlias type="model.QnaModel" alias="QnaModel"/> -->
-<!-- <typeAlias type="model.ReserModel" alias="ReserModel"/> -->
-=======
-<typeAliases>
-<typeAlias type="model.QnaModel" alias="QnaModel"/>
-<typeAlias type="model.MemberModel" alias="MemberModel"/> <!-- 주소에 별칭주기 -->
-<!-- <typeAlias type="model.NoticeModel" alias="NoticeModel"/> -->
-<!-- <typeAlias type="model.QnaModel" alias="QnaModel"/> -->
-<!-- <typeAlias type="model.ReserModel" alias="ReserModel"/> -->
->>>>>>> branch 'master' of https://github.com/areum611/kobus.git
->>>>>>> branch 'master' of https://github.com/areum611/kobus
-</typeAliases>
-
- <environments default="development">
- <environment id="development">
- <transactionManager type="JDBC"/> <!-- 커밋을 누가 담당할까 JDBC / MANAGER -->
- <dataSource type="POOLED"> <!-- 컨넥션풀을 할까 POOLED / UNPOOLED -->
- <property name="driver" value="${driver}"/>
- <property name="url" value="${url}"/>
- <property name="username" value="${username}"/>
- <property name="password" value="${password}"/>
- </dataSource>
- </environment>
- </environments>
  
- <!-- 여러개의 mapper 설정 -->
-	<mappers>
-<<<<<<< HEAD
-<!-- 		<mapper resource="mapper/MemberMapper.xml" /> -->
-		<mapper resource="mapper/NoticeMapper.xml" />
-<!-- 		<mapper resource="mapper/QnaMapper.xml" /> -->
-<!-- 		<mapper resource="mapper/ReserMapper.xml" /> -->
-=======
-<<<<<<< HEAD
-		<mapper resource="mapper/QnaMapper.xml" />
-=======
-		<mapper resource="mapper/MemberMapper.xml" />
-<!-- 		<mapper resource="mapper/NoticeMapper.xml" /> -->
-<!-- 		<mapper resource="mapper/QnaMapper.xml" /> -->
-<!-- 		<mapper resource="mapper/ReserMapper.xml" /> -->
->>>>>>> branch 'master' of https://github.com/areum611/kobus.git
->>>>>>> branch 'master' of https://github.com/areum611/kobus
-	</mappers>
+<configuration>
+	<properties resource="db.properties"></properties>
+
+	<!-- <settings> -->
+	<!-- <setting name="mapUnderscoreToCamelCase" value="true"/> -->
+	<!-- </settings> -->
+	<!-- 여러개의 별칭 설정 -->
+
+	<typeAliases>
+		<!-- <typeAlias type="model.MemberModel" alias="MemberModel"/> 주소에 별칭주기 -->
+		<typeAlias type="model.NoticeModel" alias="NoticeModel" />
+		<!-- <typeAlias type="model.QnaModel" alias="QnaModel"/> -->
+		<!-- <typeAlias type="model.ReserModel" alias="ReserModel"/> -->
+	</typeAliases>
+
+		<environments default="development">
+			<environment id="development">
+				<transactionManager type="JDBC" /> <!-- 커밋을 누가 담당할까 JDBC / MANAGER -->
+				<dataSource type="POOLED"> <!-- 컨넥션풀을 할까 POOLED / UNPOOLED -->
+					<property name="driver" value="${driver}" />
+					<property name="url" value="${url}" />
+					<property name="username" value="${username}" />
+					<property name="password" value="${password}" />
+				</dataSource>
+			</environment>
+		</environments>
+
+		<!-- 여러개의 mapper 설정 -->
+		<mappers>
+			<mapper resource="mapper/QnaMapper.xml" />
+			<mapper resource="mapper/MemberMapper.xml" />
+			<!-- <mapper resource="mapper/NoticeMapper.xml" /> -->
+			<!-- <mapper resource="mapper/QnaMapper.xml" /> -->
+			<!-- <mapper resource="mapper/ReserMapper.xml" /> -->
+		</mappers>
 </configuration>

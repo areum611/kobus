@@ -9,7 +9,6 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import model.QnaModel;
-import mybatis.guest.model.Comment;
 
 public class QnaRepository {
 	private String namespage = "mapper.QnaMapper";
