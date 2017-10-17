@@ -7,7 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
 <title>고속버스통합예매</title>
-
+ 
 <link rel="stylesheet" type="text/css"
 	href="https://kobus.co.kr/css/reset.css">
 <link rel="stylesheet" type="text/css"
