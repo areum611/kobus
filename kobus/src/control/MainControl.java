@@ -16,15 +16,9 @@ public class MainControl extends HttpServlet  {
 	}
 	
 	private void initCommand() {
-<<<<<<< HEAD
+
 //		commandMap = new HaspMap(); 
 //		
 //		commandMap.put("main-page", new )
-=======
-		commandMap = new HaspMap(); 
-		
-		commandMap.put("main-page", new )
->>>>>>> branch 'master' of https://github.com/areum611/kobus.git
-		
 	}
 }
