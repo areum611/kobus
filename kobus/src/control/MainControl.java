@@ -16,7 +16,7 @@ public class MainControl extends HttpServlet  {
 	}
 	
 	private void initCommand() {
-		commandMap = new HaspMap();
+		commandMap = new HaspMap(); 
 		
 		commandMap.put("main-page", new )
 		

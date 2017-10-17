@@ -9,25 +9,16 @@
 <!-- <settings> -->
 <!-- <setting name="mapUnderscoreToCamelCase" value="true"/> -->
 <!-- </settings> -->
-=======
->>>>>>> branch 'master' of https://github.com/areum611/kobus.git
 
 <!-- 여러개의 별칭 설정 -->
-<<<<<<< HEAD
+
+
 <typeAliases>
+<!-- <typeAlias type="model.QnaModel" alias="QnaModel"/> -->
 <!-- <typeAlias type="model.MemberModel" alias="MemberModel"/> 주소에 별칭주기 -->
 <typeAlias type="model.NoticeModel" alias="NoticeModel"/>
 <!-- <typeAlias type="model.QnaModel" alias="QnaModel"/> -->
 <!-- <typeAlias type="model.ReserModel" alias="ReserModel"/> -->
-=======
-<typeAliases>
-<typeAlias type="model.QnaModel" alias="QnaModel"/>
-<typeAlias type="model.MemberModel" alias="MemberModel"/> <!-- 주소에 별칭주기 -->
-<!-- <typeAlias type="model.NoticeModel" alias="NoticeModel"/> -->
-<!-- <typeAlias type="model.QnaModel" alias="QnaModel"/> -->
-<!-- <typeAlias type="model.ReserModel" alias="ReserModel"/> -->
->>>>>>> branch 'master' of https://github.com/areum611/kobus.git
->>>>>>> branch 'master' of https://github.com/areum611/kobus
 </typeAliases>
 
  <environments default="development">
@@ -44,20 +35,10 @@
  
  <!-- 여러개의 mapper 설정 -->
 	<mappers>
-<<<<<<< HEAD
+
 <!-- 		<mapper resource="mapper/MemberMapper.xml" /> -->
 		<mapper resource="mapper/NoticeMapper.xml" />
 <!-- 		<mapper resource="mapper/QnaMapper.xml" /> -->
 <!-- 		<mapper resource="mapper/ReserMapper.xml" /> -->
-=======
-<<<<<<< HEAD
-		<mapper resource="mapper/QnaMapper.xml" />
-=======
-		<mapper resource="mapper/MemberMapper.xml" />
-<!-- 		<mapper resource="mapper/NoticeMapper.xml" /> -->
-<!-- 		<mapper resource="mapper/QnaMapper.xml" /> -->
-<!-- 		<mapper resource="mapper/ReserMapper.xml" /> -->
->>>>>>> branch 'master' of https://github.com/areum611/kobus.git
->>>>>>> branch 'master' of https://github.com/areum611/kobus
 	</mappers>
 </configuration>
