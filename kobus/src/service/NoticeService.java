@@ -1,5 +1,7 @@
 package service;
 
+import java.util.List;
+
 import model.NoticeModel;
 import session.NoticeRepository;
 
@@ -20,4 +22,8 @@ private static NoticeService service;
 	public Integer insertNotice(NoticeModel NM) {
 		return repo.insertNotice(NM);
 	}
+	public List<NoticeModel> noticeList(){
+		return (List<NoticeModel>)repo.noticeList();
+	}
+	
 }

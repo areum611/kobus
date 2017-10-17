@@ -2,6 +2,7 @@ package session;
 
 import java.io.InputStream;
 import java.util.HashMap;
+import java.util.List;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -9,6 +10,7 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import model.NoticeModel;
+import model.QnaModel;
 
 public class NoticeRepository {
 	private String namespage = "mapper.NoticeMapper";
@@ -36,6 +38,15 @@ public class NoticeRepository {
 			}
 			return result;
 		} finally {
+			sess.close();
+		}
+	}
+	public List<NoticeModel> noticeList(){
+		SqlSession sess = getSqlSessionFactory().openSession();
+		// JDBC의 연결객체 -> SqlSession
+		try {
+		return sess.selectList(namespage + ".selectAll");
+		}finally {
 			sess.close();
 		}
 	}

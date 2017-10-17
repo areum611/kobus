@@ -11,7 +11,9 @@ import javax.servlet.http.HttpServletResponse;
 
 import command.Command;
 import command.CommandException;
+import command.CommandNull;
 import command.notice.NoticeCommandInput;
+import command.notice.NoticeCommandList;
 
 
 public class NoticeControl extends HttpServlet {
@@ -29,7 +31,11 @@ public class NoticeControl extends HttpServlet {
 		
 //		commandMap.put("login-page", new CommandNull("login.jsp"));
 //		commandMap.put("main-page", new CommandNull("noticeInputForm.jsp"));
+		commandMap.put("notice-list", new NoticeCommandList("noticeList.jsp"));
+		commandMap.put("input-form", new CommandNull("noticeInputForm.jsp"));
 		commandMap.put("input-firm", new NoticeCommandInput("noticeSave.jsp"));
+
+		
 	}
 	
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
