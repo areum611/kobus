@@ -12,8 +12,8 @@
 	<!-- 여러개의 별칭 설정 -->
 
 	<typeAliases>
-		<!-- <typeAlias type="model.MemberModel" alias="MemberModel"/> 주소에 별칭주기 -->
-		<typeAlias type="model.NoticeModel" alias="NoticeModel" />
+		<typeAlias type="model.MemberModel" alias="MemberModel"/> 
+<!-- 		<typeAlias type="model.NoticeModel" alias="NoticeModel" /> -->
 		<!-- <typeAlias type="model.QnaModel" alias="QnaModel"/> -->
 		<!-- <typeAlias type="model.ReserModel" alias="ReserModel"/> -->
 	</typeAliases>
@@ -32,7 +32,7 @@
 
 		<!-- 여러개의 mapper 설정 -->
 		<mappers>
-			<mapper resource="mapper/QnaMapper.xml" />
+<!-- 			<mapper resource="mapper/QnaMapper.xml" /> -->
 			<mapper resource="mapper/MemberMapper.xml" />
 			<!-- <mapper resource="mapper/NoticeMapper.xml" /> -->
 			<!-- <mapper resource="mapper/QnaMapper.xml" /> -->

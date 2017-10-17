@@ -43,7 +43,6 @@
 	<servlet-mapping>
 		<servlet-name>NoticeControl</servlet-name>
 		<url-pattern>/notice</url-pattern>
-		<url-pattern>*.notice</url-pattern>
 	</servlet-mapping>
 
 	<servlet>
@@ -53,7 +52,6 @@
 	<servlet-mapping>
 		<servlet-name>QnaControl</servlet-name>
 		<url-pattern>/qna</url-pattern>
-		<url-pattern>*.qna</url-pattern>
 	</servlet-mapping>
 
 	<servlet>
@@ -63,7 +61,6 @@
 	<servlet-mapping>
 		<servlet-name>ReserControl</servlet-name>
 		<url-pattern>/reser</url-pattern>
-		<url-pattern>*.reser</url-pattern>
 	</servlet-mapping>
 
 
