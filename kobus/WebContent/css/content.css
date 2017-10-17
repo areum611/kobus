@@ -58,7 +58,7 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .main_box .main_tab { position: relative; width: 100%; margin-top: 20px;text-align: center;}
 .main_box .main_tab:before { display: inline-block; content: ''; position: absolute; top: 27px; left: 0; background: rgba(255, 255, 255, 0.2); width: 100%; height: 1px;}
 .main_box .main_tab a { display: inline-block; position: relative;}
-.main_box .main_tab a:before { display: inline-block; content: ''; background: url(/images/common/main_menuset.png) no-repeat; width: 53px; height: 53px;}
+.main_box .main_tab a:before { display: inline-block; content: ''; background: url(https://kobus.co.kr/images/common/main_menuset.png) no-repeat; width: 53px; height: 53px;}
 .main_box .main_tab a.tab1:before { background-position: -58px 0;}
 .main_box .main_tab a.tab1.on:before { background-position: 0 0;}
 .main_box .main_tab a.tab2:before { background-position: -174px 0;}
@@ -90,7 +90,7 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .main_box .ticket_login { width: 100%; margin: 15px auto 0 auto;}
 .main_box .login_title { margin-bottom: 10px;}
 .main_box .login_title h3 { float: left; margin-left: 10px; font-size: 22px; color: #fff;}
-.main_box .login_title .main_tip { display: inline-block; position: relative; top: 8px; float: right; background: url(/images/page/ico_tip_s.png) 0 0 no-repeat; width: 18px; height: 18px; margin-right: 5px; font-size: 0;}
+.main_box .login_title .main_tip { display: inline-block; position: relative; top: 8px; float: right; background: url(https://kobus.co.kr/images/page/ico_tip_s.png) 0 0 no-repeat; width: 18px; height: 18px; margin-right: 5px; font-size: 0;}
 .main_box .tooltip { right: -3px;}
 .main_box .no_member .tooltip { top: -69px;}
 .main_box .ticket_login .member  { float: left; width: 345px;}
@@ -99,7 +99,7 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .main_box .ticket_login button { width: 100%; margin-top: 8px; border-radius: 5px;}
 .main_box .login_menu { margin: 10px 0 0 10px;}
 .main_box .login_menu a { display: inline-block; font-size: 13px; color: #fff; text-decoration: underline;}
-.main_box .login_menu a:after { display: inline-block; content: ''; background: url(/images/common/ico_arrow.png) 0 0 no-repeat; width: 7px; height: 14px; margin: 0 0 -3px 5px;}
+.main_box .login_menu a:after { display: inline-block; content: ''; background: url(https://kobus.co.kr/images/common/ico_arrow.png) 0 0 no-repeat; width: 7px; height: 14px; margin: 0 0 -3px 5px;}
 .main_box .login_menu a + a { margin-left: 30px;}
 
 .main_box .box_detail_info { background: #fff; height: 235px; border-radius: 5px;}
@@ -108,7 +108,7 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .main_box .ticket_slide_wrap .bx-wrapper { margin-bottom: 0;}
 .main_box .shuttle_wrap .box_detail_info:before { z-index: 50;}
 .main_box .routeBody { border: none;}
-.main_box .ticket_slide_wrap .more { display: block; background: url(/images/common/main_more.png) right 0 no-repeat; height: 22px; margin-top: 15px; padding-right: 30px; font-size: 13px; color: #fff; text-align: right; line-height: 22px; z-index: 100;}
+.main_box .ticket_slide_wrap .more { display: block; background: url(https://kobus.co.kr/images/common/main_more.png) right 0 no-repeat; height: 22px; margin-top: 15px; padding-right: 30px; font-size: 13px; color: #fff; text-align: right; line-height: 22px; z-index: 100;}
 .main_box .box_detail_info .shuttle { overflow-y: auto; height: 195px;}
 .main_box .box_detail_info .shuttle .depart, .main_box .box_detail_info .shuttle .return { float: left; width: 50%;}
 .main_box .box_detail_info .shuttle .routeArea { float: none; width: 100%;}
@@ -120,14 +120,14 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .ticket_slide_wrap .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .ticket_slide_wrap .bx-wrapper .bx-pager.bx-default-pager a.active { background: #f0ac21;}
 .ticket_slide_wrap .bx-wrapper .bx-controls-direction a { width: 21px; height: 40px;}
-.ticket_slide_wrap .bx-wrapper .bx-prev { left: -41px; background: url(/images/common/ticket_slide_arrow.png) 0 0 no-repeat;}
-.ticket_slide_wrap .bx-wrapper .bx-next { right: -41px; background: url(/images/common/ticket_slide_arrow.png) -21px 0 no-repeat;}
+.ticket_slide_wrap .bx-wrapper .bx-prev { left: -41px; background: url(https://kobus.co.kr/images/common/ticket_slide_arrow.png) 0 0 no-repeat;}
+.ticket_slide_wrap .bx-wrapper .bx-next { right: -41px; background: url(https://kobus.co.kr/images/common/ticket_slide_arrow.png) -21px 0 no-repeat;}
 
 .main_box .ticket_slide_wrap.no_ticket * { display: none;}
-.main_box .ticket_slide_wrap.no_ticket .no_ticket_txt { display: block; background: url(/images/common/ico_no_ticket.png) center top no-repeat; padding-top: 140px;  font-size: 22px; color: #fff; text-align: center;}
+.main_box .ticket_slide_wrap.no_ticket .no_ticket_txt { display: block; background: url(https://kobus.co.kr/images/common/ico_no_ticket.png) center top no-repeat; padding-top: 140px;  font-size: 22px; color: #fff; text-align: center;}
 
 
-.main_box .arrivetime_info { background: url(/images/common/ico_time_chk.png) center top no-repeat; padding-top: 140px; color: #fff; text-align: center;}
+.main_box .arrivetime_info { background: url(https://kobus.co.kr/images/common/ico_time_chk.png) center top no-repeat; padding-top: 140px; color: #fff; text-align: center;}
 .main_box .arrivetime_info p { margin-bottom: 10px; font-size: 22px; color: #fff;}
 .main_box .arrivetime_info span { font-size: 14px;}
 .main_box .arrivetime_info .btns { margin-top: 15px;}
@@ -138,10 +138,10 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .bnr_box > div { float: left; width: 33.33%; height: 100%; padding: 25px 0 0 30px; -moz-box-sizing: border-box;  box-sizing: border-box;}
 .bnr_box > div .block { display: block;}
 .bnr_box > div .stit { font-size: 13px;}
-.bnr_box .main_bus { background: rgba(38, 114, 137, 0.8) url(/mngr/mainBnrImg.do?bnrNoCd=BNR1) right bottom no-repeat; background-size: 155px auto;}
-.bnr_box .main_app { background: rgba(29, 87, 120, 0.8) url(/mngr/mainBnrImg.do?bnrNoCd=BNR2) right bottom no-repeat; background-size: 163px auto;}
-/* .bnr_box .main_bus { background: rgba(38, 114, 137, 0.8) url(/images/common/main_bnr_1.png) right bottom no-repeat; background-size: 155px auto;}
-.bnr_box .main_app { background: rgba(29, 87, 120, 0.8) url(/images/common/main_bnr_2.png) right bottom no-repeat; background-size: 163px auto;} */
+.bnr_box .main_bus { background: rgba(38, 114, 137, 0.8) url(https://kobus.co.kr/mngr/mainBnrImg.do?bnrNoCd=BNR1) right bottom no-repeat; background-size: 155px auto;}
+.bnr_box .main_app { background: rgba(29, 87, 120, 0.8) url(https://kobus.co.kr/mngr/mainBnrImg.do?bnrNoCd=BNR2) right bottom no-repeat; background-size: 163px auto;}
+/* .bnr_box .main_bus { background: rgba(38, 114, 137, 0.8) url(https://kobus.co.kr/images/common/main_bnr_1.png) right bottom no-repeat; background-size: 155px auto;}
+.bnr_box .main_app { background: rgba(29, 87, 120, 0.8) url(https://kobus.co.kr/images/common/main_bnr_2.png) right bottom no-repeat; background-size: 163px auto;} */
 .bnr_box .main_info { background: rgba(52, 68, 121, 0.8);}
 
 .bnr_box .main_bus a, .bnr_box .main_app a { display: block;}
@@ -155,10 +155,10 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .bnr_box .main_bus p, .bnr_box .main_app p { margin-top: 15px; padding-right: 160px; font-size: 22px; color: #fff; line-height: 1.3;}
 .bnr_box .main_info ul { margin: 18px 20px 0 0;j}
 .bnr_box .main_info li { float: left; width: 25%;}
-.bnr_box .main_info li.info1 { background: url(/images/common/ico_info1.png) center 0 no-repeat;}
-.bnr_box .main_info li.info2 { background: url(/images/common/ico_info2.png) center 0 no-repeat;}
-.bnr_box .main_info li.info3 { background: url(/images/common/ico_info3.png) center 0 no-repeat;}
-.bnr_box .main_info li.info4 { background: url(/images/common/ico_info4.png) center 0 no-repeat;}
+.bnr_box .main_info li.info1 { background: url(https://kobus.co.kr/images/common/ico_info1.png) center 0 no-repeat;}
+.bnr_box .main_info li.info2 { background: url(https://kobus.co.kr/images/common/ico_info2.png) center 0 no-repeat;}
+.bnr_box .main_info li.info3 { background: url(https://kobus.co.kr/images/common/ico_info3.png) center 0 no-repeat;}
+.bnr_box .main_info li.info4 { background: url(https://kobus.co.kr/images/common/ico_info4.png) center 0 no-repeat;}
 .bnr_box .main_info li a { display: block;  padding-top: 40px; color: #fff; opacity: 0.5; text-align: center;}
 
 /* 취소수수료안내 팝업 */
@@ -169,11 +169,11 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .noti_pop { position: absolute; top: 0; width: 320px; background: #fff; border: 1px solid #c2c2c2; box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.5);-moz-box-sizing: border-box; box-sizing: border-box;}
 .noti_pop .pop_top { position: relative; padding: 15px 0 15px; }
 .noti_pop .pop_tit { font-size: 20px; color: #fff; text-align: center;}
-.noti_pop .pop_tit:before { display: block; content: ''; width: 45px; height: 45px; background: url(/images/common/pop_logo_s.png) center center no-repeat; margin: 0 auto 5px auto;  border-radius: 50%;}
+.noti_pop .pop_tit:before { display: block; content: ''; width: 45px; height: 45px; background: url(https://kobus.co.kr/images/common/pop_logo_s.png) center center no-repeat; margin: 0 auto 5px auto;  border-radius: 50%;}
 .noti_pop .pop_cont_wrap { max-height: 593px; overflow-y: auto; -webkit-overflow-scrolling:touch; -moz-box-sizing: border-box; box-sizing: border-box;}
 .scrollbar-inner .scroll-content { margin: 0 !important;}
 .noti_pop .pop_cont { /* max-width: 298px; padding: 0 5px; */ box-sizing: border-box;}
-.noti_pop .pop_close { display: block; position: absolute; top: 0; right: 0; background: url(/images/common/close_mobile.png) center center no-repeat; background-size: 16px; width: 16px; height: 16px; padding: 15px; font-size: 0;}
+.noti_pop .pop_close { display: block; position: absolute; top: 0; right: 0; background: url(https://kobus.co.kr/images/common/close_mobile.png) center center no-repeat; background-size: 16px; width: 16px; height: 16px; padding: 15px; font-size: 0;}
 .noti_pop .pop_cont * { font-size: 14px;}
 .noti_pop .btns { margin-top: 0; padding: 8px; border-top: 1px solid #e6e6e6;}
 .noti_pop .btns * { width: 146px; padding: 0;}
@@ -201,33 +201,33 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 
 /* title_wrap bg */
 /* 예매 상단 비쥬얼 */
-.title_wrap.route_chk, .title_wrap.ticketingT { background: url(/kobus/image/visual_route_bg.jpg) center 0 no-repeat; background-size: cover;}
+.title_wrap.route_chk, .title_wrap.ticketingT { background: url(https://kobus.co.kr/kobus/image/visual_route_bg.jpg) center 0 no-repeat; background-size: cover;}
 /* 예매확인 상단 비쥬얼 */
-.title_wrap.chk_ticket, .title_wrap.checkTicketingT { background: url(/images/page/visual_chkTicket_bg.jpg) center 0 no-repeat; background-size: cover;}
+.title_wrap.chk_ticket, .title_wrap.checkTicketingT { background: url(https://kobus.co.kr/images/page/visual_chkTicket_bg.jpg) center 0 no-repeat; background-size: cover;}
 /* 운행정보 상단 비쥬얼 */
-.title_wrap.drivingInfoT { background: url(/images/page/visual_drivingInfoT.jpg) center 0 no-repeat; background-size: cover;}
+.title_wrap.drivingInfoT { background: url(https://kobus.co.kr/images/page/visual_drivingInfoT.jpg) center 0 no-repeat; background-size: cover;}
 /* 부가상품 상품구매 */
-.title_wrap.addProductsT { background: url(/images/page/visual_addProductsT_bg.jpg) center 0 no-repeat; background-size: cover;}
+.title_wrap.addProductsT { background: url(https://kobus.co.kr/images/page/visual_addProductsT_bg.jpg) center 0 no-repeat; background-size: cover;}
 /* 부가상품(프리패스) */
-.title_wrap.freepassT { background: url(/images/page/visual_freepassT_bg.jpg) center 0 no-repeat; background-size: cover;}
+.title_wrap.freepassT { background: url(https://kobus.co.kr/images/page/visual_freepassT_bg.jpg) center 0 no-repeat; background-size: cover;}
 /* 부가상품 구매확인 */
-.title_wrap.addProductsT_com { background: url(/images/page/visual_addProductsT_com_bg.jpg) center 0 no-repeat; background-size: cover;}
+.title_wrap.addProductsT_com { background: url(https://kobus.co.kr/images/page/visual_addProductsT_com_bg.jpg) center 0 no-repeat; background-size: cover;}
 /* 고객센터 */
-.title_wrap.customerT { background: url(/images/page/visual_customerT_bg.jpg) center 0 no-repeat; background-size: cover;}
+.title_wrap.customerT { background: url(https://kobus.co.kr/images/page/visual_customerT_bg.jpg) center 0 no-repeat; background-size: cover;}
 /* 이용안내 */
-.title_wrap.informationT { background: url(/images/page/visual_informationT_bg.jpg) center 0 no-repeat; background-size: cover;}
+.title_wrap.informationT { background: url(https://kobus.co.kr/images/page/visual_informationT_bg.jpg) center 0 no-repeat; background-size: cover;}
 /* 전국고속버스운송사업조합 */
-.title_wrap.businessT { background: url(/images/page/visual_businessT_bg.jpg) center 0 no-repeat; background-size: cover;}
+.title_wrap.businessT { background: url(https://kobus.co.kr/images/page/visual_businessT_bg.jpg) center 0 no-repeat; background-size: cover;}
 /* 사이트 맵 */
-.title_wrap.siteMapT { background: url(/images/page/visual_siteMapT_bg.jpg) center 0 no-repeat; background-size: cover;}
+.title_wrap.siteMapT { background: url(https://kobus.co.kr/images/page/visual_siteMapT_bg.jpg) center 0 no-repeat; background-size: cover;}
 /* 터미널사업자협회 */
-.title_wrap.associationT { background: url(/images/page/visual_associationT_bg.jpg) center 0 no-repeat; background-size: cover;}
+.title_wrap.associationT { background: url(https://kobus.co.kr/images/page/visual_associationT_bg.jpg) center 0 no-repeat; background-size: cover;}
 /* 회원가입 */
-.title_wrap.joinT { background: url(/images/page/visual_joinT_bg.jpg) center 0 no-repeat; background-size: cover;}
+.title_wrap.joinT { background: url(https://kobus.co.kr/images/page/visual_joinT_bg.jpg) center 0 no-repeat; background-size: cover;}
 /* 약관 */
-.title_wrap.termsT { background: url(/images/page/visual_termsT_bg.jpg) center 0 no-repeat; background-size: cover;}
+.title_wrap.termsT { background: url(https://kobus.co.kr/images/page/visual_termsT_bg.jpg) center 0 no-repeat; background-size: cover;}
 /* 마이페이지 서브 */
-.title_wrap.mypageT { background: url(/images/page/visual_pc_mypage.jpg) center 0 no-repeat; background-size: cover;}
+.title_wrap.mypageT { background: url(https://kobus.co.kr/images/page/visual_pc_mypage.jpg) center 0 no-repeat; background-size: cover;}
 
 /* 노선조회 */
 .date_picker_wrap {position:relative; height:100%; padding:12px 15px; box-sizing:border-box;}
@@ -235,21 +235,21 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .route_box { max-width: 960px; margin-top: 25px; border: 1px solid #e6e6e6;}
 .route_box .tabs { position: relative; height: 50px;}
 .route_box .tabs > li { background: #ececec;}
-.route_box .tabs:after { display: inline-block; content: ''; position: absolute; bottom: -12px; left: 0; width: 100%; height: 10px; background: url(/images/page/tab_shadow.png) center 0 no-repeat;}
+.route_box .tabs:after { display: inline-block; content: ''; position: absolute; bottom: -12px; left: 0; width: 100%; height: 10px; background: url(https://kobus.co.kr/images/page/tab_shadow.png) center 0 no-repeat;}
 .route_box .tabs > li > a { padding: 12px 0 12px 30px; font-size: 18px; -moz-box-sizing: border-box; box-sizing: border-box;}
 .route_box .tabs > li.active { background: #fff;}
 .route_box .tabs > li.active a { color: #68b3ce;}
 .route_box .oneway { position: relative;}
-.route_box .oneway a:before { display: inline-block; content: ''; background: url(/images/page/ico_oneway.png) 0 0 no-repeat; background-size: 100%; width: 19px; height: 11px;  margin-right: 7px;}
-.route_box .oneway.active a:before { background: url(/images/page/ico_oneway_on.png) 0 0 no-repeat; background-size: 100%;}
-.route_box .tabs li.active a:after { display: inline-block; content: ''; background: url(/images/page/ico_tab_s_on.png) 0 0 no-repeat; width: 11px; height: 12px; margin: 0 0 1px 7px;}
+.route_box .oneway a:before { display: inline-block; content: ''; background: url(https://kobus.co.kr/images/page/ico_oneway.png) 0 0 no-repeat; background-size: 100%; width: 19px; height: 11px;  margin-right: 7px;}
+.route_box .oneway.active a:before { background: url(https://kobus.co.kr/images/page/ico_oneway_on.png) 0 0 no-repeat; background-size: 100%;}
+.route_box .tabs li.active a:after { display: inline-block; content: ''; background: url(https://kobus.co.kr/images/page/ico_tab_s_on.png) 0 0 no-repeat; width: 11px; height: 12px; margin: 0 0 1px 7px;}
 .route_box .oneway .radio_area { display: none;}
 .route_box .oneway.active .radio_area{ display: block;}
 .route_box .oneway .radio_area { position: absolute; top: 16px; right: 20px; font-size: 15px;}
 .route_box .oneway .radio_area .custom_radio + .custom_radio { margin-left: 15px;}
 .route_box .oneway .radio_area .custom_radio input:checked + label { background-position: right 3px;}
-.route_box .roundtrip a:before { display: inline-block; content: ''; background: url(/images/page/ico_roundtrip.png) 0 0 no-repeat; background-size: 100%; width: 19px; height: 19px;  margin: 0 7px -4px 0;}
-.route_box .roundtrip.active a:before { background: url(/images/page/ico_roundtrip_on.png) 0 0 no-repeat; background-size: 100%;}
+.route_box .roundtrip a:before { display: inline-block; content: ''; background: url(https://kobus.co.kr/images/page/ico_roundtrip.png) 0 0 no-repeat; background-size: 100%; width: 19px; height: 19px;  margin: 0 7px -4px 0;}
+.route_box .roundtrip.active a:before { background: url(https://kobus.co.kr/images/page/ico_roundtrip_on.png) 0 0 no-repeat; background-size: 100%;}
 .route_box .tab_cont { overflow: hidden; padding: 10px 8px 8px;}
 .route_box .place, .route_box .date, .route_box .grade, .route_box .check { background: #f3f4f6; width: -webkit-calc(50% - 4px); width: -moz-calc(50% - 4px); width: calc(50% - 4px);}
 .route_box .place, .route_box .grade  { float: left;}
@@ -269,9 +269,9 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .route_box .place li > a { display: block;}
 .route_box ul.date li {  background: #f3f4f6; width: 100%; padding: 0;}
 .route_box .place li:after, 
-.route_box ul.date li:after { display: inline-block; content: ''; position: absolute; right: 0; bottom: 0; background: url(/images/page/input_after.png) 0 0 no-repeat; background-size: 100%; width: 8px; height: 8px;}
+.route_box ul.date li:after { display: inline-block; content: ''; position: absolute; right: 0; bottom: 0; background: url(https://kobus.co.kr/images/page/input_after.png) 0 0 no-repeat; background-size: 100%; width: 8px; height: 8px;}
 .route_box .place li:first-child, .route_box ul.date li:first-child { float: left;}
-.route_box .place .btn_change { position: absolute; top: 40px; right: -17px; background: url(/images/page/arrow_toggle_s.png) 0 0 no-repeat; width: 30px; height: 30px; font-size: 0;  z-index: 50; cursor: pointer;}
+.route_box .place .btn_change { position: absolute; top: 40px; right: -17px; background: url(https://kobus.co.kr/images/page/arrow_toggle_s.png) 0 0 no-repeat; width: 30px; height: 30px; font-size: 0;  z-index: 50; cursor: pointer;}
 .route_box .place .btn_change:hover { background-position: 0 -32px; }
 .route_box div.date, .route_box ul.date li  { position: relative; float: right;}
 .route_box .place .text { line-height: 1.2;}
@@ -282,7 +282,7 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .route_box .round .date .text { height: 40px; font-size: 20px;}
 .route_box .date_wrap a { margin-right: 20px; font-size: 16px;}
 .route_box .date_wrap a.active { color: #68b3ce;}
-.route_box .date_wrap .calender { background: url(/images/page/ico_calender.png) 0 0 no-repeat; background-size: 100%; width: 28px; height: 26px; font-size: 0; cursor: pointer;}
+.route_box .date_wrap .calender { background: url(https://kobus.co.kr/images/page/ico_calender.png) 0 0 no-repeat; background-size: 100%; width: 28px; height: 26px; font-size: 0; cursor: pointer;}
 .route_box .round .date .date_wrap { margin-top: -6px;}
 .route_box .date .date_wrap { display: block; position: absolute; top: 50%; right: 70px; margin-top: -13px;}
 .route_box .round .date .date_wrap { position: static;}
@@ -292,18 +292,18 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .route_box .grade label:hover { color: #000;}
 
 .route_box .grade1 label, .route_box .grade2 label, .route_box .grade3 label { display: inline-block; min-height: 21px; line-height: 21px;}
-.route_box .grade1 label { background: url(/images/page/ico_grade1_s.png) right 0 no-repeat; color: #e9a401; padding-right: 26px;}
-.route_box .grade2 label { background: url(/images/page/ico_grade2_s.png) right 0 no-repeat; padding-right: 23px;}
-.route_box .grade3 label { background: url(/images/page/ico_grade3_s.png) right 0 no-repeat; padding-right: 22px;}
-.route_box .gradeAll input:checked + label { background: url(/images/page/ico_grade_s_on.png) right 4px no-repeat;}
-.route_box .grade1 label:hover, .route_box .grade1 input:checked + label { background: url(/images/page/ico_grade1_s_on.png) right 0 no-repeat; color: #d29400;;}
-.route_box .grade1 label:before { display: inline-block; content: ''; position: absolute; top: -16px; left: 20px; background: url(/images/page/ico_premium_s.png) 0 0 no-repeat; background-size: 100%; width: 18px; height: 14px;}
-.route_box .grade1 label:hover:before, .route_box .grade1 input:checked + label:before { background-image: url(/images/page/ico_premium_s_on.png);}
-.route_box .grade2 input + label:hover, .route_box .grade2 input:checked + label { background: url(/images/page/ico_grade2_s_on.png) right 0 no-repeat;}
-.route_box .grade3 input + label:hover, .route_box .grade3 input:checked + label { background: url(/images/page/ico_grade3_s_on.png) right 0 no-repeat;}
+.route_box .grade1 label { background: url(https://kobus.co.kr/images/page/ico_grade1_s.png) right 0 no-repeat; color: #e9a401; padding-right: 26px;}
+.route_box .grade2 label { background: url(https://kobus.co.kr/images/page/ico_grade2_s.png) right 0 no-repeat; padding-right: 23px;}
+.route_box .grade3 label { background: url(https://kobus.co.kr/images/page/ico_grade3_s.png) right 0 no-repeat; padding-right: 22px;}
+.route_box .gradeAll input:checked + label { background: url(https://kobus.co.kr/images/page/ico_grade_s_on.png) right 4px no-repeat;}
+.route_box .grade1 label:hover, .route_box .grade1 input:checked + label { background: url(https://kobus.co.kr/images/page/ico_grade1_s_on.png) right 0 no-repeat; color: #d29400;;}
+.route_box .grade1 label:before { display: inline-block; content: ''; position: absolute; top: -16px; left: 20px; background: url(https://kobus.co.kr/images/page/ico_premium_s.png) 0 0 no-repeat; background-size: 100%; width: 18px; height: 14px;}
+.route_box .grade1 label:hover:before, .route_box .grade1 input:checked + label:before { background-image: url(https://kobus.co.kr/images/page/ico_premium_s_on.png);}
+.route_box .grade2 input + label:hover, .route_box .grade2 input:checked + label { background: url(https://kobus.co.kr/images/page/ico_grade2_s_on.png) right 0 no-repeat;}
+.route_box .grade3 input + label:hover, .route_box .grade3 input:checked + label { background: url(https://kobus.co.kr/images/page/ico_grade3_s_on.png) right 0 no-repeat;}
 
-.route_box .grade .custom_radio input:checked + label:after { display: inline-block; content: ''; position: absolute; top: 3px; right: -12px; background: url(/images/page/ico_grade_s_on.png) 0 0 no-repeat; width: 11px; height: 11px;}
-.route_box .grade .grade1 input:checked + label:after { background: url(/images/page/ico_gradeY_s_on.png) 0 0 no-repeat;}
+.route_box .grade .custom_radio input:checked + label:after { display: inline-block; content: ''; position: absolute; top: 3px; right: -12px; background: url(https://kobus.co.kr/images/page/ico_grade_s_on.png) 0 0 no-repeat; width: 11px; height: 11px;}
+.route_box .grade .grade1 input:checked + label:after { background: url(https://kobus.co.kr/images/page/ico_gradeY_s_on.png) 0 0 no-repeat;}
 .route_box .grade .gradeAll input:checked + label:after { display: none;}
 .route_box .grade .custom_radio.gradeAll { margin-left: 0 !important;}
 .route_box .check { background: #b8becc; text-align: center;}
@@ -317,11 +317,11 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .route_box .date_wrap a { margin-left: 20px; margin-right:0;}
 .route_box .date_wrap a:first-child {margin-left:0;}
 
-.customer_box { background: url(/images/page/customer_bg.jpg) center 0 no-repeat; padding: 30px 30px 50px;}
+.customer_box { background: url(https://kobus.co.kr/images/page/customer_bg.jpg) center 0 no-repeat; padding: 30px 30px 50px;}
 .customer_box * { color: #f2f2f2;}
 .customer_box .desc { font-size: 16px;}
 .customer_box .info_tel { position: relative; margin-top: 15px; padding-left: 74px;}
-.customer_box .info_tel:before { display: inline-block; content: ''; position: absolute; top: 5px; left: 0; background: url(/images/page/customer_tel.png) 0 0 no-repeat; background-size: auto 100%; width: 34px; height: 45px; margin-right: 20px; padding-right: 17px; border-right: 1px solid #afb8be;}
+.customer_box .info_tel:before { display: inline-block; content: ''; position: absolute; top: 5px; left: 0; background: url(https://kobus.co.kr/images/page/customer_tel.png) 0 0 no-repeat; background-size: auto 100%; width: 34px; height: 45px; margin-right: 20px; padding-right: 17px; border-right: 1px solid #afb8be;}
 .customer_box .info_tel span { font-size: 14px;}
 .customer_box .info_tel p { font-size: 16px;}
 .customer_box .info_tel p strong { margin-right: 10px; font-weight: normal; font-size: 28px; line-height: 1.3;}
@@ -338,7 +338,7 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .pop_place .place .text .empty_txt { display: none; color: #b3b3b3;}
 .pop_place .place .text.empty .empty_txt { display: block;}
 .pop_place .place .focuson .text.empty .empty_txt { display: none;}
-.pop_place .place .btn_change { position: absolute; top: 28px; left: 50%; background: #fff url(/images/page/ico_arrow.png) center center no-repeat; background-size: 14px 9px; width: 30px; height: 30px; margin-left: -17px;  font-size: 0; border: 1px solid #cecfd1; border-radius: 50%; z-index: 50;}
+.pop_place .place .btn_change { position: absolute; top: 28px; left: 50%; background: #fff url(https://kobus.co.kr/images/page/ico_arrow.png) center center no-repeat; background-size: 14px 9px; width: 30px; height: 30px; margin-left: -17px;  font-size: 0; border: 1px solid #cecfd1; border-radius: 50%; z-index: 50;}
 .pop_place .place.focus { z-index: 50;}
 .pop_place .place li:first-child { float: left;}
 .pop_place .stit { padding: 0 8px; font-size: 14px; color: #68b3ce !important;}
@@ -347,8 +347,8 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .pop_place .search_wrap .focus { background: #fff; border: 2px solid #76c6e1; box-shadow: 0 0 7px 0 rgba(118,198,225,1);}
 .pop_place .search_wrap input { background: none; width: 100%; height: 40px; padding: 0 12px 0 4px; border: none; box-shadow: none; line-height: 40px; -moz-box-sizing: border-box; box-sizing: border-box; z-index: 100;}
 .pop_place .search_wrap input:focus { outline: none;}
-.pop_place .search_wrap .btn { position: absolute; top: 1px; right: 0; background: #f3f4f6 url(/images/page/ico_search_s.png) center center no-repeat; width: 45px; height: 38px; font-size: 0; z-index: 1;}
-.pop_place .search_wrap .focus .btn { background: #fff url(/images/page/ico_close.png) center center no-repeat; background-size: 15px auto; }
+.pop_place .search_wrap .btn { position: absolute; top: 1px; right: 0; background: #f3f4f6 url(https://kobus.co.kr/images/page/ico_search_s.png) center center no-repeat; width: 45px; height: 38px; font-size: 0; z-index: 1;}
+.pop_place .search_wrap .focus .btn { background: #fff url(https://kobus.co.kr/images/page/ico_close.png) center center no-repeat; background-size: 15px auto; }
 .pop_place .easy-autocomplete { width:100% !important; margin-top: 2px;}
 .pop_place .easy-autocomplete-container ul { margin-top: 2px; border-top: none; border-bottom: 1px solid #999;}
 .pop_place .easy-autocomplete-container ul li { height: 40px; padding: 0 8px; font-size: 18px; line-height: 40px; border-left: none; border-right: none; border-bottom: 1px solid #e6e6e6; background: #f7f7f7;}
@@ -380,7 +380,7 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .pop_place .btns { border-top: none; margin-top: 0;}
 
 /* 모바일티머니 고속버스 예매안내 팝업*/
-.pop_tmoney .cont { background: url(/images/page/tmoney_shadow.png) 0 bottom no-repeat; padding-bottom: 0;}
+.pop_tmoney .cont { background: url(https://kobus.co.kr/images/page/tmoney_shadow.png) 0 bottom no-repeat; padding-bottom: 0;}
 .pop_tmoney .txt strong { font-size: 18px;}
 .pop_tmoney .txt strong + strong { margin-left: 5px;}
 .pop_tmoney .btns { margin-top: 0;}
@@ -390,7 +390,7 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .pop_tmoney .phone_wrap p strong { display: inline-block; margin-bottom: 15px; font-size: 19px; color: #68b3ce;}
 .pop_tmoney .phone_wrap p img { max-width: 100%;}
 .pop_tmoney .phone_wrap .phone1 { position: relative; margin-right: 65px;}
-.pop_tmoney .phone_wrap .phone1:after { display: inline-block; content: ''; position: absolute; top: 60%; right: -51px; background: url(/images/page/tmoney_arrow.png) 0 0 no-repeat; background-size: 100%; width: 37px; height: 25px; margin-top: -17px;}
+.pop_tmoney .phone_wrap .phone1:after { display: inline-block; content: ''; position: absolute; top: 60%; right: -51px; background: url(https://kobus.co.kr/images/page/tmoney_arrow.png) 0 0 no-repeat; background-size: 100%; width: 37px; height: 25px; margin-top: -17px;}
 
 /* 시외버스 우등형 할인안내 팝업*/
 .pop_gradeinfo .cont { padding: 25px 30px 0;}
@@ -426,8 +426,8 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .time { float: left; width: 65px; height: 100%; z-index: 100;}
 .time li { position: relative; margin-top: 8px; padding-right: 8px; -moz-box-sizing: border-box; box-sizing: border-box;}
 .time li:before {  display: inline-block; content: ''; position: absolute; top: 5px; left: 8px; }
-.time .daytime:before { background: url(/images/page/ico_daytime.png) 0 0 no-repeat; background-size: 100%; width: 16px; height: 16px;}
-.time .night:before { background: url(/images/page/ico_night.png) 0 0 no-repeat; background-size: auto 100%; width: 14px; height: 14px;}
+.time .daytime:before { background: url(https://kobus.co.kr/images/page/ico_daytime.png) 0 0 no-repeat; background-size: 100%; width: 16px; height: 16px;}
+.time .night:before { background: url(https://kobus.co.kr/images/page/ico_night.png) 0 0 no-repeat; background-size: auto 100%; width: 14px; height: 14px;}
 .time li a { display: block; padding: 2px 8px 2px 0; font-size: 14px; color: #68b3ce; text-align: right; -moz-box-sizing: border-box; box-sizing: border-box;}
 .time li:hover a, .time .active a { background: #68b3ce; color: #fff !important;}
 .time a.noselect, .bustime_wrap .noselect span, .bustime_wrap a.noselect { color: #ccc; cursor: default;}
@@ -463,67 +463,67 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .bus_time .bus_com { padding-top: 15px; vertical-align: top; line-height: 1;}
 .bus_time .bus_com .no_logo, .bus_time .bus_info .no_logo { padding-top: 6px; font-size: 14px;}
 .bus_time .bus_info { padding-top: 10px;}
-.bus_time .premium a:after, .bus_time .premium2 a:after { display: inline-block; content: ''; position: absolute; right: 0; bottom: 0; background: url(/images/page/label_premium_on.png) 0 0 no-repeat; background-size: 100%; width: 40px; height: 40px;}
-.bus_time .premium .noselect:after,.bus_time .premium2 .noselect:after { background-image: url(/images/page/label_premium.png);}
+.bus_time .premium a:after, .bus_time .premium2 a:after { display: inline-block; content: ''; position: absolute; right: 0; bottom: 0; background: url(https://kobus.co.kr/images/page/label_premium_on.png) 0 0 no-repeat; background-size: 100%; width: 40px; height: 40px;}
+.bus_time .premium .noselect:after,.bus_time .premium2 .noselect:after { background-image: url(https://kobus.co.kr/images/page/label_premium.png);}
 .bus_time .premium .grade, .bus_time .premium2 .grade { position: relative; color: #e9a401;}
 .bus_time .premium .grade_mo, .bus_time .premium2 .grade_mo { color: #e9a401;}
 .bus_time .premium .grade:after, .bus_time .premium .grade_mo:after,
-.bus_time .premium2 .grade:after, .bus_time .premium2 .grade_mo:after { display: inline-block; content: ''; position: absolute; top: 18px; left: 60px; background: url(/images/page/ico_premium_on.png) 0 0 no-repeat; background-size: 100%; width: 18px; height: 14px;}
+.bus_time .premium2 .grade:after, .bus_time .premium2 .grade_mo:after { display: inline-block; content: ''; position: absolute; top: 18px; left: 60px; background: url(https://kobus.co.kr/images/page/ico_premium_on.png) 0 0 no-repeat; background-size: 100%; width: 18px; height: 14px;}
 .bus_time .premium2 .grade:after { left: 85px;}
 .bus_time .premium .grade_mo:after { top: 0; left: 48px;}
 .bus_time .premium2 .grade_mo:after { top: 0; left: 71px;}
 .bus_time .premium .noselect .grade:after, .bus_time .premium .noselect .grade_mo:after,
-.bus_time .premium2 .noselect .grade:after, .bus_time .premium2 .noselect .grade_mo:after { background-image: url(/images/page/ico_premium.png);}
+.bus_time .premium2 .noselect .grade:after, .bus_time .premium2 .noselect .grade_mo:after { background-image: url(https://kobus.co.kr/images/page/ico_premium.png);}
 
 .bus_time .premium .grade_ex, .bus_time .premium2 .grade_ex { position: relative; color: #e9a401;}
 .bus_time .premium .grade_mo_ex, .bus_time .premium2 .grade_mo_ex { color: #e9a401;}
 .bus_time .premium .grade_ex:after, .bus_time .premium .grade_mo_ex:after,
-.bus_time .premium2 .grade_ex:after, .bus_time .premium2 .grade_mo_ex:after { display: inline-block; content: ''; position: absolute; top: 10px; left: 60px; background: url(/images/page/ico_premium_on.png) 0 0 no-repeat; background-size: 100%; width: 18px; height: 14px;} 
+.bus_time .premium2 .grade_ex:after, .bus_time .premium2 .grade_mo_ex:after { display: inline-block; content: ''; position: absolute; top: 10px; left: 60px; background: url(https://kobus.co.kr/images/page/ico_premium_on.png) 0 0 no-repeat; background-size: 100%; width: 18px; height: 14px;} 
 .bus_time .premium2 .grade_ex:after { left: 85px;}
 .bus_time .premium .grade_mo_ex:after { top: 0; left: 48px;}
 .bus_time .premium2 .grade_mo_ex:after { top: 0; left: 71px;}
 .bus_time .premium .noselect .grade_ex:after, .bus_time .premium .noselect .grade_mo_ex:after,
-.bus_time .premium2 .noselect .grade_ex:after, .bus_time .premium2 .noselect .grade_mo_ex:after { background-image: url(/images/page/ico_premium.png);}
+.bus_time .premium2 .noselect .grade_ex:after, .bus_time .premium2 .noselect .grade_mo_ex:after { background-image: url(https://kobus.co.kr/images/page/ico_premium.png);}
 
 .bustime_wrap .scroll-wrapper { padding-right: 15px !important;}
 .bustime_wrap .scrollbar-inner > .scroll-element.scroll-y { top: 0; right: 0; background: #fff; padding: 0 3px; border-left: 1px solid #e6e6e6;}
 .bustime_wrap .scrollbar-inner > .scroll-element div { top: 5px; left: 2px; width: 8px;}
 .bustime_wrap .scrollbar-inner > .scroll-element .scroll-bar { height: 112px !important;}
 
-.dyexpress { background: url(/images/page/bus_dyexpress_s_on.png) 0 0 no-repeat;}
-.samhwa { background: url(/images/page/bus_samhwa_s_on.png) 0 0 no-repeat;}
-.jabus { background: url(/images/page/bus_jabus_s_on.png) 0 0 no-repeat;}
-.kumho { background: url(/images/page/bus_kumho_s_on.png) 0 0 no-repeat;}
-.chunil { background: url(/images/page/bus_chunil_s_on.png) 0 0 no-repeat;}
-.hanil { background: url(/images/page/bus_hanil_s_on.png) 0 0 no-repeat;} 
-.dongbu { background: url(/images/page/bus_dongbu_s_on.png) 0 0 no-repeat;}
-.songnisan { background: url(/images/page/bus_songnisan_s_on.png) 0 0 no-repeat;}
-.kobus { background: url(/images/page/bus_kobus_s_on.png) 0 0 no-repeat;}
-.chungnam { background: url(/images/page/bus_chungnam_s_on.png) 0 0 no-repeat;}
-.chunyeo { background: url(/images/page/bus_chunyeo_s_on.png) 0 0 no-repeat;}
-.daewon { background: url(/images/page/bus_daewon_s_on.png) 0 0 no-repeat;}
-.gyeonggi { background: url(/images/page/bus_gyeonggi_s_on.png) 0 0 no-repeat;}
-.hanyang { background: url(/images/page/bus_hanyang_s_on.png) 0 0 no-repeat;}
-.kyongbuk { background: url(/images/page/bus_kyongbuk_s_on.png) 0 0 no-repeat;}
-.seoul { background: url(/images/page/bus_seoul_s_on.png) 0 0 no-repeat;}
+.dyexpress { background: url(https://kobus.co.kr/images/page/bus_dyexpress_s_on.png) 0 0 no-repeat;}
+.samhwa { background: url(https://kobus.co.kr/images/page/bus_samhwa_s_on.png) 0 0 no-repeat;}
+.jabus { background: url(https://kobus.co.kr/images/page/bus_jabus_s_on.png) 0 0 no-repeat;}
+.kumho { background: url(https://kobus.co.kr/images/page/bus_kumho_s_on.png) 0 0 no-repeat;}
+.chunil { background: url(https://kobus.co.kr/images/page/bus_chunil_s_on.png) 0 0 no-repeat;}
+.hanil { background: url(https://kobus.co.kr/images/page/bus_hanil_s_on.png) 0 0 no-repeat;} 
+.dongbu { background: url(https://kobus.co.kr/images/page/bus_dongbu_s_on.png) 0 0 no-repeat;}
+.songnisan { background: url(https://kobus.co.kr/images/page/bus_songnisan_s_on.png) 0 0 no-repeat;}
+.kobus { background: url(https://kobus.co.kr/images/page/bus_kobus_s_on.png) 0 0 no-repeat;}
+.chungnam { background: url(https://kobus.co.kr/images/page/bus_chungnam_s_on.png) 0 0 no-repeat;}
+.chunyeo { background: url(https://kobus.co.kr/images/page/bus_chunyeo_s_on.png) 0 0 no-repeat;}
+.daewon { background: url(https://kobus.co.kr/images/page/bus_daewon_s_on.png) 0 0 no-repeat;}
+.gyeonggi { background: url(https://kobus.co.kr/images/page/bus_gyeonggi_s_on.png) 0 0 no-repeat;}
+.hanyang { background: url(https://kobus.co.kr/images/page/bus_hanyang_s_on.png) 0 0 no-repeat;}
+.kyongbuk { background: url(https://kobus.co.kr/images/page/bus_kyongbuk_s_on.png) 0 0 no-repeat;}
+.seoul { background: url(https://kobus.co.kr/images/page/bus_seoul_s_on.png) 0 0 no-repeat;}
 
 
-.noselect .dyexpress { background: url(/images/page/bus_dyexpress_s_off.png) 0 0 no-repeat;}
-.noselect .samhwa { background: url(/images/page/bus_samhwa_s_off.png) 0 0 no-repeat;}
-.noselect .jabus { background: url(/images/page/bus_jabus_s_off.png) 0 0 no-repeat;}
-.noselect .kumho { background: url(/images/page/bus_kumho_s_off.png) 0 0 no-repeat;}
-.noselect .chunil { background: url(/images/page/bus_chunil_s_off.png) 0 0 no-repeat;}
-.noselect .hanil { background: url(/images/page/bus_hanil_s_off.png) 0 0 no-repeat;} 
-.noselect .dongbu { background: url(/images/page/bus_dongbu_s_off.png) 0 0 no-repeat;}
-.noselect .songnisan { background: url(/images/page/bus_songnisan_s_off.png) 0 0 no-repeat;}
-.noselect .kobus { background: url(/images/page/bus_kobus_s_off.png) 0 0 no-repeat;}
-.noselect .chungnam { background: url(/images/page/bus_chungnam_s_off.png) 0 0 no-repeat;}
-.noselect .chunyeo { background: url(/images/page/bus_chunyeo_s_off.png) 0 0 no-repeat;}
-.noselect .daewon { background: url(/images/page/bus_daewon_s_off.png) 0 0 no-repeat;}
-.noselect .gyeonggi { background: url(/images/page/bus_gyeonggi_s_off.png) 0 0 no-repeat;}
-.noselect .hanyang { background: url(/images/page/bus_hanyang_s_off.png) 0 0 no-repeat;}
-.noselect .kyongbuk { background: url(/images/page/bus_kyongbuk_s_off.png) 0 0 no-repeat;}
-.noselect .seoul { background: url(/images/page/bus_seoul_s_off.png) 0 0 no-repeat;}
+.noselect .dyexpress { background: url(https://kobus.co.kr/images/page/bus_dyexpress_s_off.png) 0 0 no-repeat;}
+.noselect .samhwa { background: url(https://kobus.co.kr/images/page/bus_samhwa_s_off.png) 0 0 no-repeat;}
+.noselect .jabus { background: url(https://kobus.co.kr/images/page/bus_jabus_s_off.png) 0 0 no-repeat;}
+.noselect .kumho { background: url(https://kobus.co.kr/images/page/bus_kumho_s_off.png) 0 0 no-repeat;}
+.noselect .chunil { background: url(https://kobus.co.kr/images/page/bus_chunil_s_off.png) 0 0 no-repeat;}
+.noselect .hanil { background: url(https://kobus.co.kr/images/page/bus_hanil_s_off.png) 0 0 no-repeat;} 
+.noselect .dongbu { background: url(https://kobus.co.kr/images/page/bus_dongbu_s_off.png) 0 0 no-repeat;}
+.noselect .songnisan { background: url(https://kobus.co.kr/images/page/bus_songnisan_s_off.png) 0 0 no-repeat;}
+.noselect .kobus { background: url(https://kobus.co.kr/images/page/bus_kobus_s_off.png) 0 0 no-repeat;}
+.noselect .chungnam { background: url(https://kobus.co.kr/images/page/bus_chungnam_s_off.png) 0 0 no-repeat;}
+.noselect .chunyeo { background: url(https://kobus.co.kr/images/page/bus_chunyeo_s_off.png) 0 0 no-repeat;}
+.noselect .daewon { background: url(https://kobus.co.kr/images/page/bus_daewon_s_off.png) 0 0 no-repeat;}
+.noselect .gyeonggi { background: url(https://kobus.co.kr/images/page/bus_gyeonggi_s_off.png) 0 0 no-repeat;}
+.noselect .hanyang { background: url(https://kobus.co.kr/images/page/bus_hanyang_s_off.png) 0 0 no-repeat;}
+.noselect .kyongbuk { background: url(https://kobus.co.kr/images/page/bus_kyongbuk_s_off.png) 0 0 no-repeat;}
+.noselect .seoul { background: url(https://kobus.co.kr/images/page/bus_seoul_s_off.png) 0 0 no-repeat;}
 
 .dyexpress, .samhwa, .jabus, .kumho, .chunil, .hanil, .dongbu, .songnisan, .kobus, .chungnam, .chunyeo, .daewon, .gyeonggi, .hanyang, .kyongbuk, .seoul { width: 89px !important; height: 25px !important; font-size: 0 !important;}
 
@@ -553,8 +553,8 @@ ul.sel_list > li .btn_wrap ul {overflow:hidden; padding:8px 0; }
 ul.sel_list > li .btn_wrap ul li {float:left; width:50%; height:100%; padding:5px; box-sizing:border-box;}
 ul.sel_list > li .btn_wrap ul li .btn {width:100%; height:100%; min-height:40px; margin:0 auto; text-align:center; background-color:#f3f4f6;}
 ul.sel_list > li .btn_wrap ul li .btn span {display:block; width:100%; height:100%; text-indent:-9999px;}
-ul.sel_list > li .btn_wrap ul li .btn span.ico_plus {background:url(/images/common/ico_plus_gray.png) 50% 50% no-repeat; background-size:16px 16px;}
-ul.sel_list > li .btn_wrap ul li .btn span.ico_minus {background:url(/images/common/ico_minus_gray.png) 50% 50% no-repeat; background-size:16px 2px;}
+ul.sel_list > li .btn_wrap ul li .btn span.ico_plus {background:url(https://kobus.co.kr/images/common/ico_plus_gray.png) 50% 50% no-repeat; background-size:16px 16px;}
+ul.sel_list > li .btn_wrap ul li .btn span.ico_minus {background:url(https://kobus.co.kr/images/common/ico_minus_gray.png) 50% 50% no-repeat; background-size:16px 2px;}
 ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 
 .detailBox_head {height:65px; border-bottom:1px solid #999;}
@@ -563,7 +563,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .detailBox_head .box_refresh {width:98px; height:100%; padding:8px; border-right:1px solid #e6e6e6; box-sizing:border-box;}
 .detailBox_head.col3 .box_refresh {width:65px;}
 .btn_refresh {width:100%; height:100%; background-color:#f3f4f6;}
-.btn_refresh span { display:block; width:100%; height:100%; background:url(/kobus/image/ico_refresh_s.png) center center no-repeat; text-indent:-9999px;}
+.btn_refresh span { display:block; width:100%; height:100%; background:url(https://kobus.co.kr/kobus/image/ico_refresh_s.png) center center no-repeat; text-indent:-9999px;}
 
 .detailBox_head .count_seat {width:calc(100% - 98px);}
 .detailBox_head .count_seat .inner {width:100%;}
@@ -589,7 +589,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .selectSeat_box .bg_seatBox {height:100%;}
 
 /* 45석 버스 */
-.seat45 {background:url(/images/common/bg_bus45.png) 50% 0 no-repeat;}
+.seat45 {background:url(https://kobus.co.kr/images/common/bg_bus45.png) 50% 0 no-repeat;}
 .seat45 .seatList {width:250px; margin:0 auto; padding:82px 20px 0 20px; font-size:0; box-sizing:border-box;}
 .seat45 .seatList span {margin:0 0 7px 2px;}
 .seat45 .seatList span:nth-child(4n+1) {margin-left:0;}
@@ -597,7 +597,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .seat45 .seatList span.last_seat:nth-child(4n+3) {margin-left:2px;}
 .seat45 .seatList span.last_seat.last {margin-left:2px;}
 /* 41석 버스 */
-.seat41 {background:url(../images/common/bg_bus40.png) 50% 8px no-repeat;}
+.seat41 {background:url(https://kobus.co.kr/images/common/bg_bus40.png) 50% 8px no-repeat;}
 .seat41 .seatList {width:250px; margin:0 auto; padding:146px 20px 0 20px; font-size:0; box-sizing:border-box;}
 .seat41 .seatList span {margin:0 0 7px 2px;}
 .seat41 .seatList span:nth-child(4n+1) {margin-left:0;}
@@ -605,7 +605,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .seat41 .seatList span.last_seat:nth-child(4n+3) {margin-left:2px;}
 .seat41 .seatList span.last_seat.last {margin-left:2px;}
 /* 40석 버스 */
-.seat40 {background:url(../images/common/bg_bus40.png) 50% 8px no-repeat;}
+.seat40 {background:url(https://kobus.co.kr/images/common/bg_bus40.png) 50% 8px no-repeat;}
 .seat40 .seatList {width:250px; margin:0 auto; padding:146px 20px 0 20px; font-size:0; box-sizing:border-box;}
 .seat40 .seatList span {margin:0 0 7px 2px;}
 .seat40 .seatList span:nth-child(4n+1) {margin-left:0;}
@@ -613,7 +613,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .seat40 .seatList span.last_seat:nth-child(4n+3) {margin-left:2px;}
 .seat40 .seatList span.last_seat.last {margin-left:2px;}
 /* 31석 버스 */
-.seat31 {background:url(../images/common/bg_bus31.png) 50% 8px no-repeat;}
+.seat31 {background:url(https://kobus.co.kr/images/common/bg_bus31.png) 50% 8px no-repeat;}
 .seat31 .seatList {width:235px; margin:0 auto; padding:146px 20px 0 20px; font-size:0; box-sizing:border-box;}
 .seat31 .seatList span {margin:0 0 7px 8px;}
 .seat31 .seatList span:nth-child(3n+1) {margin-left:0;}
@@ -621,7 +621,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .seat31 .seatList span.last_seat:nth-child(3n+3) {margin-left:8px;}
 .seat31 .seatList span.last_seat.last {margin-left:8px;}
 /* 28석 버스 */
-.seat28 {background:url(/kobus/image/bg_bus28.png) 50% 33px no-repeat;}
+.seat28 {background:url(https://kobus.co.kr/images/bg_bus28.png) 50% 33px no-repeat;}
 .seat28 .seatList {width:235px; margin:0 auto; padding:171px 20px 0 20px; font-size:0; box-sizing:border-box;}
 .seat28 .seatList span {margin:0 0 7px 8px;}
 .seat28 .seatList span:nth-child(3n+1) {margin-left:0;}
@@ -629,7 +629,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .seat28 .seatList span.last_seat:nth-child(3n+3) {margin-left:8px;}
 .seat28 .seatList span.last_seat.last {margin-left:8px;}
 /* 27석 버스 */
-.seat27 {background:url(/images/common/bg_bus28.png) 50% 33px no-repeat;}
+.seat27 {background:url(https://kobus.co.kr/images/common/bg_bus28.png) 50% 33px no-repeat;}
 .seat27 .seatList {width:235px; margin:0 auto; padding:171px 20px 0 20px; font-size:0; box-sizing:border-box;}
 .seat27 .seatList span {margin:0 0 7px 8px;}
 .seat27 .seatList span:nth-child(3n+1) {margin-left:0;}
@@ -637,7 +637,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .seat27 .seatList span.last_seat:nth-child(3n+3) {margin-left:8px;}
 .seat27 .seatList span.last_seat.last {top:0; margin-left:8px;}
 /* 21석 버스 */
-.seat21 {background:url(/images/common/bg_bus21.png) 50% 83px no-repeat;}
+.seat21 {background:url(https://kobus.co.kr/images/common/bg_bus21.png) 50% 83px no-repeat;}
 .seat21 .seatList {width:235px; margin:0 auto; padding:221px 20px 0 20px; font-size:0; box-sizing:border-box;}
 .seat21 .seatList span {margin:0 0 6px 8px;}
 .seat21 .seatList span:nth-child(3n+1) {margin-left:0;}
@@ -656,7 +656,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 
 /* 좌석선택시 */
 .seatBox input:checked + label {background-position:0 -48px; font-weight:bold; color:#000;}
-.seatBox input:checked + label:after {display:block; content:""; position:absolute; right:-5px; top:-5px; width:20px; height:21px; background:url(/images/common/ico_busChecked.png) 0 0 no-repeat;}
+.seatBox input:checked + label:after {display:block; content:""; position:absolute; right:-5px; top:-5px; width:20px; height:21px; background:url(https://kobus.co.kr/images/common/ico_busChecked.png) 0 0 no-repeat;}
 
 /* 선택좌석 상세보기 */
 .selectSeat_detail {position:absolute; right:1px; top:67px; width:239px; height:680px; border-left:1px solid #e6e6e6;}
@@ -677,7 +677,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .box_detail .checkList li:first-child {margin-top:0;}
 .box_detail .checkList li input {position:absolute; left:0; top:0; opacity:0;}
 .box_detail .checkList li label {display:block; position:relative; min-height:20px; padding-right: 60px; padding-left:22px; font-size:13px; color:#999;}
-.box_detail .checkList li label:before {display:block; content:""; position:absolute; left:0; top:2px; width:18px; height:18px; background:url(/images/common/ico_radio_blue.png) 0 0 no-repeat;}
+.box_detail .checkList li label:before {display:block; content:""; position:absolute; left:0; top:2px; width:18px; height:18px; background:url(https://kobus.co.kr/images/common/ico_radio_blue.png) 0 0 no-repeat;}
 .box_detail .checkList li label .price {display:block; position:absolute; right:0; top:0; font-size:13px; color:#000;}
 .box_detail .checkList li input:checked + label {color:#000;}
 .box_detail .checkList li input:checked + label:before {background-position:0 -18px;}
@@ -699,7 +699,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .agree_all, .ticket_chk { margin-top: 50px; font-size: 15px;}
 
 .ticketing_noti { position: relative; margin-top: 50px; padding-left: 65px;}
-.ticketing_noti:before { display: inline-block; content: ''; position: absolute; left: 20px; top: 50%; background: url(/images/page/ico_tipB.png) 0 0 no-repeat; background-size: 100%; width: 31px; height: 31px; margin-top: -15px;}
+.ticketing_noti:before { display: inline-block; content: ''; position: absolute; left: 20px; top: 50%; background: url(https://kobus.co.kr/images/page/ico_tipB.png) 0 0 no-repeat; background-size: 100%; width: 31px; height: 31px; margin-top: -15px;}
 .ticketing_noti p { padding-left: 20px; border-left: 1px solid #d6dae1;}
 .ticketing_noti p span { display: block; margin-top: 3px; color: #666; font-size: 12px;}
 
@@ -708,13 +708,13 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .boxinput_wrap.col3 .box_inputForm { width: -webkit-calc(100% / 3); width: -moz-calc(100% / 3); width: calc(100% / 3);}
 .boxinput_wrap .box_inputForm + .box_inputForm { width: -webkit-calc((100% / 3) - 8px); width: -moz-calc((100% / 3) - 8px); width: calc((100% / 3) - 8px); margin-left: 8px;}
 
-.app_info { background: #95cadd url(/images/page/appinfo_bg_s.png) center bottom no-repeat; margin-top: 5px;  padding: 20px 20px 230px;}
+.app_info { background: #95cadd url(https://kobus.co.kr/images/page/appinfo_bg_s.png) center bottom no-repeat; margin-top: 5px;  padding: 20px 20px 230px;}
 .app_info * { color: #fff;}
 .app_info .noti, .app_info .txt, .app_info .tip { padding-right: 400px;}
 .app_info .noti { font-size: 24px; font-weight: bold; line-height: 1.3;} 
 .app_info .txt { margin-top: 10px; font-size: 14px;}
 .app_info .tip { position: relative; margin-top: 20px; padding-left: 43px; font-size: 13px;}
-.app_info .tip:before { display: inline-block; content: ''; position: absolute; left: 0; top: 50%; background: url(/images/page/ico_tip_s2.png) 0 0 no-repeat; width: 31px; height: 31px; margin-top: -15px;}
+.app_info .tip:before { display: inline-block; content: ''; position: absolute; left: 0; top: 50%; background: url(https://kobus.co.kr/images/page/ico_tip_s2.png) 0 0 no-repeat; width: 31px; height: 31px; margin-top: -15px;}
 .app_info .tip a {  font-size: 13px; text-decoration: underline;}
 .app_info .tip a:hover { opacity: 0.5;}
 .ticket_chk { margin-top: 8px; font-size: 0;}
@@ -724,7 +724,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .ticket_chk .custom_radio.active { background: #5754b5; border: 1px solid #5754b5;}
 .ticket_chk .custom_radio input + label, .ticket_chk.custom_radio input:checked + label { background: none;}
 .ticket_chk .custom_radio input:checked + label { color: #fff;}
-.ticket_chk .custom_radio input:checked + label:before  { display: inline-block; content: ''; background: url(/images/common/custom_chkW.png) 0 3px no-repeat; background-size: 12px auto; width: 12px; height: 16px; margin-right: 5px;}
+.ticket_chk .custom_radio input:checked + label:before  { display: inline-block; content: ''; background: url(https://kobus.co.kr/images/common/custom_chkW.png) 0 3px no-repeat; background-size: 12px auto; width: 12px; height: 16px; margin-right: 5px;}
 .ticket_chk + p, .page_payment * + p.bul { margin-top: 12px;}
 
 .payment_input, .custom_input { margin-top: 5px;}
@@ -797,7 +797,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .noti_wrap .noti { font-size: 24px; color: #000;}
 .noti_wrap .desc { display: block; margin-top: 5px; font-size: 13px;}
 .noti_wrap .desc strong { font-weight: normal; color: #000;}
-.noti_wrap.fail { background: url(/images/common/notice_img.png) center bottom no-repeat; background-size: auto 116px; margin-bottom: 30px; padding-bottom: 150px;}
+.noti_wrap.fail { background: url(https://kobus.co.kr/images/common/notice_img.png) center bottom no-repeat; background-size: auto 116px; margin-bottom: 30px; padding-bottom: 150px;}
 
 .routeHead .ticket_number { float: right; margin-top: 8px; padding-right: 20px; font-size: 12px; color: #999;}
 .routeHead .ticket_number .num { margin-left: 10px; font-size: 14px; color: #000;}
@@ -829,7 +829,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .routeArea.route_wrap.full .tbl_type2 table tbody th { padding-left: 30px;}
 .routeArea.route_wrap.full .tbl_type2 table tbody td { padding-left: 15px;}
 .routeArea.route_wrap.full .tbl_type2 table tbody td .error_txt { display: none; font-size: 12px; color: #5895c7}
-.tbl_type2 .error_txt:before { display: inline-block; content: ''; background: url(/images/page/ico_tipB2_s.png) no-repeat 0 0; width: 13px; height: 13px; margin-right: 2px; vertical-align: -1px;}
+.tbl_type2 .error_txt:before { display: inline-block; content: ''; background: url(https://kobus.co.kr/images/page/ico_tipB2_s.png) no-repeat 0 0; width: 13px; height: 13px; margin-right: 2px; vertical-align: -1px;}
 .routeArea.route_wrap.full .tbl_type2 table tbody .lack .error_txt { display: inline-block;}
 .routeArea.route_wrap.full .tbl_type2 table tbody td strong { font-size: 16px;}
 
@@ -852,10 +852,10 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 
 /* 예매내역 */
 .detail_info_wrap {position:relative;}
-.ontheSpot:before {display:block; content:""; position:absolute; left:0; top:0; z-index:200; width:60px; height:60px; background:url(/images/common/bg_issueTicket.png) 0 0 no-repeat; background-size:100% auto;}
-.homeTicket:before {display:block; content:""; position:absolute; left:0; top:0; z-index:200; width:60px; height:60px; background:url(/images/common/bg_issueTicket.png) 0 0 no-repeat; background-position:0 -60px; background-size:100% auto;}
-.mobileTicket:before {display:block; content:""; position:absolute; left:0; top:0; z-index:200; width:60px; height:60px; background:url(/images/common/bg_issueTicket.png) 0 0 no-repeat; background-position:0 -120px; background-size:100% auto;}
-.unissued:before {display:block; content:""; position:absolute; left:0; top:0; z-index:200; width:60px; height:60px; background:url(/images/common/bg_issueTicket.png) 0 0 no-repeat; background-position:0 -180px; background-size:100% auto;}
+.ontheSpot:before {display:block; content:""; position:absolute; left:0; top:0; z-index:200; width:60px; height:60px; background:url(https://kobus.co.kr/images/common/bg_issueTicket.png) 0 0 no-repeat; background-size:100% auto;}
+.homeTicket:before {display:block; content:""; position:absolute; left:0; top:0; z-index:200; width:60px; height:60px; background:url(https://kobus.co.kr/images/common/bg_issueTicket.png) 0 0 no-repeat; background-position:0 -60px; background-size:100% auto;}
+.mobileTicket:before {display:block; content:""; position:absolute; left:0; top:0; z-index:200; width:60px; height:60px; background:url(https://kobus.co.kr/images/common/bg_issueTicket.png) 0 0 no-repeat; background-position:0 -120px; background-size:100% auto;}
+.unissued:before {display:block; content:""; position:absolute; left:0; top:0; z-index:200; width:60px; height:60px; background:url(https://kobus.co.kr/images/common/bg_issueTicket.png) 0 0 no-repeat; background-position:0 -180px; background-size:100% auto;}
 
 .detail_info_wrap .routeHead .date { width: 50%; padding-left:67px; color:#5691bd;}
 .detail_info_wrap .routeHead.reHead {background-color:#dee2ea;}
@@ -869,10 +869,10 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .routeHead .ticketPrice .btn_smCancel_blue {vertical-align:baseline;}
 
 .seat_detail {position:relative; padding-left:65px; border-left:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6; border-right:1px solid #e6e6e6;}
-.check_com:before {display:block; content:""; position:absolute; left:0; top:0; z-index:100; width:100%; height:100%; background:url(/images/common/bg_checkTicket_com_s.png) 0 0 no-repeat; background-color:#fff; background-size:178px 72px; background-position:50% 50%; opacity:0.7;}
-.cancel_com:before {display:block; content:""; position:absolute; left:0; top:0; z-index:100; width:100%; height:100%; background:url(/images/common/bg_cancelTicket_com.png) 0 0 no-repeat; background-color:#fff; background-size:178px 72px; background-position:50% 50%; opacity:0.7;}
-.used_com:before {display:block; content:""; position:absolute; left:0; top:0; z-index:100; width:100%; height:100%; background:url(/images/common/bg_used_com.png) 0 0 no-repeat; background-color:#fff; background-size:178px 72px; background-position:50% 50%; opacity:0.7;}
-.timeOver:after {display:block; content:""; position:absolute; left:0; top:0; z-index:101; width:100%; height:100%; background:url(/images/common/bg_timeOver.png) 50% 50% no-repeat; background-color:#fff; opacity:0.7;} 
+.check_com:before {display:block; content:""; position:absolute; left:0; top:0; z-index:100; width:100%; height:100%; background:url(https://kobus.co.kr/images/common/bg_checkTicket_com_s.png) 0 0 no-repeat; background-color:#fff; background-size:178px 72px; background-position:50% 50%; opacity:0.7;}
+.cancel_com:before {display:block; content:""; position:absolute; left:0; top:0; z-index:100; width:100%; height:100%; background:url(https://kobus.co.kr/images/common/bg_cancelTicket_com.png) 0 0 no-repeat; background-color:#fff; background-size:178px 72px; background-position:50% 50%; opacity:0.7;}
+.used_com:before {display:block; content:""; position:absolute; left:0; top:0; z-index:100; width:100%; height:100%; background:url(https://kobus.co.kr/images/common/bg_used_com.png) 0 0 no-repeat; background-color:#fff; background-size:178px 72px; background-position:50% 50%; opacity:0.7;}
+.timeOver:after {display:block; content:""; position:absolute; left:0; top:0; z-index:101; width:100%; height:100%; background:url(https://kobus.co.kr/images/common/bg_timeOver.png) 50% 50% no-repeat; background-color:#fff; opacity:0.7;} 
 .seat_detail:after {display:block; content:"좌석"; position:absolute; left:20px; top: 14px; font-size:13px; color:#000;}
 .seat_detail > ul li {position:relative; overflow:hidden; height:50px; border-top:1px solid #e6e6e6;}
 .seat_detail > ul li.check_com:before, .seat_detail > ul li.cancel_com:before {background-position:97% 50%; background-size:96px 38px;}
@@ -897,7 +897,7 @@ ul.sel_list > li .btn_wrap ul li .btn + .btn {margin-left:4px;}
 .receipt_wrap .date li .name {display: block; font-size: 14px; color: #333;}
 .receipt_wrap .text .text_date {display:block; height: 100%; padding: 0; font-size: 24px; color: #000;}
 .receipt_wrap .text input {position:absolute; left:-9999px; top:-0; width:1px !important; height:1px !important; padding: 0; font-size:0; color: #000; border:none; background:transparent; opacity:0;}
-.label_tag:after { display: inline-block; content: ''; position: absolute; right: 0; bottom: 0; background: url(/images/page/input_after.png) 0 0 no-repeat; background-size: 100%; width: 8px; height: 8px;}
+.label_tag:after { display: inline-block; content: ''; position: absolute; right: 0; bottom: 0; background: url(https://kobus.co.kr/images/page/input_after.png) 0 0 no-repeat; background-size: 100%; width: 8px; height: 8px;}
 
 .receipt_wrap .date li .box_inputForm strong {margin-bottom:8px; font-size:14px; color:#333; font-weight:normal;}
 .receipt_wrap .date li .box_inputForm {padding:12px 15px;}
@@ -941,7 +941,7 @@ ul.compareBox li .box_inputForm.card_num .box_label + .box_label label {padding-
 .box_limit .txt_limit {float:left; font-size:14px; color:#5754b5;}
 .box_limit .btn_normal {float:right;}
 
-.mypage_title {height:512px; background:url(/images/page/visual_pc_mypage.jpg) 50% 0 no-repeat; background-size:cover;}
+.mypage_title {height:512px; background:url(https://kobus.co.kr/images/page/visual_pc_mypage.jpg) 50% 0 no-repeat; background-size:cover;}
 .mypage_title.noList {height:190px;}
 .mypage_title .inner {position:relative; width:920px; margin:0 auto; margin-top:115px;}
 .myPage_list:after {display:block; content:""; clear:both;}
@@ -955,11 +955,11 @@ ul.compareBox li .box_inputForm.card_num .box_label + .box_label label {padding-
 .myPage_list li .row .txt_myMenu span {display:inline-block; font-size:14px; color:#cfbce0;}
 .myPage_list li .row strong {display:block; color:#fff; font-size:24px; font-weight:normal;}
 .myPage_list li .btnBox {margin-top:25px;}
-.ico_mileage {display:inline-block; width:18px; height:14px; margin-left:5px; background:url(/images/page/ico_premium_s_on.png) 0 0 no-repeat; vertical-align:middle; text-indent:-9999px;}
-.myPage_list li.history .row .txt_myMenu {background:url(/images/page/bg_myPage_list01.png) 50% 0 no-repeat;}
-.myPage_list li.additional .row .txt_myMenu {background:url(/images/page/bg_myPage_list02.png) 50% 0 no-repeat;}
-.myPage_list li.mileage .row .txt_myMenu {background:url(/images/page/bg_myPage_list03.png) 50% 0 no-repeat;}
-.myPage_list li.payment .row .txt_myMenu {background:url(/images/page/bg_myPage_list04.png) 50% 0 no-repeat;}
+.ico_mileage {display:inline-block; width:18px; height:14px; margin-left:5px; background:url(https://kobus.co.kr/images/page/ico_premium_s_on.png) 0 0 no-repeat; vertical-align:middle; text-indent:-9999px;}
+.myPage_list li.history .row .txt_myMenu {background:url(https://kobus.co.kr/images/page/bg_myPage_list01.png) 50% 0 no-repeat;}
+.myPage_list li.additional .row .txt_myMenu {background:url(https://kobus.co.kr/images/page/bg_myPage_list02.png) 50% 0 no-repeat;}
+.myPage_list li.mileage .row .txt_myMenu {background:url(https://kobus.co.kr/images/page/bg_myPage_list03.png) 50% 0 no-repeat;}
+.myPage_list li.payment .row .txt_myMenu {background:url(https://kobus.co.kr/images/page/bg_myPage_list04.png) 50% 0 no-repeat;}
 
 .myAccount ul li {position:relative; padding:15px; border-bottom:1px solid #e6e6e6;}
 .myAccount ul li strong {display:block; color:#333; font-size:14px;}
@@ -967,8 +967,8 @@ ul.compareBox li .box_inputForm.card_num .box_label + .box_label label {padding-
 .myAccount ul li .btnBox {position:absolute; right:20px; top:30px;}
 .myAccount ul li .btnBox .btn + .btn {margin-left:20px;}
 
-.ico_delete_gray {display:inline-block; position:absolute; right:20px; bottom:15px; z-index:300; width:14px; height:14px; background:url(/images/common/ico_delete_gray.png) 0 0 no-repeat; background-size:100% auto; text-indent:-9999px;}
-.ico_complete {display:inline-block; position:absolute; right:20px; bottom:18px; z-index:300; width:24px; height:24px; background:url(/images/common/ico_complete.png) 0 0 no-repeat; background-size:100% auto; text-indent:-9999px;}
+.ico_delete_gray {display:inline-block; position:absolute; right:20px; bottom:15px; z-index:300; width:14px; height:14px; background:url(https://kobus.co.kr/images/common/ico_delete_gray.png) 0 0 no-repeat; background-size:100% auto; text-indent:-9999px;}
+.ico_complete {display:inline-block; position:absolute; right:20px; bottom:18px; z-index:300; width:24px; height:24px; background:url(https://kobus.co.kr/images/common/ico_complete.png) 0 0 no-repeat; background-size:100% auto; text-indent:-9999px;}
 
 /* 결제내역조회 */
 .innerBox:after {display:block; content:""; clear:both;}
@@ -1002,12 +1002,12 @@ table td.noData {padding:60px 0 !important; font-size:16px; color:#5754b5; text-
 .tbl_routeBox .roundBox:before {display:block; content:""; position:absolute; left:0; top:5px; width:15px; height:15px; border:2px solid #d1d2d4; border-radius:50%; background-color:#fff; box-sizing: border-box; z-index: 1;}
 .tbl_ico {display:block; padding-left:20px; font-size:15px; color:#333;}
 .tbl_ico .txt_date {display:inline-block; font-size:13px; color:#999; vertical-align:inherit;}
-.tbl_ico.ico_departure {background:url(/images/page/bg_ico_departure.png) 0 8px no-repeat; background-size:14px auto;}
-.tbl_ico.ico_arrive {background:url(/images/page/bg_ico_arrive.png) 0 8px no-repeat; background-size:14px auto;}
+.tbl_ico.ico_departure {background:url(https://kobus.co.kr/images/page/bg_ico_departure.png) 0 8px no-repeat; background-size:14px auto;}
+.tbl_ico.ico_arrive {background:url(https://kobus.co.kr/images/page/bg_ico_arrive.png) 0 8px no-repeat; background-size:14px auto;}
 .tbl_search_result .txt_price {display:block; font-size:15px; color:#000;}
 .tbl_search_result .txt_div {font-size:13px; color:#999;}
-.bg_payment_com { background:url(/images/page/bg_payment_com_s.png) 100% 100% no-repeat;}
-.bg_payment_cancel {background:url(/images/page/bg_payment_cancel_s.png) 100% 100% no-repeat;}
+.bg_payment_com { background:url(https://kobus.co.kr/images/page/bg_payment_com_s.png) 100% 100% no-repeat;}
+.bg_payment_cancel {background:url(https://kobus.co.kr/images/page/bg_payment_cancel_s.png) 100% 100% no-repeat;}
 
 .mob_search_result {display:none; border-bottom:1px solid #f1f2f4;}
 
@@ -1016,14 +1016,14 @@ table td.noData {padding:60px 0 !important; font-size:16px; color:#5754b5; text-
 /* 마일리지 */
 .mileage_top {overflow:hidden; height:70px; margin-bottom:30px; background-color:#866b9c; box-sizing:border-box;}
 .mileage_top .mileage_tit {float:left; padding:20px 0 0 20px; font-size:14px; color:#cfbce0;}
-.mileage_num {float:right; height:100%; padding:0 20px 0 75px; background:url(/images/page/ico_mileage.png) 0 50% no-repeat; background-size:57px auto; line-height:70px; color:#fff; font-size:24px;}
+.mileage_num {float:right; height:100%; padding:0 20px 0 75px; background:url(https://kobus.co.kr/images/page/ico_mileage.png) 0 50% no-repeat; background-size:57px auto; line-height:70px; color:#fff; font-size:24px;}
 .receipt_wrap.border-top {border-top:1px solid #e6e6e6;}
 .innerBox.col3 li {width:32.76%;}
 .innerBox.col3 li .box_inputForm .custom_radio {width:33.33%;}
 
 .txt_route {font-size:18px; color:#000;}
-.tbl_search_result tbody td.txt_mileage { background: url(/images/page/bg_mileage_save_s.png) right bottom no-repeat; font-size:16px; color:#bc4ac0;}
-.tbl_search_result tbody .used td.txt_mileage { background-image: url(/images/page/bg_mileage_use_s.png); color: #999;}
+.tbl_search_result tbody td.txt_mileage { background: url(https://kobus.co.kr/images/page/bg_mileage_save_s.png) right bottom no-repeat; font-size:16px; color:#bc4ac0;}
+.tbl_search_result tbody .used td.txt_mileage { background-image: url(https://kobus.co.kr/images/page/bg_mileage_use_s.png); color: #999;}
 
 /* 운행정보 */
 .infoBox {float:left; width:230px; min-height:748px; background-color:#68b3ce;}
@@ -1068,7 +1068,7 @@ table td.noData {padding:60px 0 !important; font-size:16px; color:#5754b5; text-
 .bnr_app.bnr_pc { display: block;}
 .bnr_app.bnr_mo { display: none; margin-top: 15px;}
 .bnr_app { display: block; position: relative; background: #95cadd; min-height: 100px; margin-bottom: 15px; padding: 34px 280px 34px 30px; color: #fff; font-size: 22px; text-align: left; -moz-box-sizing: border-box; box-sizing: border-box;}
-.bnr_app:after { display: inline-block; content: ''; position: absolute; right: 40px; bottom: 0; width: 222px; height: 89px; background: url(/images/page/bnr_app_s.png) 0 0 no-repeat;}
+.bnr_app:after { display: inline-block; content: ''; position: absolute; right: 40px; bottom: 0; width: 222px; height: 89px; background: url(https://kobus.co.kr/images/page/bnr_app_s.png) 0 0 no-repeat;}
 .bnr_app strong { font-size: 22px;}
 
 .time_table .route_box { padding: 8px; -moz-box-sizing: border-box; box-sizing: border-box;}
@@ -1108,7 +1108,7 @@ table td.noData {padding:60px 0 !important; font-size:16px; color:#5754b5; text-
 .join_wrap p { position: relative; background: #f3f4f6; padding: 25px 10px;}
 .join_wrap span { display: block; padding-right: 150px; color: #000;  font-size: 14px;}
 .join_wrap a { position: absolute; top: 50%; right: 20px; margin-top: -25px; padding-left: 20px; color: #a1a6b2;   font-size: 14px; line-height: 50px; border-left: 1px solid #e7e8ec;}
-.join_wrap a:before { display: inline-block; content: ''; background:url(/images/common/ico_joinUs_s.png) 0 0 no-repeat; background-size: 100%; width: 30px; height: 24px;  margin: 0 8px -6px 0;}
+.join_wrap a:before { display: inline-block; content: ''; background:url(https://kobus.co.kr/images/common/ico_joinUs_s.png) 0 0 no-repeat; background-size: 100%; width: 30px; height: 24px;  margin: 0 8px -6px 0;}
 .find_wrap { border: 1px solid #e6e6e6; border-bottom: none; -moz-box-sizing: border-box; box-sizing: border-box;}
 .find_box { border-bottom: 1px solid #e6e6e6;}
 .find_input { width: 504px; margin: 30px auto;}
@@ -1140,11 +1140,11 @@ table td.noData {padding:60px 0 !important; font-size:16px; color:#5754b5; text-
 .box_searchId a {display:inline-block; height:26px; margin-left:50px; line-height:25px;}
 .box_searchId a:first-child {margin-left:0;}
 .box_searchId a span {display:block; height:100%; padding-left:38px; font-size:12px; color:#a1a6b2;}
-.box_searchId a span.ico_searchId {background:url(/images/common/ico_searchId_s.png) 0 0 no-repeat;}
+.box_searchId a span.ico_searchId {background:url(https://kobus.co.kr/images/common/ico_searchId_s.png) 0 0 no-repeat;}
 .box_searchId a span.ico_searchId:hover {color:#68b3ce; background-position:0 -30px;}
-.box_searchId a span.ico_searchPW {background:url(/images/common/ico_searchPW_s.png) 0 0 no-repeat;}
+.box_searchId a span.ico_searchPW {background:url(https://kobus.co.kr/images/common/ico_searchPW_s.png) 0 0 no-repeat;}
 .box_searchId a span.ico_searchPW:hover {color:#68b3ce; background-position:0 -30px;}
-.box_searchId a span.ico_joinUs {background:url(/images/common/ico_joinUs_s.png) 0 0 no-repeat;}
+.box_searchId a span.ico_joinUs {background:url(https://kobus.co.kr/images/common/ico_joinUs_s.png) 0 0 no-repeat;}
 .box_searchId a span.ico_joinUs:hover {color:#68b3ce; background-position:0 -81px;}
 
 /* 로그인 레이어팝업 */
@@ -1163,14 +1163,14 @@ table td.noData {padding:60px 0 !important; font-size:16px; color:#5754b5; text-
 .bg_grayBox .box_joinUs {position:absolute; right:10px; top:0; width:130px; height:100%; text-align:center;}
 .bg_grayBox .box_joinUs a { display: block; position: relative; height:100%; color:#a1a6b2;}
 .bg_grayBox .box_joinUs a:before { display: block; content: ""; position: absolute; left:0; top:5%; width:1px; height:90%; background-color:#e7e8ec;}
-.bg_grayBox .box_joinUs a .ico_joinUs { display: inline-block; position: absolute; top: 50%; left: 0; width: 100%; margin-top: -31px; padding-top:45px; background:url(/images/common/ico_joinUs_s.png) center 15px no-repeat; font-size:12px;}
+.bg_grayBox .box_joinUs a .ico_joinUs { display: inline-block; position: absolute; top: 50%; left: 0; width: 100%; margin-top: -31px; padding-top:45px; background:url(https://kobus.co.kr/images/common/ico_joinUs_s.png) center 15px no-repeat; font-size:12px;}
 .bg_grayBox .box_joinUs a:hover .ico_joinUs {color:#68b3ce; background-position: center -66px;}
 
 /* 로그인 배너 */
 .pop_banner_wrap {position:relative; min-height:100px; background-color:#95cadd; text-align:left;}
 .pop_banner_wrap a {display:block; padding-right: 290px; -moz-box-sizing: border-box; box-sizing: border-box;}
 .pop_banner_wrap .bg_ban {display:block; position:absolute; right:0; bottom:0; width:290px; height:85%; text-indent:-9999px;}
-.mobileApp { background: #95cadd url(/images/page/bnr_app_s.png) center bottom no-repeat;}
+.mobileApp { background: #95cadd url(https://kobus.co.kr/images/page/bnr_app_s.png) center bottom no-repeat;}
 .pop_banner_wrap .txt_banner {display:block; padding:22px 0 0 30px; font-size:14px; color:#fff;}
 .pop_banner_wrap .tit_ban {display:block; padding: 0 0 22px 30px; font-size:24px; color:#fff;}
 
@@ -1202,13 +1202,13 @@ table td.noData {padding:60px 0 !important; font-size:16px; color:#5754b5; text-
 .product_wrap [class^='product_type'] { position: relative;}
 .product_wrap [class^='product_type']:before, .product_wrap [class^='product_type']:after { display: block; content: ''; position: absolute; top: 81px; background-size: contain; width: 6px; height: 275px;}
 .product_wrap .product_type1 { float: left; width: 470px;}
-.product_wrap .product_type1:before { left: 0; background: url(/images/page/product_type1L.png) 0 0 no-repeat; }
-.product_wrap .product_type1:after { right: -1px; background: url(/images/page/product_type1R.png) 0 0 no-repeat; }
+.product_wrap .product_type1:before { left: 0; background: url(https://kobus.co.kr/images/page/product_type1L.png) 0 0 no-repeat; }
+.product_wrap .product_type1:after { right: -1px; background: url(https://kobus.co.kr/images/page/product_type1R.png) 0 0 no-repeat; }
 .product_wrap .product_type2 { float: right; width: 470px;}
-.product_wrap .product_type2:before { left: 0; background: url(/images/page/product_type2L.png) 0 0 no-repeat; }
-.product_wrap .product_type2:after { right: 0; background: url(/images/page/product_type2R.png) 0 0 no-repeat; }
+.product_wrap .product_type2:before { left: 0; background: url(https://kobus.co.kr/images/page/product_type2L.png) 0 0 no-repeat; }
+.product_wrap .product_type2:after { right: 0; background: url(https://kobus.co.kr/images/page/product_type2R.png) 0 0 no-repeat; }
 .product_wrap .product_name { min-height: 170px; padding: 25px 20px 30px; text-align: center; color: #fff; -moz-box-sizing: border-box; box-sizing: border-box; border-radius: 15px 15px 0 0 ;}
-.product_wrap .product_name:before { display: block; content: ''; background: url(/images/page/ico_bus.png) center center no-repeat; background-size: auto 29px; width: 56px; height: 56px; margin: 0 auto; border-radius: 50%;}
+.product_wrap .product_name:before { display: block; content: ''; background: url(https://kobus.co.kr/page/ico_bus.png) center center no-repeat; background-size: auto 29px; width: 56px; height: 56px; margin: 0 auto; border-radius: 50%;}
 .product_wrap .product_type1 .product_name:before { background-color: #56a3be;}
 .product_wrap .product_type2 .product_name:before { background-color: #8482bd;}
 .product_wrap .product_name p { font-size: 28px; color: #fff;}
@@ -1226,7 +1226,7 @@ table td.noData {padding:60px 0 !important; font-size:16px; color:#5754b5; text-
 .product_wrap .product_cont p strong { font-weight: normal;}
 .product_wrap .product_cont .basic { color: #000;}
 .product_wrap .product_cont .basic strong { font-size: 40px;}
-.product_wrap .product_cont .add:before { display: block; content: ''; background: url(/images/common/ico_plus_gray.png) 0 0 no-repeat; background-size: contain; width: 16px; height: 16px; margin: 0 auto;}
+.product_wrap .product_cont .add:before { display: block; content: ''; background: url(https://kobus.co.kr/common/ico_plus_gray.png) 0 0 no-repeat; background-size: contain; width: 16px; height: 16px; margin: 0 auto;}
 .product_wrap .product_cont .add strong { font-size: 28px;}
 .product_wrap .product_cont .days { margin-top: 10px; color: #333;}
 .product_wrap .product_cont .days span { color: #999}
@@ -1241,8 +1241,8 @@ span.txt_period {display:inline-block; margin-left:5px; color:#999; font-size:11
 span.txt_period.txt_red {color:#e64c2e;}
 
 /* 정액권 */
-.commuter:before {display:block; content:""; position:absolute; left:0; top:0; z-index:101; width:60px; height:60px; background:url(/images/common/bg_commuter.png) 0 0 no-repeat; background-size:100% auto;}
-.seasonTicket:before {display:block; content:""; position:absolute; left:0; top:0; z-index:101; width:60px; height:60px; background:url(/images/common/bg_seasonTicket.png) 0 0 no-repeat; background-size:100% auto;}
+.commuter:before {display:block; content:""; position:absolute; left:0; top:0; z-index:101; width:60px; height:60px; background:url(https://kobus.co.kr/common/bg_commuter.png) 0 0 no-repeat; background-size:100% auto;}
+.seasonTicket:before {display:block; content:""; position:absolute; left:0; top:0; z-index:101; width:60px; height:60px; background:url(https://kobus.co.kr/common/bg_seasonTicket.png) 0 0 no-repeat; background-size:100% auto;}
 
 /* 정액권 사용내역 팝업 */
 .popTicket_history .cont, .popPay_detail .cont, .pop_pass_route .cont { max-height: 500px; overflow-y: auto;  padding: 0;}
@@ -1288,22 +1288,22 @@ span.txt_period.txt_red {color:#e64c2e;}
 .pass_ticket .tbl_type3 table tbody td.totalPrice { font-size: 26px;}
 
 .tooltip_wrap { position: relative;}
-.tip_click { display: block; position: absolute; top: 8px; right: 8px; background: url(/images/page/ico_tipG.png) 0 0 no-repeat; background-size: 100%; width: 18px; height: 18px; font-size: 0;}
+.tip_click { display: block; position: absolute; top: 8px; right: 8px; background: url(https://kobus.co.kr/page/ico_tipG.png) 0 0 no-repeat; background-size: 100%; width: 18px; height: 18px; font-size: 0;}
 .tooltip { position: absolute; top: -86px; right: 0; display: inline-block; background: #fff; padding: 12px; border: 1px solid #ccc; border-radius: 5px; z-index: 100;}
-.tooltip:after { display: inline-block; content: ''; position: absolute; bottom: -7px; right: 10px; background: url(/images/page/tip_arrow.png) 0 0 no-repeat; background-size: 100%; width: 12px; height: 7px;}
+.tooltip:after { display: inline-block; content: ''; position: absolute; bottom: -7px; right: 10px; background: url(https://kobus.co.kr/page/tip_arrow.png) 0 0 no-repeat; background-size: 100%; width: 12px; height: 7px;}
 .tooltip .tit { margin-bottom: 5px; font-size: 13px; font-weight: bold; color: #000;}
-.tooltip .close { position: absolute; top: 12px; right: 12px; background: url(/images/page/ico_close.png) 0 0 no-repeat; background-size: 100%; width: 11px; height: 11px; font-size: 0;}
+.tooltip .close { position: absolute; top: 12px; right: 12px; background: url(https://kobus.co.kr/page/ico_close.png) 0 0 no-repeat; background-size: 100%; width: 11px; height: 11px; font-size: 0;}
 
 /* 프리패스 */
 .freepass_info,  .freepass_step{ border: 1px solid #ccc; -moz-box-sizing: border-box; box-sizing: border-box;}
 .freepass_info { padding: 40px 10px 40px; border-radius: 10px 10px 0 0; }
-.freepass_info h3 { background: url(/images/page/freepass_info_s.png) center 0 no-repeat; padding-top: 150px; font-size: 28px;}
+.freepass_info h3 { background: url(https://kobus.co.kr/page/freepass_info_s.png) center 0 no-repeat; padding-top: 150px; font-size: 28px;}
 .freepass_info .desc { margin-top: 5px; font-size: 13px; color: #333; text-align: center;}
 .freepass_step { border-radius: 0 0 10px 10px; border-top: none; }
 .freepass_step ol { display: table; width: 100%;}
 .freepass_step li { display: table-cell; width: 25%; padding: 25px 30px; -moz-box-sizing: border-box; box-sizing: border-box;}
 .freepass_step li + li { position: relative; border-left: 1px solid #ccc;}
-.freepass_step li + li:before { display: inline-block; content: ''; position: absolute; top: 50%; left: -15px; background: url(/images/page/step_arrow.png) 0 0 no-repeat; width: 30px; height: 30px; margin-top: -15px;}
+.freepass_step li + li:before { display: inline-block; content: ''; position: absolute; top: 50%; left: -15px; background: url(https://kobus.co.kr/page/step_arrow.png) 0 0 no-repeat; width: 30px; height: 30px; margin-top: -15px;}
 .freepass_step li .step { display: block; margin-bottom: 10px; font-size: 15px; color: #000;}
 .freepass_step li p { font-size: 14px; color: #333;}
 .freepass_step li p a { font-size: 14px;}
@@ -1347,9 +1347,9 @@ span.txt_period.txt_red {color:#e64c2e;}
 #passDate {  width: 475px; margin-top: 15px; border: 1px solid #e6e6e6; -moz-box-sizing: border-box; box-sizing: border-box;}
 .btn-holder { position: relative;padding: 10px 0; text-align: center;border-bottom: 1px solid #e6e6e6;}
 .btn-holder button { position: absolute; top: 15px; width: 23px; height: 31px; padding: 5px; font-size: 0; cursor: pointer;}
-.btn-holder #btnPrev { left: 25px; background: url(/images/common/btn_datepicker_arrow2.png) no-repeat 5px 0;}
+.btn-holder #btnPrev { left: 25px; background: url(https://kobus.co.kr/common/btn_datepicker_arrow2.png) no-repeat 5px 0;}
 .btn-holder #btnPrev.no-click { opacity: 0.3; cursor: auto;}
-.btn-holder #btnNext { right: 25px; background: url(/images/common/btn_datepicker_arrow2.png) no-repeat 5px -31px;}
+.btn-holder #btnNext { right: 25px; background: url(https://kobus.co.kr/common/btn_datepicker_arrow2.png) no-repeat 5px -31px;}
 .btn-holder span { font-size: 30px; color: #000;}
 #calendarDiv table { table-layout: fixed; border-collapse: inherit; border-spacing: 10px; text-align: center;}
 #calendarDiv table a { font-size: inherit;}
@@ -1380,7 +1380,7 @@ span.day-blue-color { color: blue;}
 .inselect .pass_userinput.text label { top: 2px; padding-left: 15px;}
 .inselect .pass_userinput + .pass_userinput { margin-left: 13px;}
 .inselect .pass_userinput .selectric .label { margin: 0; padding: 0 0 3px 0;}
-.inselect .pass_userinput .selectric .button { display: block; background: url(/images/common/bu_selectArrow2_s.png) 0 0 no-repeat;}
+.inselect .pass_userinput .selectric .button { display: block; background: url(https://kobus.co.kr/common/bu_selectArrow2_s.png) 0 0 no-repeat;}
 
 /* 프리패스 사용가능 노선 안내 팝업*/
 .pop_pass_route .cont { min-height: 500px;}
@@ -1403,7 +1403,7 @@ span.day-blue-color { color: blue;}
 .search_wrap.type2 .search_box input { background: transparent;  width: 455px; height: 38px; padding: 0 6px; font-size: 14px; line-height: 38px; border: none; -moz-box-sizing: border-box; box-sizing: border-box;}
 .search_wrap.type2 .search_box input:hover { border: none;}
 .search_wrap.type2 .search_box input:focus { outline: none; border: none;}
-.search_wrap.type2 .search_box button { background: #f3f4f6 url(/images/page/ico_search_s.png) center center no-repeat; width: 45px; height: 38px; font-size: 0;}
+.search_wrap.type2 .search_box button { background: #f3f4f6 url(https://kobus.co.kr/page/ico_search_s.png) center center no-repeat; width: 45px; height: 38px; font-size: 0;}
 .search_wrap + .board_list { margin-top: 30px;}
 .board_list { border-top: 1px solid #999;}
 .board_list li { display: table; width: 100%; table-layout: fixed;  padding-right: 10px; font-size: 14px; color: #999; border-bottom: 1px solid #e6e6e6; vertical-align: top; -moz-box-sizing: border-box; box-sizing: border-box;}
@@ -1412,7 +1412,7 @@ span.day-blue-color { color: blue;}
 .board_list .date { width: 15%; padding-right: 10px; text-align: right; -moz-box-sizing: border-box; box-sizing: border-box;}
 .board_list .cont { width: auto;}
 .board_list .label { background: #f3f4f6; box-sizing: border-box;}	
-.board_list .label .num { background: url(/images/page/label_notice_en_s.png) 0 0 no-repeat; font-size: 0;}
+.board_list .label .num { background: url(https://kobus.co.kr/page/label_notice_en_s.png) 0 0 no-repeat; font-size: 0;}
 .board_list .cont { padding: 15px 15px 15px 0;}
 .board_list .cont p { font-size: 18px; color: #000;}
 .board_list .cont span { display: inline-block; width: 100%; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
@@ -1420,19 +1420,19 @@ span.day-blue-color { color: blue;}
 
 .board_view { border-top: 1px solid #999; border-bottom: 1px solid #e6e6e6;}
 .board_view .title { position: relative; padding: 10px 30px; border-bottom: 1px solid #e6e6e6; -moz-box-sizing: border-box; box-sizing: border-box;}
-.board_view .title.label { background: url(/images/page/label_notice_en_s.png) 0 0 no-repeat;}
+.board_view .title.label { background: url(https://kobus.co.kr/page/label_notice_en_s.png) 0 0 no-repeat;}
 .board_view .title  p { padding-right: 100px; font-size: 18px; color: #000;}
 .board_view .title span { display: block; position: absolute; top: 15px; right: 20px; line-height: 18px; text-align: right; font-size: 14px; color: #999;}
 .board_view { border-bottom: 1px solid #e6e6e6;}
 .board_view .file { padding: 15px 30px; border-bottom: 1px solid #e6e6e6;}
 .board_view .file li + li { margin-top: 10px;}
 .board_view .file a { display: block; padding-left: 25px; font-size: 13px; color: #999; min-height: 18px; line-height: 18px;}
-.board_view .file .hwp { background: url(/images/page/ico_hwp_s.png) 0 0 no-repeat;}
-.board_view .file .doc { background: url(/images/page/ico_doc_s.png) 0 0 no-repeat;}
-.board_view .file .xls { background: url(/images/page/ico_xls_s.png) 0 0 no-repeat;}
-.board_view .file .ppt { background: url(/images/page/ico_ppt_s.png) 0 0 no-repeat;}
-.board_view .file .img { background: url(/images/page/ico_img_s.png) 0 0 no-repeat;}
-.board_view .file .pdf { background: url(/images/page/ico_pdf_s.png) 0 0 no-repeat;}
+.board_view .file .hwp { background: url(https://kobus.co.kr/page/ico_hwp_s.png) 0 0 no-repeat;}
+.board_view .file .doc { background: url(https://kobus.co.kr/page/ico_doc_s.png) 0 0 no-repeat;}
+.board_view .file .xls { background: url(https://kobus.co.kr/page/ico_xls_s.png) 0 0 no-repeat;}
+.board_view .file .ppt { background: url(https://kobus.co.kr/page/ico_ppt_s.png) 0 0 no-repeat;}
+.board_view .file .img { background: url(https://kobus.co.kr/page/ico_img_s.png) 0 0 no-repeat;}
+.board_view .file .pdf { background: url(https://kobus.co.kr/page/ico_pdf_s.png) 0 0 no-repeat;}
 .board_view .cont { min-height: 300px; padding: 15px 30px;}
 .board_view .cont * { font-size: 14px;}
 
@@ -1440,7 +1440,7 @@ span.day-blue-color { color: blue;}
 .faq dt { position: relative; padding: 15px 45px 15px 50px; font-size: 16px; color: #000; border-bottom: 1px solid #f1f2f4; cursor: pointer;}
 .faq dt:before, .faq dd:before { display: inline-block; font-size: 16px; }
 .faq dt:before { content: 'Q.'; position: absolute; top: 15px; left: 20px; ; color: #bc4ac0;}
-.faq dt:after { display: inline-block; content: ''; position: absolute; top: 50%; right: 20px; background: url(/images/page/arrow_faq.png) 0 0 no-repeat; background-size: 18px auto; width: 18px; height: 10px; margin-top: -5px;}
+.faq dt:after { display: inline-block; content: ''; position: absolute; top: 50%; right: 20px; background: url(https://kobus.co.kr/page/arrow_faq.png) 0 0 no-repeat; background-size: 18px auto; width: 18px; height: 10px; margin-top: -5px;}
 .faq dt.active:after { background-position: 0 -10px;}
 .faq dt.active { border: 2px solid #bc4ac0; border-bottom: none;}
 .faq dd.active { border: 2px solid #bc4ac0; border-top: none;}
@@ -1474,12 +1474,12 @@ span.day-blue-color { color: blue;}
 .ticket_noti li { float: left; width: -webkit-calc(100% / 3); width: -moz-calc(100% / 3); width: calc(100% / 3);  padding: 0 15px 30px 15px; font-size: 14px; color: #333; text-align: center;-moz-box-sizing: border-box; box-sizing: border-box;}
 .ticket_noti li a { font-size: inherit;}
 .ticket_noti li:before { display: block; content: ''; width: 80px; height: 70px; margin: 0 auto 5px auto;}
-.ticket_noti .noti01:before { background: url(/images/page/ico_info1.png) 0 0 no-repeat; background-size: contain;}
-.ticket_noti .noti02:before { background: url(/images/page/ico_info2.png) 0 0 no-repeat; background-size: contain;}
-.ticket_noti .noti03:before { background: url(/images/page/ico_info3.png) 0 0 no-repeat; background-size: contain;}
-.ticket_noti .noti04:before { background: url(/images/page/ico_info4.png) 0 0 no-repeat; background-size: contain;}
-.ticket_noti .noti05:before { background: url(/images/page/ico_info5.png) 0 0 no-repeat; background-size: contain;}
-.ticket_noti .noti06:before { background: url(/images/page/ico_info6.png) 0 0 no-repeat; background-size: contain;}
+.ticket_noti .noti01:before { background: url(https://kobus.co.kr/page/ico_info1.png) 0 0 no-repeat; background-size: contain;}
+.ticket_noti .noti02:before { background: url(https://kobus.co.kr/page/ico_info2.png) 0 0 no-repeat; background-size: contain;}
+.ticket_noti .noti03:before { background: url(https://kobus.co.kr/page/ico_info3.png) 0 0 no-repeat; background-size: contain;}
+.ticket_noti .noti04:before { background: url(https://kobus.co.kr/page/ico_info4.png) 0 0 no-repeat; background-size: contain;}
+.ticket_noti .noti05:before { background: url(https://kobus.co.kr/page/ico_info5.png) 0 0 no-repeat; background-size: contain;}
+.ticket_noti .noti06:before { background: url(https://kobus.co.kr/page/ico_info6.png) 0 0 no-repeat; background-size: contain;}
 .ticketing_info .tbl_stit { margin: 10px 0 5px; font-size: 16px; font-weight: bold;  color: #000;}
 .tbl_type1 + .bul { margin-top: 15px;}
 .epass_wrap .bul { margin: 10px 0;}
@@ -1490,7 +1490,7 @@ span.day-blue-color { color: blue;}
 .self_chk p + p { border-left: 1px solid #fff; -moz-box-sizing: border-box; box-sizing: border-box;}
 .self_chk p img { width: auto; height: 200px;}
 .self_chk p span { display: block; margin-top: 5px; font-size: 14px; color: #000;}
-.e_pass { position: relative; height: 215px; background: #f3f4f6 url(/images/page/info_card.png) 45% 0 no-repeat; background-size: contain;}
+.e_pass { position: relative; height: 215px; background: #f3f4f6 url(https://kobus.co.kr/page/info_card.png) 45% 0 no-repeat; background-size: contain;}
 .e_pass p  { position: absolute; left: 45%; margin-left: 100px; font-size: 14px; color: #000;}
 .e_pass .card_tag { top: 85px;}
 .e_pass .credit_card { bottom: 40px;}
@@ -1502,10 +1502,10 @@ span.day-blue-color { color: blue;}
 .payment_info .desc_list li { margin-left: 170px; font-size: 14px; color: #000;}
 .payment_info .desc_list li + li { margin-top: 10px;}
 .payment_info .desc_list:before { display: inline-block; content: ''; position: absolute; top: 0; left: 0; width: 130px; height: 130px; border-radius: 50%;}
-.payment_info .desc_list.card:before { background: #f3f4f7 url(/images/page/ico_card.png) center center no-repeat; background-size: 70px auto;}
-.payment_info .desc_list.account:before { background: #f3f4f7 url(/images/page/ico_account.png) center center no-repeat; background-size: 70px auto;}
-.payment_info .desc_list.add_product:before { background: #f3f4f7 url(/images/page/ico_ticket.png) center center no-repeat; background-size: 70px auto;}
-.payment_info .desc_list.refund:before { background: #f3f4f7 url(/images/page/ico_refund.png) center center no-repeat; background-size: 70px auto;}
+.payment_info .desc_list.card:before { background: #f3f4f7 url(https://kobus.co.kr/page/ico_card.png) center center no-repeat; background-size: 70px auto;}
+.payment_info .desc_list.account:before { background: #f3f4f7 url(https://kobus.co.kr/page/ico_account.png) center center no-repeat; background-size: 70px auto;}
+.payment_info .desc_list.add_product:before { background: #f3f4f7 url(https://kobus.co.kr/page/ico_ticket.png) center center no-repeat; background-size: 70px auto;}
+.payment_info .desc_list.refund:before { background: #f3f4f7 url(https://kobus.co.kr/page/ico_refund.png) center center no-repeat; background-size: 70px auto;}
 
 .payment_info .desc_list + .tbl_wrap { margin: 40px 0 0 170px;}
 .tbl_wrap.col2 [class*='tbl_'] { position: relative; float: left; width: -webkit-calc( 50% - 10px); -moz-width: calc( 50% - 10px); width: calc( 50% - 10px);}
@@ -1587,7 +1587,7 @@ span.day-blue-color { color: blue;}
 .ceo_list {margin:-0.41%;}
 .ceo_list li {float:left; width:32.5%; margin:0.41%;}
 .ceo_list li .inner {overflow:hidden; position:relative; height:171px; border:1px solid #e6e6e6;}
-.ceo_list li .inner .box_name {display:block; position:absolute; left:0; top:0;  width:36.8%; padding-top:85px; background:url(/images/page/bg_ceoMark.png) center 30px no-repeat; text-align:center; font-size:16px; color:#000; font-weight:bold;}
+.ceo_list li .inner .box_name {display:block; position:absolute; left:0; top:0;  width:36.8%; padding-top:85px; background:url(https://kobus.co.kr/page/bg_ceoMark.png) center 30px no-repeat; text-align:center; font-size:16px; color:#000; font-weight:bold;}
 .ceo_list li .inner .ceo_desc {position:relative; top:87px; margin-left:36.8%; padding-left:12px; border-left:1px solid #e6e6e6;}
 .ceo_list li .inner .ceo_desc > span {display:block;}
 .ceo_list li .inner .ceo_desc .txt_puple {font-size:14px;}
@@ -1660,9 +1660,9 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 /* 에러페이지 */
 #wrap.noticeWrap { min-height: auto; padding: 65px 0 0;}
 #wrap.noticeWrap .logo { text-align: center;}
-#wrap.noticeWrap .logo a { display: inline-block; background: url(/images/common/notice_logo.png) center 0 no-repeat; background-size: 50px auto; padding-top: 56px; font-size: 12px; font-weight: bold; letter-spacing: -0.05em;}
+#wrap.noticeWrap .logo a { display: inline-block; background: url(https://kobus.co.kr/common/notice_logo.png) center 0 no-repeat; background-size: 50px auto; padding-top: 56px; font-size: 12px; font-weight: bold; letter-spacing: -0.05em;}
 #wrap.noticeWrap .notice_cont { width: 800px; margin: 40px auto 0  auto; padding: 50px 50px 60px; border: 1px solid #e6e6e6; text-align: center; -moz-box-sizing: border-box; box-sizing: border-box;}
-#wrap.noticeWrap .txt_wrap { background: url(/images/common/notice_img.png) center bottom no-repeat; background-size: auto 116px; padding-bottom: 150px;}
+#wrap.noticeWrap .txt_wrap { background: url(https://kobus.co.kr/common/notice_img.png) center bottom no-repeat; background-size: auto 116px; padding-bottom: 150px;}
 #wrap.noticeWrap h2 { font-size: 30px; color: #000;}
 #wrap.noticeWrap .desc { margin-top: 5px; font-size: 15px;}
 #wrap.noticeWrap .notice_cont .btns { margin-top: 40px;}
@@ -1687,16 +1687,16 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 .box_siteMap .box_list ul li a:hover {color:#68b3ce;}
 
 /* mobile index */
-.mobile_index { display: block; position: relative; background: url(/images/common/mobile_index.jpg) 0 0 no-repeat; background-size: cover; -moz-box-sizing: border-box; box-sizing: border-box;}
+.mobile_index { display: block; position: relative; background: url(https://kobus.co.kr/common/mobile_index.jpg) 0 0 no-repeat; background-size: cover; -moz-box-sizing: border-box; box-sizing: border-box;}
 .mobile_index h1 { padding-top: 60px; font-size: 23px; font-weight: bold; color: #fff; text-align: center;}
-.mobile_index h1:before { display : block; content: ''; background: url(/images/common/mo_menu1.png) 0 0 no-repeat; background-size: 100%; width: 96px; height: 96px; margin: 0 auto 20px auto;}
+.mobile_index h1:before { display : block; content: ''; background: url(https://kobus.co.kr/common/mo_menu1.png) 0 0 no-repeat; background-size: 100%; width: 96px; height: 96px; margin: 0 auto 20px auto;}
 .mobile_index .link { position: absolute; bottom: 0; left: 0; width: 100%;}
 .mobile_index .link li { text-align: center; padding: 20px 0; -moz-box-sizing: border-box; box-sizing: border-box;}
 .mobile_index .link .app { background: rgba(80, 114, 158, 0.7);}
 .mobile_index .link .lang { background: rgba(80, 77, 137, 0.7);}
 .mobile_index .link li p { color: #fff;}
 .mobile_index .link li .desc { margin-bottom: 20px;}
-.mobile_index .link li a {  background: url(/images/common/mo_arrow.png) right center no-repeat; background-size: 7px auto; padding-right: 15px; font-size: 15px; font-weight: bold; color: #fff;}
+.mobile_index .link li a {  background: url(https://kobus.co.kr/common/mo_arrow.png) right center no-repeat; background-size: 7px auto; padding-right: 15px; font-size: 15px; font-weight: bold; color: #fff;}
 .mobile_index .link_area { font-size: 0;}
 .mobile_index .link_area a + a { margin-left: 30px;}
 
@@ -1846,25 +1846,25 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 	/* main */
 	.main #contents { background: none; padding-top: 0 !important;}
 	.main_box { display: none;}
-	.mo_menu { display: block; background: url(/images/common/mo_main_bg.jpg) center center no-repeat; background-size: cover;}
+	.mo_menu { display: block; background: url(https://kobus.co.kr/common/mo_main_bg.jpg) center center no-repeat; background-size: cover;}
 	.mo_menu li { display: table; width: 100%;}
 	.mo_menu a { display: table-cell; position: relative; width: 100%; min-height: 106px; padding: 38px 30px 38px 96px; font-size: 22px; color: #fff; vertical-align: middle; box-sizing: border-box;}
 	.mo_menu li:first-child a { padding-top: 56px;}
 	.mo_menu a:before { display: inline-block; content: ''; position: absolute; top: 50%; left: 18px; width: 62px; height: 62px; margin-top: -31px;}
-	.mo_menu a:after { display: inline-block; content: ''; position: absolute; top: 50%; right: 18px; background: url(/images/common/mo_arrow.png) 0 0 no-repeat; background-size: 100%; width: 11px; height: 20px; margin-top: -10px;}
+	.mo_menu a:after { display: inline-block; content: ''; position: absolute; top: 50%; right: 18px; background: url(https://kobus.co.kr/common/mo_arrow.png) 0 0 no-repeat; background-size: 100%; width: 11px; height: 20px; margin-top: -10px;}
 	.mo_menu .menu2 { background: rgba(68, 104, 158, 0.5);}
 	.mo_menu .menu2 .cnt { display: inline-block; background: #eea927; width: 25px; height: 25px; font-size: 14px; font-weight: bold; color: #000; text-align: center; line-height: 25px; border-radius: 50%;}
 	.mo_menu .menu3 { background: rgba(71, 33, 121, 0.5);}
-	.mo_menu .menu1 a:before { background: url(/images/common/mo_menu1.png) 0 0 no-repeat; background-size: 100%; margin-top: -22px;}
+	.mo_menu .menu1 a:before { background: url(https://kobus.co.kr/common/mo_menu1.png) 0 0 no-repeat; background-size: 100%; margin-top: -22px;}
 	.mo_menu .menu1 a:after { margin-top: -1px;}
-	.mo_menu .menu2 a:before { background: url(/images/common/mo_menu2.png) 0 0 no-repeat; background-size: 100%;}
-	.mo_menu .menu3 a:before { background: url(/images/common/mo_menu3.png) 0 0 no-repeat; background-size: 100%;}
+	.mo_menu .menu2 a:before { background: url(https://kobus.co.kr/common/mo_menu2.png) 0 0 no-repeat; background-size: 100%;}
+	.mo_menu .menu3 a:before { background: url(https://kobus.co.kr/common/mo_menu3.png) 0 0 no-repeat; background-size: 100%;}
 	.main .mo_util { display: block; min-height: 91px;}
 	.main .mo_util a { display: block; float: left; width: 25%; padding: 58px 0 18px; text-align: center; box-sizing: border-box;}
-	.main .mo_util .util1 { background: #f2f8fa url(/images/common/mo_util1.png) center 20px no-repeat; background-size: auto 31px;}
-	.main .mo_util .util2 { background: #f2f8fa url(/images/common/mo_util2.png) center 22px no-repeat; background-size: auto 28px;}
-	.main .mo_util .util3 { background: #f2f8fa url(/images/common/mo_util3.png) center 19px no-repeat; background-size: auto 32px;}
-	.main .mo_util .util4 { background: #f2f8fa url(/images/common/mo_util4.png) center 18px no-repeat; background-size: auto 34px;}
+	.main .mo_util .util1 { background: #f2f8fa url(https://kobus.co.kr/common/mo_util1.png) center 20px no-repeat; background-size: auto 31px;}
+	.main .mo_util .util2 { background: #f2f8fa url(https://kobus.co.kr/common/mo_util2.png) center 22px no-repeat; background-size: auto 28px;}
+	.main .mo_util .util3 { background: #f2f8fa url(https://kobus.co.kr/common/mo_util3.png) center 19px no-repeat; background-size: auto 32px;}
+	.main .mo_util .util4 { background: #f2f8fa url(https://kobus.co.kr/common/mo_util4.png) center 18px no-repeat; background-size: auto 34px;}
 	.bnr_box { position: static; height: auto;}
 	.bnr_box > div { float: none; width: 100%; min-height: 115px; padding: 15px 0 15px 15px; border-bottom: 1px solid #f2f8fa;}
 	.bnr_box .main_bus, .bnr_box .main_app { background-color: rgba(255, 255, 255, 1); background-position:right 16px;}
@@ -1878,7 +1878,7 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 
 	/* 메인공지팝업 */
 	.noti_pop_wrap .noti_pop { width: 100%;}
-	.noti_pop .pop_tit:before { background-image: url(/images/common/pop_logo_s.png); background-size: 26px auto;}
+	.noti_pop .pop_tit:before { background-image: url(https://kobus.co.kr/common/pop_logo_s.png); background-size: 26px auto;}
 	.noti_pop_wrap .pop_cont { max-width: 100%;}
 	.noti_pop .pop_cont_wrap { overflow-y: auto;}
 	.noti_pop .btns * { width: 48.5%;}
@@ -1886,33 +1886,33 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 	/* title_wrap bg */
 	
 	/* 예매 */
-	.title_wrap.route_chk { background-image: url(/images/page/visual_route_bg_mo.jpg); background-size: cover;}
+	.title_wrap.route_chk { background-image: url(https://kobus.co.kr/page/visual_route_bg_mo.jpg); background-size: cover;}
 	/* 예매확인 */
-	.title_wrap.chk_ticket { background-image: url(/images/page/visual_chkTicket_bg_mo.jpg); background-size: cover;}
+	.title_wrap.chk_ticket { background-image: url(https://kobus.co.kr/page/visual_chkTicket_bg_mo.jpg); background-size: cover;}
 	/* 운행정보 */
-	.title_wrap.drivingInfoT { background: url(/images/page/visual_drivingInfoT_mo.jpg); background-size: cover;}
+	.title_wrap.drivingInfoT { background: url(https://kobus.co.kr/page/visual_drivingInfoT_mo.jpg); background-size: cover;}
 	/* 부가상품 상품구매 */
-	.title_wrap.addProductsT { background: url(/images/page/visual_addProductsT_bg_mo.jpg); background-size: cover;}
+	.title_wrap.addProductsT { background: url(https://kobus.co.kr/page/visual_addProductsT_bg_mo.jpg); background-size: cover;}
 	/* 부가상품(프리패스) */
-	.title_wrap.freepassT { background: url(/images/page/visual_freepassT_bg_mo.jpg); background-size: cover;}
+	.title_wrap.freepassT { background: url(https://kobus.co.kr/page/visual_freepassT_bg_mo.jpg); background-size: cover;}
 	/* 부가상품 구매확인 */
-	.title_wrap.addProductsT_com { background: url(/images/page/visual_addProductsT_com_bg_mo.jpg); background-size: cover;}
+	.title_wrap.addProductsT_com { background: url(https://kobus.co.kr/page/visual_addProductsT_com_bg_mo.jpg); background-size: cover;}
 	/* 고객센터 */
-	.title_wrap.customerT { background: url(/images/page/visual_customerT_bg_mo.jpg); background-size: cover;}
+	.title_wrap.customerT { background: url(https://kobus.co.kr/page/visual_customerT_bg_mo.jpg); background-size: cover;}
 	/* 이용안내 */
-	.title_wrap.informationT { background: url(/images/page/visual_informationT_bg_mo.jpg); background-size: cover;}
+	.title_wrap.informationT { background: url(https://kobus.co.kr/page/visual_informationT_bg_mo.jpg); background-size: cover;}
 	/* 전국고속버스운송사업조합 */
-	.title_wrap.businessT { background: url(/images/page/visual_businessT_bg_mo.jpg); background-size: cover;}
+	.title_wrap.businessT { background: url(https://kobus.co.kr/page/visual_businessT_bg_mo.jpg); background-size: cover;}
 	/* 사이트 맵 */
-	.title_wrap.siteMapT { background: url(/images/page/visual_siteMapT_bg_mo.jpg); background-size: cover;}
+	.title_wrap.siteMapT { background: url(https://kobus.co.kr/page/visual_siteMapT_bg_mo.jpg); background-size: cover;}
 	/* 터미널사업자협회 */
-	.title_wrap.associationT { background: url(/images/page/visual_associationT_bg_mo.jpg); background-size: cover;}
+	.title_wrap.associationT { background: url(https://kobus.co.kr/page/visual_associationT_bg_mo.jpg); background-size: cover;}
 	/* 회원가입 */
-	.title_wrap.joinT { background: url(/images/page/visual_joinT_bg_mo.jpg); background-size: cover;}	
+	.title_wrap.joinT { background: url(https://kobus.co.kr/page/visual_joinT_bg_mo.jpg); background-size: cover;}	
 	/* 약관 */
-	.title_wrap.termsT { background: url(/images/page/visual_termsT_bg_mo.jpg); background-size: cover;}
+	.title_wrap.termsT { background: url(https://kobus.co.kr/page/visual_termsT_bg_mo.jpg); background-size: cover;}
 	/* 마이페이지 서브 */
-	.title_wrap.mypageT { background: url(/images/page/visual_mobile_mypage.jpg); background-size: cover;}
+	.title_wrap.mypageT { background: url(https://kobus.co.kr/page/visual_mobile_mypage.jpg); background-size: cover;}
 
 	/* 노선조회 */
 	h3 { display: none;}
@@ -1925,7 +1925,7 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 	.route_box .tabs > li { height: 40px;}
 	.route_box .tabs > li > a { padding: 8px 0 8px 30px; font-size: 15px;}
 	.route_box .oneway { position: static;}
-	.route_box .tabs li.active a:after { background-image: url(/images/page/ico_tab_on.png); background-size: 100%;}
+	.route_box .tabs li.active a:after { background-image: url(https://kobus.co.kr/page/ico_tab_on.png); background-size: 100%;}
 	.route_box .oneway .radio_area { top: inherit; right: inherit; bottom: -40px; left: 0; background: #fff; width: 100%; height: 30px;}
 	.route_box .oneway .radio_area .custom_radio { float: left; width: 50%; margin-left: 0 !important; text-align: center;  line-height: 30px;}
 	.route_box .tab_cont { padding: 10px 8px 8px;}
@@ -1954,19 +1954,19 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 	.customer_box .info_tel { background: rgba(0, 0, 0, 0.1); margin-top: 10px; padding: 12px 17px;}
 	.customer_box .info_tel:before { display: none;}
 	
-	.route_box .grade1 label { background-image: url(/images/page/ico_grade1.png);}
-	.route_box .grade2 label { background-image: url(/images/page/ico_grade2.png);}
-	.route_box .grade3 label { background-image: url(/images/page/ico_grade3.png);}
+	.route_box .grade1 label { background-image: url(https://kobus.co.kr/page/ico_grade1.png);}
+	.route_box .grade2 label { background-image: url(https://kobus.co.kr/page/ico_grade2.png);}
+	.route_box .grade3 label { background-image: url(https://kobus.co.kr/page/ico_grade3.png);}
 	.route_box .grade1 label, .route_box .grade2 label, .route_box .grade3 label { background-size: auto 21px !important; padding-top: 2px;}
-	.route_box .gradeAll input:checked + label { background-image: url(/images/page/ico_grade_on.png); background-size: 11px auto;}
-	.route_box .grade1 label:hover, .route_box .grade1 input:checked + label { background-image: url(/images/page/ico_grade1_on.png);}
-	.route_box .grade1 label:before { background-image: url(/images/page/ico_main_premium.png);  background-size: auto 14px !important;}
-	.route_box .grade1 label:hover:before, .route_box .grade1 input:checked + label:before { background-image: url(/images/page/ico_main_premium_on.png);}
-	.route_box .grade2 input + label:hover, .route_box .grade2 input:checked + label { background-image: url(/images/page/ico_grade2_on.png);}
-	.route_box .grade3 input + label:hover, .route_box .grade3 input:checked + label { background-image: url(/images/page/ico_grade3_on.png);}
+	.route_box .gradeAll input:checked + label { background-image: url(https://kobus.co.kr/page/ico_grade_on.png); background-size: 11px auto;}
+	.route_box .grade1 label:hover, .route_box .grade1 input:checked + label { background-image: url(https://kobus.co.kr/page/ico_grade1_on.png);}
+	.route_box .grade1 label:before { background-image: url(https://kobus.co.kr/page/ico_main_premium.png);  background-size: auto 14px !important;}
+	.route_box .grade1 label:hover:before, .route_box .grade1 input:checked + label:before { background-image: url(https://kobus.co.kr/page/ico_main_premium_on.png);}
+	.route_box .grade2 input + label:hover, .route_box .grade2 input:checked + label { background-image: url(https://kobus.co.kr/page/ico_grade2_on.png);}
+	.route_box .grade3 input + label:hover, .route_box .grade3 input:checked + label { background-image: url(https://kobus.co.kr/page/ico_grade3_on.png);}
 
-	.route_box .grade .custom_radio input:checked + label:after { top: 0; background-image: url(/images/page/ico_grade_on.png); background-size: 11px auto;}
-	.route_box .grade .grade1 input:checked + label:after { background-image: url(/images/page/ico_gradeY_on.png); background-size: 11px auto;}
+	.route_box .grade .custom_radio input:checked + label:after { top: 0; background-image: url(https://kobus.co.kr/page/ico_grade_on.png); background-size: 11px auto;}
+	.route_box .grade .grade1 input:checked + label:after { background-image: url(https://kobus.co.kr/page/ico_gradeY_on.png); background-size: 11px auto;}
 
 	/* 출/도착지 선택 팝업 */
 	.remodal.pop_place, .remodal-wrapper:after { vertical-align: top !important;}
@@ -1980,7 +1980,7 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 	.pop_place .place .text { font-size: 22px;}
 	.pop_place .search_wrap { padding: 8px 8px 0;}
 	.pop_place .search_wrap p { margin-top: 0;}
-	.pop_place .search_wrap .btn { background-image: url(/images/page/ico_search.png); background-size: 22px auto;}
+	.pop_place .search_wrap .btn { background-image: url(https://kobus.co.kr/page/ico_search.png); background-size: 22px auto;}
 	.pop_place .start_wrap, .pop_place .terminal_wrap, .pop_place  .search_wrap { margin-top: 8px; padding-top: 8px;}
 	.pop_place .btns .remodal-confirm { width: 100%;}
 	.pop_place .ternimal_box, .pop_place .area_scroll, .pop_place .terminal_scroll { height: 235px;}
@@ -2020,7 +2020,7 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 	.buscheck_wrap .infoBox { height: auto; min-height: 100px; padding-bottom: 0;}
 	.buscheck_wrap .detailBox { width: 100%;}
 	.btn_price { display: block; position: absolute; top: 20px; right: 20px; font-size: 14px; color: #fff;}
-	.btn_price:after { display: inline-block; content: ''; background: url(/images/page/ico_tip.png) 0 0 no-repeat; background-size: 100%; width: 18px; height: 18px; margin: 0 0 -4px 5px;}
+	.btn_price:after { display: inline-block; content: ''; background: url(https://kobus.co.kr/page/ico_tip.png) 0 0 no-repeat; background-size: 100%; width: 18px; height: 18px; margin: 0 0 -4px 5px;}
 	.price_info { display: none;}
 	.buscheck_wrap .date { display: none;}
 	.buscheck_wrap .route_wrap, .compare_wrap .route_wrap { float: none; width: 100%; padding: 20px; border-bottom: 1px solid #86c2d8; -moz-box-sizing: border-box; box-sizing: border-box;}
@@ -2032,39 +2032,39 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 	.bustime_wrap .start_time { width: 27%;}
 	.bustime_wrap .bus_info { width: 40%;}
 
-	.dyexpress { background: url(/images/page/bus_dyexpress_on.png) 0 0 no-repeat;}
-	.samhwa { background: url(/images/page/bus_samhwa_on.png) 0 0 no-repeat;}
-	.jabus { background: url(/images/page/bus_jabus_on.png) 0 0 no-repeat;}
-	.kumho { background: url(/images/page/bus_kumho_on.png) 0 0 no-repeat;}
-	.chunil { background: url(/images/page/bus_chunil_on.png) 0 0 no-repeat;}
-	.hanil { background: url(/images/page/bus_hanil_on.png) 0 0 no-repeat;} 
-	.dongbu { background: url(/images/page/bus_dongbu_on.png) 0 0 no-repeat;}
-	.songnisan { background: url(/images/page/bus_songnisan_on.png) 0 0 no-repeat;}
-	.kobus { background: url(/images/page/bus_kobus_on.png) 0 0 no-repeat;}
-	.chungnam { background: url(/images/page/bus_chungnam_on.png) 0 0 no-repeat;}
-	.chunyeo { background: url(/images/page/bus_chunyeo_on.png) 0 0 no-repeat;}
-	.daewon { background: url(/images/page/bus_daewon_on.png) 0 0 no-repeat;}
-	.gyeonggi { background: url(/images/page/bus_gyeonggi_on.png) 0 0 no-repeat;}
-	.hanyang { background: url(/images/page/bus_hanyang_on.png) 0 0 no-repeat;}
-	.kyongbuk { background: url(/images/page/bus_kyongbuk_on.png) 0 0 no-repeat;}
-	.seoul { background: url(/images/page/bus_seoul_on.png) 0 0 no-repeat;}
+	.dyexpress { background: url(https://kobus.co.kr/page/bus_dyexpress_on.png) 0 0 no-repeat;}
+	.samhwa { background: url(https://kobus.co.kr/page/bus_samhwa_on.png) 0 0 no-repeat;}
+	.jabus { background: url(https://kobus.co.kr/page/bus_jabus_on.png) 0 0 no-repeat;}
+	.kumho { background: url(https://kobus.co.kr/page/bus_kumho_on.png) 0 0 no-repeat;}
+	.chunil { background: url(https://kobus.co.kr/page/bus_chunil_on.png) 0 0 no-repeat;}
+	.hanil { background: url(https://kobus.co.kr/page/bus_hanil_on.png) 0 0 no-repeat;} 
+	.dongbu { background: url(https://kobus.co.kr/page/bus_dongbu_on.png) 0 0 no-repeat;}
+	.songnisan { background: url(https://kobus.co.kr/page/bus_songnisan_on.png) 0 0 no-repeat;}
+	.kobus { background: url(https://kobus.co.kr/page/bus_kobus_on.png) 0 0 no-repeat;}
+	.chungnam { background: url(https://kobus.co.kr/page/bus_chungnam_on.png) 0 0 no-repeat;}
+	.chunyeo { background: url(https://kobus.co.kr/page/bus_chunyeo_on.png) 0 0 no-repeat;}
+	.daewon { background: url(https://kobus.co.kr/page/bus_daewon_on.png) 0 0 no-repeat;}
+	.gyeonggi { background: url(https://kobus.co.kr/page/bus_gyeonggi_on.png) 0 0 no-repeat;}
+	.hanyang { background: url(https://kobus.co.kr/page/bus_hanyang_on.png) 0 0 no-repeat;}
+	.kyongbuk { background: url(https://kobus.co.kr/page/bus_kyongbuk_on.png) 0 0 no-repeat;}
+	.seoul { background: url(https://kobus.co.kr/page/bus_seoul_on.png) 0 0 no-repeat;}
 
-	.noselect .dyexpress { background: url(/images/page/bus_dyexpress_off.png) 0 0 no-repeat;}
-	.noselect .samhwa { background: url(/images/page/bus_samhwa_off.png) 0 0 no-repeat;}
-	.noselect .jabus { background: url(/images/page/bus_jabus_off.png) 0 0 no-repeat;}
-	.noselect .kumho { background: url(/images/page/bus_kumho_off.png) 0 0 no-repeat;}
-	.noselect .chunil { background: url(/images/page/bus_chunil_off.png) 0 0 no-repeat;}
-	.noselect .hanil { background: url(/images/page/bus_hanil_off.png) 0 0 no-repeat;} 
-	.noselect .dongbu { background: url(/images/page/bus_dongbu_off.png) 0 0 no-repeat;}
-	.noselect .songnisan { background: url(/images/page/bus_songnisan_off.png) 0 0 no-repeat;}
-	.noselect .kobus { background: url(/images/page/bus_kobus_off.png) 0 0 no-repeat;}
-	.noselect .chungnam { background: url(/images/page/bus_chungnam_off.png) 0 0 no-repeat;}
-	.noselect .chunyeo { background: url(/images/page/bus_chunyeo_off.png) 0 0 no-repeat;}
-	.noselect .daewon { background: url(/images/page/bus_daewon_off.png) 0 0 no-repeat;}
-	.noselect .gyeonggi { background: url(/images/page/bus_gyeonggi_off.png) 0 0 no-repeat;}
-	.noselect .hanyang { background: url(/images/page/bus_hanyang_off.png) 0 0 no-repeat;}
-	.noselect .kyongbuk { background: url(/images/page/bus_kyongbuk_off.png) 0 0 no-repeat;}
-	.noselect .seoul { background: url(/images/page/bus_seoul_off.png) 0 0 no-repeat;}
+	.noselect .dyexpress { background: url(https://kobus.co.kr/page/bus_dyexpress_off.png) 0 0 no-repeat;}
+	.noselect .samhwa { background: url(https://kobus.co.kr/page/bus_samhwa_off.png) 0 0 no-repeat;}
+	.noselect .jabus { background: url(https://kobus.co.kr/page/bus_jabus_off.png) 0 0 no-repeat;}
+	.noselect .kumho { background: url(https://kobus.co.kr/page/bus_kumho_off.png) 0 0 no-repeat;}
+	.noselect .chunil { background: url(https://kobus.co.kr/page/bus_chunil_off.png) 0 0 no-repeat;}
+	.noselect .hanil { background: url(https://kobus.co.kr/page/bus_hanil_off.png) 0 0 no-repeat;} 
+	.noselect .dongbu { background: url(https://kobus.co.kr/page/bus_dongbu_off.png) 0 0 no-repeat;}
+	.noselect .songnisan { background: url(https://kobus.co.kr/page/bus_songnisan_off.png) 0 0 no-repeat;}
+	.noselect .kobus { background: url(https://kobus.co.kr/page/bus_kobus_off.png) 0 0 no-repeat;}
+	.noselect .chungnam { background: url(https://kobus.co.kr/page/bus_chungnam_off.png) 0 0 no-repeat;}
+	.noselect .chunyeo { background: url(https://kobus.co.kr/page/bus_chunyeo_off.png) 0 0 no-repeat;}
+	.noselect .daewon { background: url(https://kobus.co.kr/page/bus_daewon_off.png) 0 0 no-repeat;}
+	.noselect .gyeonggi { background: url(https://kobus.co.kr/page/bus_gyeonggi_off.png) 0 0 no-repeat;}
+	.noselect .hanyang { background: url(https://kobus.co.kr/page/bus_hanyang_off.png) 0 0 no-repeat;}
+	.noselect .kyongbuk { background: url(https://kobus.co.kr/page/bus_kyongbuk_off.png) 0 0 no-repeat;}
+	.noselect .seoul { background: url(https://kobus.co.kr/page/bus_seoul_off.png) 0 0 no-repeat;}
 
 	.dyexpress, .samhwa, .jabus, .kumho, .chunil, .hanil, .dongbu, .songnisan, .kobus, .chungnam, .chunyeo, .daewon, .gyeonggi, .hanyang, .kyongbuk, .seoul { background-size: 89px auto !important;}
 
@@ -2112,17 +2112,17 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 	.detailBox {height:auto;}
 	.detailBox_body {height:auto; background-color:#fcfcfc;}
 	.selectSeat_box {height:auto;}
-	.btn_refresh span { background-image: url(/images/common/ico_refresh.png); background-size:22px 26px;}
+	.btn_refresh span { background-image: url(https://kobus.co.kr/common/ico_refresh.png); background-size:22px 26px;}
 	
 	/* 공통 */
 	.seatList span {width:53px; height:60px;}
-	.seatBox label {background-image:url(/images/common/bg_busSeat.png); background-size:100% auto;font-size:16px; line-height:46px;}
+	.seatBox label {background-image:url(https://kobus.co.kr/common/bg_busSeat.png); background-size:100% auto;font-size:16px; line-height:46px;}
 	.seatBox input:checked + label {background-position:0 -60px;}
 	.seatBox.handi label {background-position:0 -122px;}
 	.seatBox.disabled label {background-position:0 -183px;}
 	.seatBox.honors label {background-position:0 -248px;}
 	/* 45석 */
-	.seat45 {padding-bottom:20px; background:url(/images/common/bg_bus45_mob.png) 50% 0 no-repeat; background-size:100% auto;}
+	.seat45 {padding-bottom:20px; background:url(https://kobus.co.kr/common/bg_bus45_mob.png) 50% 0 no-repeat; background-size:100% auto;}
 	.seat45 .seatList {width:320px; padding-top:115px;}
 	.seat45 .seatList span {margin:0 0 10px 3px;}
 	.seat45 .seatList span:nth-child(4n+3) {margin-left:59px;}
@@ -2144,19 +2144,19 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 	.seat31 .seatList span.last_seat:nth-child(3n+3) {margin-left:11px;}
 	.seat31 .seatList span.last_seat.last {margin-left:11px;}    
 	/* 28석 */
-	.seat28 {padding-bottom:40px; background:url(/images/common/bg_bus28_mob.png) 50% 0 no-repeat; background-size:100% auto;}
+	.seat28 {padding-bottom:40px; background:url(https://kobus.co.kr/common/bg_bus28_mob.png) 50% 0 no-repeat; background-size:100% auto;}
 	.seat28 .seatList {width:320px; padding:115px 36px 0 36px;}
 	.seat28 .seatList span {margin:0 0 10px 11px;}
 	.seat28 .seatList span:nth-child(3n+3) {margin-left:77px;}
 	.seat28 .seatList span.last_seat:nth-child(3n+3) {margin-left:11px;}
 	.seat28 .seatList span.last_seat.last {margin-left:11px;}
 	/* 27석 */
-	.seat27 {padding-bottom:20px; background:url(/images/common/bg_bus28_mob.png) 50% 0 no-repeat; background-size:100% auto;}
+	.seat27 {padding-bottom:20px; background:url(https://kobus.co.kr/common/bg_bus28_mob.png) 50% 0 no-repeat; background-size:100% auto;}
 	.seat27 .seatList {width:320px; padding:115px 36px 0 36px;}
 	.seat27 .seatList span {margin:0 0 11px 11px;}
 	.seat27 .seatList span:nth-child(3n+3) {top:71px; margin-left:77px;}
 	/* 21석 */
-	.seat21 {padding-bottom:40px; background:url(/images/common/bg_bus21_mob.png) 50% 0 no-repeat; background-size:100% auto;}
+	.seat21 {padding-bottom:40px; background:url(https://kobus.co.kr/common/bg_bus21_mob.png) 50% 0 no-repeat; background-size:100% auto;}
 	.seat21 .seatList {width:320px; padding:115px 36px 0 36px;}
 	.seat21 .seatList span {margin:0 0 11px 11px;}
 	.seat21 .seatList span:nth-child(3n+3) {margin-left:77px;}
@@ -2184,9 +2184,9 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 
 	.ticket_chk + p { margin: 5px 30px 0 20px;}
 	
-	.app_info { background-image: url(/images/page/appinfo_bg.png); background-size: auto 200px;}
+	.app_info { background-image: url(https://kobus.co.kr/page/appinfo_bg.png); background-size: auto 200px;}
 	.app_info .noti, .app_info .txt, .app_info .tip { padding-right: 0;}
-	.app_info .tip:before { background-image: url(/images/page/ico_tip.png); background-size: 100%;}
+	.app_info .tip:before { background-image: url(https://kobus.co.kr/page/ico_tip.png); background-size: 100%;}
 	
 	/* 환불계좌정보입력 팝업 */
 	.pop_refund .cont { padding: 0;}
@@ -2224,7 +2224,7 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 
 	.detail_info_wrap.marT30, .detail_info_wrap.marT50 { margin-top: 8px !important;}
 	.routeArea.route_wrap.full .tbl_type2 table tbody .lack .error_txt { display: block;}
-	.tbl_type2 .error_txt:before { background-image: url(/images/page/ico_tipB2.png); background-size: auto 100%;}
+	.tbl_type2 .error_txt:before { background-image: url(https://kobus.co.kr/page/ico_tipB2.png); background-size: auto 100%;}
 	.routeBody .detail_info span { display: inline-block; margin-bottom: 10px;}
 	.routeArea.route_wrap .tbl_type2 table tbody th, .routeArea.route_wrap .tbl_type2 table tbody td { padding-top: 5px; vertical-align: top; -moz-box-sizing: border-box; box-sizing: border-box;}
 	.tbl_info .ico_bus { display: block; margin: 10px 0;}
@@ -2238,11 +2238,11 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 	.routeHead .ticketPrice .txt_div { position: relative; top: -4px;}
 	.routeHead .ticketPrice .txt_cancelDate { top: 1px;}
 	
-	.check_com:before { background-image: url(/images/common/bg_checkTicket_com.png);}
+	.check_com:before { background-image: url(https://kobus.co.kr/common/bg_checkTicket_com.png);}
 	.seat_detail:after { top: 15px;}
 	.seat_detail > ul li {height:auto; padding:17px 8px 17px 0;}
 	.seat_detail > ul li > span {line-height:normal; vertical-align:top;}
-	.seat_detail > ul li.check_com:before { background-image: url(/images/common/bg_checkTicket_com.png); background-position:50%; 50%;}
+	.seat_detail > ul li.check_com:before { background-image: url(https://kobus.co.kr/common/bg_checkTicket_com.png); background-position:50%; 50%;}
 	.seat_detail > ul li .seatNum {margin-top:-4px;}
 	.seat_detail > ul li .ticketNum {line-height:20px;}
 	.seat_detail > ul li .ticketNum2 {display:block; margin-left:0; line-height:20px;}
@@ -2266,16 +2266,16 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 	.box_changeNum .inner {width:auto; margin:0 0 8px; padding:0 8px;}
 	.box_limit {margin-bottom:10px;} 
 
-	.mypage_title {height:auto; background:url(/images/page/visual_mobile_mypage.jpg) 50% 0 no-repeat; background-size:cover;} 
+	.mypage_title {height:auto; background:url(https://kobus.co.kr/page/visual_mobile_mypage.jpg) 50% 0 no-repeat; background-size:cover;} 
 	.mypage_title .inner {width:auto; margin-top:10px;}
-	.ico_mileage { background-image: url(/images/page/ico_premium_s_on.png); background-size:100% auto;}
+	.ico_mileage { background-image: url(https://kobus.co.kr/page/ico_premium_s_on.png); background-size:100% auto;}
 	.myPage_list li {float:none; width:auto; height:60px; margin-left:0; border-top:1px solid #846c9b;}
 	.myPage_list.only3 li {margin-left:0;}
 	.myPage_list.only2 li {margin-left:0;}
 	.myPage_list.only2 li:first-child {margin-left:0;}
 	.myPage_list li .row {height:100%; padding-bottom:0; border:none; text-align:left;}
 	.myPage_list li .row .txt_myMenu {height:100%; padding:10px 0 10px 76px; line-height:40px; box-sizing:border-box;}
-	.myPage_list li .row strong {position:absolute; right:20px; top:10px; padding-right:17px; background:url(/images/common/bg_btnLink_small.png) 100% 50% no-repeat; background-size:7px auto; font-size:16px;}
+	.myPage_list li .row strong {position:absolute; right:20px; top:10px; padding-right:17px; background:url(https://kobus.co.kr/common/bg_btnLink_small.png) 100% 50% no-repeat; background-size:7px auto; font-size:16px;}
 	.myPage_list li.history .row .txt_myMenu {background-size:45px auto; background-position:20px 50%;}
 	.myPage_list li.additional .row .txt_myMenu {background-size:45px auto; background-position:20px 50%}
 	.myPage_list li.mileage .row .txt_myMenu {background-size:45px auto; background-position:20px 50%}
@@ -2305,8 +2305,8 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 	.mob_search_result.mileage .sec_head .mid_box .name { margin-right: 3px; font-size: 13px; vertical-align: 1px;}
 	.mob_search_result.mileage .sec_search_result .txt_mileage { float: right; width: 20%; text-align: right; font-size: 14px; color: #bc4ac0;}
 	.mob_search_result.mileage .sec_search_result.used .txt_mileage { color: #999;}
-	.mob_search_result.mileage .sec_body { background: url(/images/page/bg_mileage_save.png) right bottom no-repeat; background-size: 40px;}
-	.mob_search_result.mileage .used .sec_body { background-image: url(/images/page/bg_mileage_use.png); background-size: 40px}
+	.mob_search_result.mileage .sec_body { background: url(https://kobus.co.kr/page/bg_mileage_save.png) right bottom no-repeat; background-size: 40px;}
+	.mob_search_result.mileage .used .sec_body { background-image: url(https://kobus.co.kr/page/bg_mileage_use.png); background-size: 40px}
 	.mob_search_result.mileage .sec_body .date { margin: 8px 0 0 28px; font-size: 15px; color: #333;}
 	.sec_search_result .btns { padding: 8px; border-top: 1px solid #e6e6e6;}
 
@@ -2326,8 +2326,8 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 	.popPay_detail .tbl_type1.responsive td.ticket_status:before { content: '상태'; top: 5px;}
 
 	/* 마이페이지조회결과 */
-	.bg_payment_com { background-image: url(/images/page/bg_payment_com.png); background-size:40px;}
-	.bg_payment_cancel { background-image: url(/images/page/bg_payment_cancel.png); background-size:40px;}
+	.bg_payment_com { background-image: url(https://kobus.co.kr/page/bg_payment_com.png); background-size:40px;}
+	.bg_payment_cancel { background-image: url(https://kobus.co.kr/page/bg_payment_cancel.png); background-size:40px;}
 
 	.freepass_result .sec_head { padding: 10px 20px;}
 	.freepass_result .sec_head .result_txt { float: left; width: 65%; font-size: 13px;}
@@ -2404,7 +2404,7 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 
 	.bnr_app.bnr_mo { display: block;}
 	.bnr_app.bnr_pc { display: none;}
-	.bnr_app { display: block; min-height: 170px; background: #95cadd url(/images/page/bnr_app.png) center bottom no-repeat; background-size: auto 130px; padding: 20px 10px 150px; font-size: 14px; text-align: center; line-height: 1.5;}
+	.bnr_app { display: block; min-height: 170px; background: #95cadd url(https://kobus.co.kr/page/bnr_app.png) center bottom no-repeat; background-size: auto 130px; padding: 20px 10px 150px; font-size: 14px; text-align: center; line-height: 1.5;}
 	.bnr_app:after { display: none;}
 	.bnr_app strong { display: block;}
 
@@ -2439,11 +2439,11 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 	.box_searchId a {width:33%; height:100%; margin:0; text-align:center;}
 	.box_searchId a span {padding:30px 0 0 0;}
 
-	.box_searchId a span.ico_searchId { background-image: url(/images/common/ico_searchId.png); background-position:50% 0; background-size:30px auto;}
+	.box_searchId a span.ico_searchId { background-image: url(https://kobus.co.kr/common/ico_searchId.png); background-position:50% 0; background-size:30px auto;}
 	.box_searchId a span.ico_searchId:hover {background-position:50% -56px;}
-	.box_searchId a span.ico_searchPW { background-image: url(/images/common/ico_searchPW.png);background-position:50% 0; background-size:30px auto;}
+	.box_searchId a span.ico_searchPW { background-image: url(https://kobus.co.kr/common/ico_searchPW.png);background-position:50% 0; background-size:30px auto;}
 	.box_searchId a span.ico_searchPW:hover {background-position:50% -56px;}
-	.box_searchId a span.ico_joinUs { background-image: url(/images/common/ico_joinUs.png);background-position:50% 0; background-size:30px auto;}
+	.box_searchId a span.ico_joinUs { background-image: url(https://kobus.co.kr/common/ico_joinUs.png);background-position:50% 0; background-size:30px auto;}
 	.box_searchId a span.ico_joinUs:hover {background-position:50% -60px;}
 
 	/* 로그인 레이어팝업 */
@@ -2459,7 +2459,7 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 	.bg_grayBox .box_joinUs {position:relative; left:auto; top:auto; right:auto; width:auto; height:50px;}
 	.bg_grayBox .box_joinUs a { margin-top: 10px; line-height:50px;  border-top: 1px solid #e7e8ec;}
 	.bg_grayBox .box_joinUs a:before { display: none;}
-	.bg_grayBox .box_joinUs a .ico_joinUs { position: static; background:url(/images/common/ico_joinUs.png) 0 13px no-repeat; background-size:30px auto; margin-top: 0; width: auto; height:100%; padding:0 0 0 35px;}
+	.bg_grayBox .box_joinUs a .ico_joinUs { position: static; background:url(https://kobus.co.kr/common/ico_joinUs.png) 0 13px no-repeat; background-size:30px auto; margin-top: 0; width: auto; height:100%; padding:0 0 0 35px;}
 	.bg_grayBox .box_joinUs a:hover .ico_joinUs { background-position: 0 -48px;}
 	
 	.pop_banner_wrap {height:auto; text-align:center;}
@@ -2469,7 +2469,7 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 
 	.pop_banner_wrap a { padding: 10px 10px 0;}
 
-	.mobileApp { background-image: url(/images/page/bnr_app.png); background-size: auto 90px;}
+	.mobileApp { background-image: url(https://kobus.co.kr/page/bnr_app.png); background-size: auto 90px;}
 
 	/* 회원가입 */
 	.noti_wrap .message_tit {text-align:left;}
@@ -2526,7 +2526,7 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 
 	/* 프리패스 */
 	.freepass_info { margin-top: 10px; padding: 20px 0 10px; border-radius: 10px;}
-	.freepass_info h3 { display: block; background-image: url(/images/page/freepass_info.png); background-size: auto 100px; padding-top: 120px; font-size: 22px; line-height: 1.3;}
+	.freepass_info h3 { display: block; background-image: url(https://kobus.co.kr/page/freepass_info.png); background-size: auto 100px; padding-top: 120px; font-size: 22px; line-height: 1.3;}
 	.freepass_info h3, .freepass_info .desc { padding-left: 18px; padding-right: 18px;}
 	.freepass_info .desc { margin-top: 10px; font-size: 12px; line-height: 1.3;}
 	.freepass_info .btns { margin-top: 30px;}
@@ -2611,24 +2611,24 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 	.search_wrap.type2 { padding: 8px; border: none;}
 	.search_wrap.type2 .search_box { position: relative; width: 100%;}
 	.search_wrap.type2 .search_box input { width: 100%; padding-right: 45px; -moz-box-sizing: border-box; box-sizing: border-box;}
-	.search_wrap.type2 .search_box button { position: absolute; top: 0; right: 0; background-image: url(/images/page/ico_search.png); background-size: 22px auto; }
+	.search_wrap.type2 .search_box button { position: absolute; top: 0; right: 0; background-image: url(https://kobus.co.kr/page/ico_search.png); background-size: 22px auto; }
 	.search_wrap + .board_list { margin-top: 0;}
 	.board_list li { display: block; position: relative; padding: 15px 15px 15px 60px;}
 	.board_list .cont span { display: none;}
 	.board_list .num { position: absolute; top: 0; left: 0; width: 60px; height: 100%; padding: 15px; }
 	.board_list .cont, .board_list .date { display: block; width: 100%; padding: 0; text-align: left;}
-	.board_list .label .num { background-image: url(/images/page/label_notice_en.png); background-size: 40px;}
+	.board_list .label .num { background-image: url(https://kobus.co.kr/page/label_notice_en.png); background-size: 40px;}
 	
-	.board_view .title.label { background-image: url(/images/page/label_notice_en.png); background-size: 40px;}
+	.board_view .title.label { background-image: url(https://kobus.co.kr/page/label_notice_en.png); background-size: 40px;}
 	.board_view .title p { padding-right: 0;}
 	.board_view .title span { position: static; text-align: left;}
 
-	.board_view .file .hwp { background-image: url(/images/page/ico_hwp_s.png); background-size: 18px;}
-	.board_view .file .doc { background-image: url(/images/page/ico_doc_s.png); background-size: 18px;}
-	.board_view .file .xls { background-image: url(/images/page/ico_xls_s.png); background-size: 18px;}
-	.board_view .file .ppt { background-image: url(/images/page/ico_ppt_s.png); background-size: 18px;}
-	.board_view .file .img { background-image: url(/images/page/ico_img_s.png); background-size: 18px;}
-	.board_view .file .pdf { background-image: url(/images/page/ico_pdf_s.png); background-size: 18px;}
+	.board_view .file .hwp { background-image: url(https://kobus.co.kr/page/ico_hwp_s.png); background-size: 18px;}
+	.board_view .file .doc { background-image: url(https://kobus.co.kr/page/ico_doc_s.png); background-size: 18px;}
+	.board_view .file .xls { background-image: url(https://kobus.co.kr/page/ico_xls_s.png); background-size: 18px;}
+	.board_view .file .ppt { background-image: url(https://kobus.co.kr/page/ico_ppt_s.png); background-size: 18px;}
+	.board_view .file .img { background-image: url(https://kobus.co.kr/page/ico_img_s.png); background-size: 18px;}
+	.board_view .file .pdf { background-image: url(https://kobus.co.kr/page/ico_pdf_s.png); background-size: 18px;}
 
 	.search_wrap.type2 .box_inputForm { width: 100%;}
 	.faq { border-top: 1px solid #e6e6e6;}
@@ -2841,13 +2841,13 @@ figcaption {position:absolute; left:-9999px; top:-9999px; width:0; height:0; fon
 		height:100%;
 		padding-right:20px;
 		border:none;
-		background:url(/images/common/bu_selectArrow.png) right 50% no-repeat;
+		background:url(https://kobus.co.kr/common/bu_selectArrow.png) right 50% no-repeat;
 		-webkit-appearance:none;
 		-mox-appearance:none;
 		-ms-appearance:none;
 	}
-	.mobile .title_wrap .select-box select, .tablet .title_wrap .select-box select { background-image: url(/images/common/bu_selectArrowW.png);}
-	.mobile .pass_user .inselect .select-box select { display: block; background: url(/images/common/bu_selectArrow2.png) right center no-repeat; background-size: 10px 5px;}
+	.mobile .title_wrap .select-box select, .tablet .title_wrap .select-box select { background-image: url(https://kobus.co.kr/common/bu_selectArrowW.png);}
+	.mobile .pass_user .inselect .select-box select { display: block; background: url(https://kobus.co.kr/common/bu_selectArrow2.png) right center no-repeat; background-size: 10px 5px;}
 	.inselect .select-box select { background: none;}
 	.inselect .select-box.pass_userinput select { padding-right: 10px;}
 
@@ -2936,9 +2936,9 @@ body.JP, .JP p, .JP h1, .JP h2, .JP h3, .JP h4, .JP h5, .JP h6, .JP ul, .JP ol, 
 .EN .price_info dd { width: 45%;}
 
 .EN .bus_time .premium a:after, .CN .bus_time .premium a:after, .JP .bus_time .premium a:after,
-.EN .bus_time .premium2 a:after, .CN .bus_time .premium2 a:after, .JP .bus_time .premium2 a:after { background-image: url(/images/page/label_premium_en_on.png);}
+.EN .bus_time .premium2 a:after, .CN .bus_time .premium2 a:after, .JP .bus_time .premium2 a:after { background-image: url(https://kobus.co.kr/page/label_premium_en_on.png);}
 .EN .bus_time .premium .noselect:after, .CN .bus_time .premium .noselect:after, .JP .bus_time .premium .noselect:after,
-.EN .bus_time .premium2 .noselect:after, .CN .bus_time .premium2 .noselect:after, .JP .bus_time .premium2 .noselect:after { background-image: url(/images/page/label_premium_en.png);}
+.EN .bus_time .premium2 .noselect:after, .CN .bus_time .premium2 .noselect:after, .JP .bus_time .premium2 .noselect:after { background-image: url(https://kobus.co.kr/page/label_premium_en.png);}
 
 .EN .bus_time .premium2 .grade:after { left: 121px;}
 .EN .bus_time .premium2 .grade_mo { width: 57px;}
@@ -2973,21 +2973,21 @@ body.JP, .JP p, .JP h1, .JP h2, .JP h3, .JP h4, .JP h5, .JP h6, .JP ul, .JP ol, 
 .EN .detail_info_wrap.seasonTicket .routeHead .date, .CN .detail_info_wrap.seasonTicket .routeHead .date, .JP .detail_info_wrap.seasonTicket .routeHead .date,
 .EN .detail_info_wrap.seasonTicket .routeHead .ticketPrice, .CN .detail_info_wrap.seasonTicket .routeHead .ticketPrice, .JP .detail_info_wrap.seasonTicket .routeHead .ticketPrice{ padding-left: 67px;}
 
-.EN .check_com:before { background-image: url(/images/common/bg_checkTicket_en.png);}
-.CN .check_com:before { background-image: url(/images/common/bg_checkTicket_ch.png);}
-.JP .check_com:before { background-image: url(/images/common/bg_checkTicket_jp.png);}
+.EN .check_com:before { background-image: url(https://kobus.co.kr/common/bg_checkTicket_en.png);}
+.CN .check_com:before { background-image: url(https://kobus.co.kr/common/bg_checkTicket_ch.png);}
+.JP .check_com:before { background-image: url(https://kobus.co.kr/common/bg_checkTicket_jp.png);}
 
-.EN .cancel_com:before { background-image: url(/images/common/bg_cancelTicket_en.png);}
-.CN .cancel_com:before { background-image: url(/images/common/bg_cancelTicket_ch.png);}
-.JP .cancel_com:before { background-image: url(/images/common/bg_cancelTicket_jp.png);}
+.EN .cancel_com:before { background-image: url(https://kobus.co.kr/common/bg_cancelTicket_en.png);}
+.CN .cancel_com:before { background-image: url(https://kobus.co.kr/common/bg_cancelTicket_ch.png);}
+.JP .cancel_com:before { background-image: url(https://kobus.co.kr/common/bg_cancelTicket_jp.png);}
 
-.EN .used_com:before { background-image: url(/images/common/bg_used_en.png);}
-.CN .used_com:before { background-image: url(/images/common/bg_used_cn.png);}
-.JP .used_com:before { background-image: url(/images/common/bg_used_jp.png);}
+.EN .used_com:before { background-image: url(https://kobus.co.kr/common/bg_used_en.png);}
+.CN .used_com:before { background-image: url(https://kobus.co.kr/common/bg_used_cn.png);}
+.JP .used_com:before { background-image: url(https://kobus.co.kr/common/bg_used_jp.png);}
 
-.EN .timeOver:after { background-image: url(/images/common/bg_timeOver_en.png);} 
-.CN .timeOver:after { background-image: url(/images/common/bg_timeOver_ch.png);} 
-.JP .timeOver:after { background-image: url(/images/common/bg_timeOver_jp.png);} 
+.EN .timeOver:after { background-image: url(https://kobus.co.kr/common/bg_timeOver_en.png);} 
+.CN .timeOver:after { background-image: url(https://kobus.co.kr/common/bg_timeOver_ch.png);} 
+.JP .timeOver:after { background-image: url(https://kobus.co.kr/common/bg_timeOver_jp.png);} 
 
 .EN .ontheSpot:before, .EN .homeTicket:before, .EN .mobileTicket:before, .EN .unissued:before,
 .CN .ontheSpot:before, .CN .homeTicket:before, .CN .mobileTicket:before, .CN .unissued:before,
@@ -3023,12 +3023,12 @@ body.JP, .JP p, .JP h1, .JP h2, .JP h3, .JP h4, .JP h5, .JP h6, .JP ul, .JP ol, 
 .EN .time_table .bustime_wrap .grade { width: 23.3%;}
 
 /* 부가상품 */
-.EN .commuter:before { background-image: url(/images/common/bg_commuter_en.png);}
-.EN .seasonTicket:before { background-image: url(/images/common/bg_seasonTicket_en.png);}
-.CN .commuter:before { background-image: url(/images/common/bg_commuter_cn.png);}
-.CN .seasonTicket:before { background-image: url(/images/common/bg_seasonTicket_cn.png);}
-.JP .commuter:before { background-image: url(/images/common/bg_commuter_jp.png);}
-.JP .seasonTicket:before { background-image: url(/images/common/bg_seasonTicket_jp.png);}
+.EN .commuter:before { background-image: url(https://kobus.co.kr/common/bg_commuter_en.png);}
+.EN .seasonTicket:before { background-image: url(https://kobus.co.kr/common/bg_seasonTicket_en.png);}
+.CN .commuter:before { background-image: url(https://kobus.co.kr/common/bg_commuter_cn.png);}
+.CN .seasonTicket:before { background-image: url(https://kobus.co.kr/common/bg_seasonTicket_cn.png);}
+.JP .commuter:before { background-image: url(https://kobus.co.kr/common/bg_commuter_jp.png);}
+.JP .seasonTicket:before { background-image: url(https://kobus.co.kr/common/bg_seasonTicket_jp.png);}
 
 .EN .pop_refund_fee td span + span { margin-left: 5px;}
 
@@ -3037,10 +3037,10 @@ body.JP, .JP p, .JP h1, .JP h2, .JP h3, .JP h4, .JP h5, .JP h6, .JP ul, .JP ol, 
 .JP #calendarVal:before { content: '使用日';}
 
 /* 마이페이지조회결과 */
-.EN .bg_payment_com, .CN .bg_payment_com { background-image: url(/images/page/bg_payment_com_en_s.png);}
-.EN .bg_payment_cancel, .CN .bg_payment_cancel {background-image: url(/images/page/bg_payment_cancel_en_s.png);}
-.JP .bg_payment_com { background-image: url(/images/page/bg_payment_com_jp_s.png);}
-.JP .bg_payment_cancel {background-image: url(/images/page/bg_payment_cancel_jp_s.png);}
+.EN .bg_payment_com, .CN .bg_payment_com { background-image: url(https://kobus.co.kr/page/bg_payment_com_en_s.png);}
+.EN .bg_payment_cancel, .CN .bg_payment_cancel {background-image: url(https://kobus.co.kr/page/bg_payment_cancel_en_s.png);}
+.JP .bg_payment_com { background-image: url(https://kobus.co.kr/page/bg_payment_com_jp_s.png);}
+.JP .bg_payment_cancel {background-image: url(https://kobus.co.kr/page/bg_payment_cancel_jp_s.png);}
 
 /* 고객센터 */
 .EN .business_list ul li .txt_desc { min-height: 95px;}
@@ -3180,10 +3180,10 @@ body.JP, .JP p, .JP h1, .JP h2, .JP h3, .JP h4, .JP h5, .JP h6, .JP ul, .JP ol, 
 
 	/* 마이페이지조회결과 */
 	.EN .tabs.mypage_tabs .mo_block { display: inline-block;}
-	.EN .bg_payment_com, .CN .bg_payment_com { background-image: url(/images/page/bg_payment_com_en.png);}
-	.EN .bg_payment_cancel, .CN .bg_payment_cancel {background-image: url(/images/page/bg_payment_cancel_en.png);}
-	.JP .bg_payment_com { background-image: url(/images/page/bg_payment_com_jp.png);}
-	.JP .bg_payment_cancel {background-image: url(/images/page/bg_payment_cancel_jp.png);}
+	.EN .bg_payment_com, .CN .bg_payment_com { background-image: url(https://kobus.co.kr/page/bg_payment_com_en.png);}
+	.EN .bg_payment_cancel, .CN .bg_payment_cancel {background-image: url(https://kobus.co.kr/page/bg_payment_cancel_en.png);}
+	.JP .bg_payment_com { background-image: url(https://kobus.co.kr/page/bg_payment_com_jp.png);}
+	.JP .bg_payment_cancel {background-image: url(https://kobus.co.kr/page/bg_payment_cancel_jp.png);}
 
 	/* 결제내역상세조회팝업 */
 	.EN .popPay_detail .tbl_type1.responsive td.grade:before { content: 'Bus Grade';}
@@ -3225,7 +3225,7 @@ body.JP, .JP p, .JP h1, .JP h2, .JP h3, .JP h4, .JP h5, .JP h6, .JP ul, .JP ol, 
 	.EN .business_list ul li .txt_desc { min-height: 0;}
 	
 	.JP .route_box .gradeAll label { font-size: 12px;}
-	.JP .route_box .gradeAll input:checked + label { background: url(/images/page/ico_grade_s_on.png) right 2px no-repeat;}
+	.JP .route_box .gradeAll input:checked + label { background: url(https://kobus.co.kr/page/ico_grade_s_on.png) right 2px no-repeat;}
 }
 
 .EN .route_box .grade label { padding-right: 23px}
