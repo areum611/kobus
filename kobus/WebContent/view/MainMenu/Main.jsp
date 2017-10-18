@@ -11,7 +11,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>고속버스통합예매</title>
 
 <!-- 부트스트랩 링크 -->
 <link rel="stylesheet" href="/kobus/css/bootstrap.min2.css">
