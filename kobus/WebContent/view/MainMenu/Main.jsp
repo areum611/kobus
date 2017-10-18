@@ -72,8 +72,8 @@
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="<%=pjName %>/notice?cmd=notice-list">공지사항</a></li>
-						<li class=" dropdown"><a href="#" class="dropdown-toggle "
-							data-toggle="dropdown" role="button" aria-haspopup="true"
+						
+						<li class=" dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 							aria-expanded="false">운행정보 <span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li class=" dropdown"><a href="#" class="dropdown-toggle "
@@ -81,7 +81,15 @@
 									aria-expanded="false">test </a></li>
 								<li><a href="#">Add New</a></li>
 							</ul></li>
-						<li><a href="<%= pjName %>/reser?cmd=reser-main">예매</a></li>
+						<li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+							aria-expanded="false">예매<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+								<li class=" dropdown"><a href="<%= pjName %>/reser?cmd=reser-main">고속버스예매 </a></li>
+								<li><a href="<%= pjName %>/pay?cmd=pay-main">예매확인</a></li>
+							</ul></li>
+						
+						
+						</li>
 						<li class=" dropdown"><a href="<%=pjName %>/view/floorinfo/FloorView.jsp">층별안내 <span class="caret"></span></a>
 						<li class=" dropdown"><a href="<%=pjName %>/qna?cmd=qna-page">고객센터</a></li>
 
@@ -117,7 +125,7 @@
 			<li><a href="#"><img src="/kobus/image/고터2.png" alt="고터2" /></a></li>
 			<li><a href="#"><img src="/kobus/image/고터3.png" alt="고터3" /></a></li>
 		</ul>
-		<p>
+		<p> 
 			<a href="#" id="prevBtn"><img src="/kobus/image/prev_btn.png"
 				alt="이전버튼" /></a>
 		</p>
