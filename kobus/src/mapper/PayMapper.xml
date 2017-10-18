@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper.PayMapper">
+	<select id="selectAll" resultType="PayModel">
+		select
+		r_id,
+		r_no,
+		r_date,
+		r_seatnum,
+		r_sel_list,
+		r_yn,
+		m_id,
+		s_id
+		from
+		ko_reserinfo
+		where m_id = #{ m_id } AND r_yn = 'n'
+	</select>
+</mapper>
+ 
