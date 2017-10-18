@@ -28,11 +28,11 @@ public class QnaRepository {
 		return sessFac;
 	}
 	
-	public List<QnaModel> qnaList(){
+	public List<QnaModel> qnaList(String m_id){
 		SqlSession sess = getSqlSessionFactory().openSession();
 		// JDBC의 연결객체 -> SqlSession
 		try {
-		return sess.selectList(namespage + ".selectAll");
+		return sess.selectList(namespage + ".qnaListselectAll",m_id);
 		}finally {
 			sess.close();
 		}

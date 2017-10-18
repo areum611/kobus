@@ -2,8 +2,6 @@
 	pageEncoding="UTF-8"%>
 <%
 	String pjName = "/kobus";
-%>
-<%
 	String m_id = (String)session.getAttribute("m_id");
 %>
 

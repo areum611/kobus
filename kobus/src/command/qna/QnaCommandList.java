@@ -19,14 +19,15 @@ public class QnaCommandList implements Command {
 	}
 	
 	public String execute(HttpServletRequest request, HttpServletResponse response) throws CommandException {
+		 String m_id=null;
 		try {
 			HttpSession session = request.getSession();
-	         String m_id = (String)session.getAttribute("m_id");
-	         
+	         m_id = (String)session.getAttribute("m_id");
+
 			if(m_id == null) {
-				next="login.jsp";
+				next="qnaLogin.jsp";
 			}else {
-				List <QnaModel> mList = QnaService.getInstance().qnaList();	
+				List <QnaModel> mList = QnaService.getInstance().qnaList(m_id);	
 			    request.setAttribute("qnaList", mList );
 			}
 		}catch (Exception ex) {

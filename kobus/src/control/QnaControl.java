@@ -10,11 +10,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import command.*;
+import command.member.LoginCommandOk;
 import command.qna.*;
 
 public class QnaControl extends HttpServlet{
 	private HashMap commandMap;
 	private String jspDir = "/view/qna/";
+	private String jspDir2 = "/view/login/";
 	private String error = "error.jsp";
 
 	public QnaControl() {
@@ -24,7 +26,8 @@ public class QnaControl extends HttpServlet{
 
 	private void initCommand() {
 		commandMap = new HashMap();
-		commandMap.put("qna-page",	new QnaCommandList("qnaList.jsp") ); 
+		commandMap.put("qna-page",	new QnaCommandList("qnaList.jsp") );
+		commandMap.put("login-ok", new QnaCommandOk("qnaLoginOk.jsp"));
 		commandMap.put("qnaWrite-page",new CommandNull("qnaWrite.jsp") );
 		commandMap.put("qnaWriteConfirm-page", new QnaCommandInput("qnaWriteConfirm.jsp"));
 	}

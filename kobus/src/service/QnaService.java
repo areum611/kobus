@@ -21,8 +21,8 @@ public class QnaService {
 	
 	QnaRepository repo = new QnaRepository();
 	
-	public List<QnaModel> qnaList(){
-		return (List<QnaModel>)repo.qnaList();
+	public List<QnaModel> qnaList(String m_id){
+		return (List<QnaModel>)repo.qnaList(m_id);
 	}
 	
 	public int qnaInsert(QnaModel qm) {
@@ -32,5 +32,4 @@ public class QnaService {
 	public int groupId() {
 		return repo.getGroupId();
 	}
-
 }
