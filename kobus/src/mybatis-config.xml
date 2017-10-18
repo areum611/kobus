@@ -15,6 +15,7 @@
 		<typeAlias type="model.MemberModel" alias="MemberModel" />
 		<typeAlias type="model.NoticeModel" alias="NoticeModel" />
 		<typeAlias type="model.QnaModel" alias="QnaModel" />
+		<typeAlias type="model.PayModel" alias="PayModel" />
 		<!-- <typeAlias type="model.ReserModel" alias="ReserModel"/> -->
 	</typeAliases>
 
@@ -35,6 +36,7 @@
 		<mapper resource="mapper/MemberMapper.xml" />
 		<mapper resource="mapper/NoticeMapper.xml" />
 		<mapper resource="mapper/QnaMapper.xml" />
+		<mapper resource="mapper/PayMapper.xml" />
 		<!-- <mapper resource="mapper/ReserMapper.xml" /> -->
 	</mappers>
 </configuration>

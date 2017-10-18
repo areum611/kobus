@@ -63,7 +63,7 @@
 		<url-pattern>/reser</url-pattern>
 	</servlet-mapping>
 	
-		<servlet>
+	<servlet>
 		<servlet-name>PayControl</servlet-name>
 		<servlet-class>control.PayControl</servlet-class>
 	</servlet>
