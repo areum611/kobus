@@ -62,6 +62,15 @@
 		<servlet-name>ReserControl</servlet-name>
 		<url-pattern>/reser</url-pattern>
 	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>PayControl</servlet-name>
+		<servlet-class>control.PayControl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PayControl</servlet-name>
+		<url-pattern>/pay</url-pattern>
+	</servlet-mapping>
 
 
 </web-app>
