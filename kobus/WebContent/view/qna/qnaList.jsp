@@ -8,15 +8,18 @@
   List <QnaModel> mList = ( List <QnaModel>)request.getAttribute("qnaList");
  
  %>
- 
+<!--  메뉴바 가져오기 -->
+<jsp:include page="/view/MainMenu/header.jsp" flush="true"></jsp:include>
+
  
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>우리반 연습</title>
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- 부트스트랩 링크 -->
+<link rel="stylesheet" href="/kobus/css/bootstrap.min2.css">
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script

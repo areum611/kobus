@@ -12,8 +12,8 @@
 
 	<link rel="stylesheet" type="text/css" href="https://www.kobus.co.kr/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="https://www.kobus.co.kr/css/plugin.css">
-	<link rel="stylesheet" type="text/css" href="https://www.kobus.co.kr/css/layout.css">
-	<link rel="stylesheet" type="text/css" href="https://www.kobus.co.kr/css/content.css">
+	<link rel="stylesheet" type="text/css" href="/kobus/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="/kobus/css/content.css">
 	<link rel="shortcut icon" href="https://www.kobus.co.kr/images/favicon.ico">
 <!-- 	<link rel="stylesheet"type="text/css"  href="../css/layout.css" /> -->
 <!-- <link rel="stylesheet" type="text/css" -->

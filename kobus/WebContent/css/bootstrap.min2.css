@@ -266,6 +266,7 @@ td, th {
 		display: none;
 		margin: 1000px;
 		padding: 1000px;
+		min-height:50px;
 	}
 	.btn>.caret, .dropup>.btn>.caret {
 		border-top-color: #000 !important
@@ -3797,7 +3798,7 @@ tbody.collapse.in {
 }
 
 .dropdown-backdrop {
-	position: fixed;
+/* 	position: fixed; */
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -4694,7 +4695,6 @@ border-bottom-right-radius
 		}
 	}
 	.navbar-fixed-bottom, .navbar-fixed-top {
-		position: fixed;
 		right: 0;
 		left: 0;
 		z-index: 1030

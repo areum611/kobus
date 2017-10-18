@@ -5,7 +5,7 @@
  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="mapper.MemberMapper">
-	<select id="selectAll" parameterType="Membermodel" resultType="Membermodel">
+	<select id="selectAll" resultType="Membermodel">
 		select
 		m_id,
 		m_password,
