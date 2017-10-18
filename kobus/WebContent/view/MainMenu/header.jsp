@@ -40,14 +40,7 @@
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="<%=pjName %>/notice?cmd=notice-list">공지사항</a></li>
 						
-						<li class=" dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-							aria-expanded="false">운행정보 <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li class=" dropdown"><a href="#" class="dropdown-toggle "
-									data-toggle="dropdown" role="button" aria-haspopup="true"
-									aria-expanded="false">test </a></li>
-								<li><a href="#">Add New</a></li>
-							</ul></li>
+						<li class=" dropdown"><a href="#">운행정보 </a></li>
 						<li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 							aria-expanded="false">예매<span class="caret"></span></a>
 						<ul class="dropdown-menu">
@@ -57,7 +50,7 @@
 						
 						
 						</li>
-						<li class=" dropdown"><a href="<%=pjName %>/view/floorinfo/FloorView.jsp">층별안내 <span class="caret"></span></a>
+						<li class=" dropdown"><a href="<%=pjName %>/view/floorinfo/FloorView.jsp">층별안내</a>
 						<li class=" dropdown"><a href="<%=pjName %>/qna?cmd=qna-page">고객센터</a></li>
 
 					</ul>
