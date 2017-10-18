@@ -266,6 +266,7 @@ td, th {
 		display: none;
 		margin: 1000px;
 		padding: 1000px;
+		min-height:50px;
 	}
 	.btn>.caret, .dropup>.btn>.caret {
 		border-top-color: #000 !important

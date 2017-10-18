@@ -6,6 +6,7 @@
 <%
 	String m_id = (String)session.getAttribute("m_id");
 %>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -81,13 +82,7 @@
 								<li><a href="#">Add New</a></li>
 							</ul></li>
 						<li><a href="<%= pjName %>/reser?cmd=reser-main">예매</a></li>
-						<li class=" dropdown"><a href="#" class="dropdown-toggle "
-							data-toggle="dropdown" role="button" aria-haspopup="true"
-							aria-expanded="false">층별안내 <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">View Managers</a></li>
-								<li><a href="#">Add New</a></li>
-							</ul></li>
+						<li class=" dropdown"><a href="<%=pjName %>/view/floorinfo/FloorView.jsp">층별안내 <span class="caret"></span></a>
 						<li class=" dropdown"><a href="<%=pjName %>/qna?cmd=qna-page">고객센터</a></li>
 
 					</ul>
@@ -121,7 +116,6 @@
 			<li><a href="#"><img src="/kobus/image/고터1.png" alt="고터1" /></a></li>
 			<li><a href="#"><img src="/kobus/image/고터2.png" alt="고터2" /></a></li>
 			<li><a href="#"><img src="/kobus/image/고터3.png" alt="고터3" /></a></li>
-			<li><a href="#"><img src="/kobus/image/고터4.png" alt="고터4" /></a></li>
 		</ul>
 		<p>
 			<a href="#" id="prevBtn"><img src="/kobus/image/prev_btn.png"

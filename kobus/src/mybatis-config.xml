@@ -11,11 +11,20 @@
 	<!-- </settings> -->
 	<!-- 여러개의 별칭 설정 -->
 
+<<<<<<< HEAD
 	<typeAliases>
+=======
+	<typeAliases>
+>>>>>>> branch 'master' of https://github.com/areum611/kobus.git
 		<typeAlias type="model.MemberModel" alias="MemberModel"/> 
 		<typeAlias type="model.NoticeModel" alias="NoticeModel" />
+<<<<<<< HEAD
 		<typeAlias type="model.QnaModel" alias="QnaModel"/>
 <!-- 		<typeAlias type="model.ReserModel" alias="ReserModel"/> -->
+=======
+		<typeAlias type="model.QnaModel" alias="QnaModel"/>
+		<typeAlias type="model.ReserModel" alias="ReserModel"/>
+>>>>>>> branch 'master' of https://github.com/areum611/kobus.git
 	</typeAliases>
 
 		<environments default="development">
@@ -35,6 +44,10 @@
 			<mapper resource="mapper/MemberMapper.xml" />
 			<mapper resource="mapper/NoticeMapper.xml" />
 			<mapper resource="mapper/QnaMapper.xml" />
+<<<<<<< HEAD
 <!-- 			<mapper resource="mapper/ReserMapper.xml" /> -->
+=======
+			<mapper resource="mapper/ReserMapper.xml" />
+>>>>>>> branch 'master' of https://github.com/areum611/kobus.git
 		</mappers>
 </configuration>

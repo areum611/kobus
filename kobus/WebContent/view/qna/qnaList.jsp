@@ -8,7 +8,8 @@
   List <QnaModel> mList = ( List <QnaModel>)request.getAttribute("qnaList");
  
  %>
- 
+<jsp:include page="/view/MainMenu/header.jsp" flush="true"></jsp:include>
+
  
 <!DOCTYPE html>
 <html>
