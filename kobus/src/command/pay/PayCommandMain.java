@@ -1,10 +1,15 @@
 package command.pay;
 
+import java.util.List;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import command.*;
+import command.Command;
+import command.CommandException;
+import model.PayModel;
+import service.PayService;
 
 public class PayCommandMain implements Command {
 	private String next;
@@ -15,20 +20,15 @@ public class PayCommandMain implements Command {
 
 	public String execute(HttpServletRequest request, HttpServletResponse response) throws CommandException {
 		try {
-			String jspDir = "/kobus";
 			HttpSession session = request.getSession();
-			String m_id =  (String) session.getAttribute("m_id");
+			String m_id = (String) session.getAttribute("m_id");
 			
-			if(m_id.equals("")) {
-				response.sendRedirect(jspDir + "/login?cmd=login-page");
-			}
-			
+			List<PayModel> payList = PayService.getInstance().payList(m_id);
+			request.setAttribute("payList", payList);
 		} catch (Exception e) {
-			throw new CommandException("PayCommandMain.java <리스트>" + e.toString());
+			throw new CommandException("PayCommandMain.java<예매확인리스트> " + e.toString());
 		}
-		
 		return next;
 	}
-	
 
 }

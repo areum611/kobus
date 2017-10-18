@@ -1,64 +1,103 @@
 package model;
 
 public class PayModel {
-	private int r_id;
-	private int r_no;
-	private String r_date;
-	private int r_seatnum;
-	private String r_sel_list;
-	private String r_yn;
 	private String m_id;
-	private int s_id;
-	
-	
-	public int getR_id() {
-		return r_id;
-	}
-	public void setR_id(int r_id) {
-		this.r_id = r_id;
-	}
-	public int getR_no() {
-		return r_no;
-	}
-	public void setR_no(int r_no) {
-		this.r_no = r_no;
-	}
-	public String getR_date() {
-		return r_date;
-	}
-	public void setR_date(String r_date) {
-		this.r_date = r_date;
-	}
-	public int getR_seatnum() {
-		return r_seatnum;
-	}
-	public void setR_seatnum(int r_seatnum) {
-		this.r_seatnum = r_seatnum;
-	}
-	public String getR_sel_list() {
-		return r_sel_list;
-	}
-	public void setR_sel_list(String r_sel_list) {
-		this.r_sel_list = r_sel_list;
-	}
-	public String getR_yn() {
-		return r_yn;
-	}
-	public void setR_yn(String r_yn) {
-		this.r_yn = r_yn;
-	}
+	private int r_no;
+	private String depplacenm;
+	private String arrplacenm;
+	private String rdate;
+	private String depplandtime;
+	private String gradenm;
+	private int cnt;
+	private String seatnum;
+	private int price;
+	private String r_yn;
+
 	public String getM_id() {
 		return m_id;
 	}
+
 	public void setM_id(String m_id) {
 		this.m_id = m_id;
 	}
-	public int getS_id() {
-		return s_id;
+
+	public int getR_no() {
+		return r_no;
 	}
-	public void setS_id(int s_id) {
-		this.s_id = s_id;
+
+	public void setR_no(int r_no) {
+		this.r_no = r_no;
 	}
-	
-	
+
+	public String getDepplacenm() {
+		return depplacenm;
+	}
+
+	public void setDepplacenm(String depplacenm) {
+		this.depplacenm = depplacenm;
+	}
+
+	public String getArrplacenm() {
+		return arrplacenm;
+	}
+
+	public void setArrplacenm(String arrplacenm) {
+		this.arrplacenm = arrplacenm;
+	}
+
+	public String getRdate() {
+		return rdate;
+	}
+
+	public void setRdate(String rdate) {
+		this.rdate = rdate;
+	}
+
+	public String getDepplandtime() {
+		return depplandtime;
+	}
+
+	public void setDepplandtime(String depplandtime) {
+		this.depplandtime = depplandtime;
+	}
+
+	public String getGradenm() {
+		return gradenm;
+	}
+
+	public void setGradenm(String gradenm) {
+		this.gradenm = gradenm;
+	}
+
+	public int getCnt() {
+		return cnt;
+	}
+
+	public void setCnt(int cnt) {
+		this.cnt = cnt;
+	}
+
+	public String getSeatnum() {
+		return seatnum;
+	}
+
+	public void setSeatnum(String seatnum) {
+		this.seatnum = seatnum;
+	}
+
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+
+	public String getR_yn() {
+		return r_yn;
+	}
+
+	public void setR_yn(String r_yn) {
+		this.r_yn = r_yn;
+	}
 }

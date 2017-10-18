@@ -1,9 +1,9 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%
-	String pjName = "/kobus";
+	String m_id = (String) request.getAttribute("loginId");
 %>
 <%
-	String m_id = (String) session.getAttribute("m_id");
+	String pjName = "/kobus";
 %>
 <!DOCTYPE html>
 <html>
@@ -13,19 +13,19 @@
 </head>
 <body>
 	<%
-		if (m_id == null) {
+		if (m_id.equals("")) {
 	%>
-
 	<script type="text/javascript">
-		alert("로그인 후 예매확인 가능합니다.");
+		alert("아이디와 비밀번호를 확인해주세요.");
 	</script>
 	<%
 		response.sendRedirect(pjName + "/pay?cmd=pay-login");
 
-		} else {
-			response.sendRedirect(pjName + "/pay?cmd=pay-confirm");
-		}
+		} // end of if 
+		else {
+			session.setAttribute("m_id", m_id);
+			response.sendRedirect(pjName + "/pay?cmd=pay-main");
+		} // end of else
 	%>
-
 </body>
 </html>

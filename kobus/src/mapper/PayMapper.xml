@@ -5,19 +5,22 @@
  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="mapper.PayMapper">
-	<select id="selectAll" resultType="PayModel">
+	<select id="paySelectReser" resultType="PayModel">
 		select
-		r_id,
-		r_no,
-		r_date,
-		r_seatnum,
-		r_sel_list,
-		r_yn,
 		m_id,
-		s_id
+		r_no,
+		depplacenm,
+		arrplacenm,
+		rdate,
+		depplandtime,
+		gradenm,
+		cnt,
+		seatnum,
+		price,
+		r_yn
 		from
-		ko_reserinfo
-		where m_id = #{ m_id } AND r_yn = 'n'
+		v_kobus_reserlist
+		where m_id = #{ m_id } AND r_yn = 'N'
 	</select>
 </mapper>
  

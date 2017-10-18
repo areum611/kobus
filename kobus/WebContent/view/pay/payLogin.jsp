@@ -15,6 +15,7 @@
 </head>
 <body>
 
+
 	<div class="container">
 		<div class="row">
 
@@ -28,7 +29,7 @@
 				<div class="card">
 					<h1 class="title">로그인</h1>
 					<form name="login-form" method="post"
-						action="<%=pjName%>/login?cmd=login-ok">
+						action="<%=pjName%>/pay?cmd=login-ok">
 						<div class="input-container">
 							<input type="text" id="m_id" name="m_id" required="required" />
 							<label for="m_id">아이디</label>

@@ -26,6 +26,8 @@ public class PayControl extends HttpServlet {
 		commandMap = new HashMap();
 
 		commandMap.put("pay-main", new CommandNull("payLoginCh.jsp"));
+		commandMap.put("pay-login", new CommandNull("payLogin.jsp"));
+		commandMap.put("login-ok",new PayCommandMemCh("payMemCh.jsp"));
 		commandMap.put("pay-confirm", new PayCommandMain("ReserListView.jsp"));
 
 	}
