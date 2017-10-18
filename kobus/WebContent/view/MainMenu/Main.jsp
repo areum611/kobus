@@ -81,13 +81,7 @@
 								<li><a href="#">Add New</a></li>
 							</ul></li>
 						<li><a href="<%= pjName %>/reser?cmd=reser-main">예매</a></li>
-						<li class=" dropdown"><a href="#" class="dropdown-toggle "
-							data-toggle="dropdown" role="button" aria-haspopup="true"
-							aria-expanded="false">층별안내 <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">View Managers</a></li>
-								<li><a href="#">Add New</a></li>
-							</ul></li>
+						<li class=" dropdown"><a href="<%=pjName %>/view/floorinfo/FloorView.jsp">층별안내 <span class="caret"></span></a>
 						<li class=" dropdown"><a href="<%=pjName %>/qna?cmd=qna-page">고객센터</a></li>
 
 					</ul>
