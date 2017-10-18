@@ -371,7 +371,7 @@ dl.desc_list dd {margin-bottom:10px; padding-left:15px; font-size:14px; color:#6
 .pop_place .area_list li span { display: block; min-height: 33px; background: #f3f4f6; padding: 6px 10px; font-size: 16px; line-height: 1.3; -moz-box-sizing: border-box; box-sizing: border-box;}
 .pop_place .area_list li.active span { background: #68b3ce; color: #fff;}
 .pop_place .terminal_list { position: absolute; top: 0; right: 0; width: -webkit-calc(100% - 170px); width: -moz-calc(100% - 170px); width: calc(100% - 170px);}
-.pop_place .terminal_list ul.clear:after {content:'.'; display:block; height:0px; clear:both; visibility:visible;}
+.pop_place .terminal_list ul.clear:after {content:'.'; display:block; height:0px; clear:both; visibility:hidden;}
 .pop_place .terminal_list li { float: left; width: 33.33%; border-bottom: 1px solid #e6e6e6;}
 .pop_place .terminal_list.type2 li { width: 50%;}
 .pop_place .terminal_list li span { display: block; height: 40px; font-size: 16px; color: #999; line-height: 40px; -moz-box-sizing: border-box; box-sizing: border-box;}

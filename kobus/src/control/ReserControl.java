@@ -9,7 +9,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import command.*;
+import command.Command;
+import command.CommandException;
+import command.CommandNull;
+import command.reser.ReserCommandListView;
 
 public class ReserControl extends HttpServlet{
 	private HashMap commandMap;
@@ -23,7 +26,8 @@ public class ReserControl extends HttpServlet{
 	
 	private void initCommand() {
 		commandMap = new HashMap();
-		commandMap.put("reser-main", new CommandNull("mainSearch.jsp") ); 
+		commandMap.put("reser-main", new CommandNull("mainSearch.jsp") );
+		commandMap.put("list-start",new ReserCommandListView("mainSearch.jsp"));
 	}
 	
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
