@@ -116,7 +116,6 @@
 			<li><a href="#"><img src="/kobus/image/고터1.png" alt="고터1" /></a></li>
 			<li><a href="#"><img src="/kobus/image/고터2.png" alt="고터2" /></a></li>
 			<li><a href="#"><img src="/kobus/image/고터3.png" alt="고터3" /></a></li>
-			<li><a href="#"><img src="/kobus/image/고터4.png" alt="고터4" /></a></li>
 		</ul>
 		<p>
 			<a href="#" id="prevBtn"><img src="/kobus/image/prev_btn.png"

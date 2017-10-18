@@ -13,9 +13,9 @@
 
 	<typeAliases>
 		<typeAlias type="model.MemberModel" alias="MemberModel"/> 
-<!-- 		<typeAlias type="model.NoticeModel" alias="NoticeModel" /> -->
-		<!-- <typeAlias type="model.QnaModel" alias="QnaModel"/> -->
-		<!-- <typeAlias type="model.ReserModel" alias="ReserModel"/> -->
+		<typeAlias type="model.NoticeModel" alias="NoticeModel" />
+		<typeAlias type="model.QnaModel" alias="QnaModel"/>
+		<typeAlias type="model.ReserModel" alias="ReserModel"/>
 	</typeAliases>
 
 		<environments default="development">
@@ -33,8 +33,8 @@
 		<!-- 여러개의 mapper 설정 -->
 		<mappers>
 			<mapper resource="mapper/MemberMapper.xml" />
-			<!-- <mapper resource="mapper/NoticeMapper.xml" /> -->
+			<mapper resource="mapper/NoticeMapper.xml" />
 			<mapper resource="mapper/QnaMapper.xml" />
-			<!-- <mapper resource="mapper/ReserMapper.xml" /> -->
+			<mapper resource="mapper/ReserMapper.xml" />
 		</mappers>
 </configuration>
