@@ -302,7 +302,7 @@ button { cursor: pointer;}
 .terms_wrap .add_rules strong { display: block; font-weight: normal;}
 
 body.main #wrap { /* min-height: 828px; */}
-.sub #wrap:before { display: inline-block; content: ''; position: fixed; top: 0; left: 220px; background: #e6e6e6; width: 1px; height: 100%; z-index: 100;}
+/* .sub #wrap:before { display: inline-block; content: ''; position: fixed; top: 0; left: 220px; background: #e6e6e6; width: 1px; height: 100%; z-index: 100;} */
 
 #gnb { position: relative; background: #fff;}
 #gnb h1 a { display: block; font-size: 0;}
@@ -469,7 +469,6 @@ body.main #wrap { /* min-height: 828px; */}
 	#gnb.gnb_tablet, #gnb.gnb_mobile, #gnb.gnb_tablet +.close { display: none;}
 	#gnb.gnb_pc { display: block;}
 	
-	.sub #wrap:before {  left: 219px;}
 	#gnb { position: relative; width: 220px;  min-height: 828px;}
 	#gnb h1 { height: 134px; padding-top: 66px;}
 	#gnb h1 a { background: url(https://kobus.co.kr/images/common/logo_pc.png) center 0 no-repeat ; padding-top: 56px; font-size: 13px; font-weight: bold; text-align: center;}
