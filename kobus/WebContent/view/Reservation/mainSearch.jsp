@@ -20,13 +20,10 @@
 <link rel="stylesheet" type="text/css"
 	href="https://kobus.co.kr/css/ui.jqgrid.custom.css" />
 
-<<<<<<< HEAD
 <!-- <script type="text/javascript" -->
 <!-- 	src="/kobus/js/jquery-1.12.4.min.js"></script> -->
-=======
-<script type="text/javascript" src="/kobus/js/jquery-1.12.4.min.js"></script>
->>>>>>> branch 'master' of https://github.com/areum611/kobus.git
 
+<script type="text/javascript" src="/kobus/js/jquery-1.12.4.min.js"></script>
 <script type="text/javascript" src="https://kobus.co.kr/js/ui.js"></script>
 <script type="text/javascript" src="https://kobus.co.kr/js/plugin.js"></script>
 <script type="text/javascript" src="https://kobus.co.kr/js/common.js"></script>
@@ -51,6 +48,8 @@
 					src="https://kobus.co.kr/js/kor/main/Main.js"></script>
 				<script type="text/javascript"
 					src="/kobus/js/popup.js"></script>
+					<script type="text/javascript"
+					src="/kobus/js/OprnAlcnlnqr.js"></script>
 				<script type="text/javascript"
 					src="https://kobus.co.kr/js/kor/mrs/rotinf/RotInf.js"></script>
 				<script type="text/javascript"
@@ -91,28 +90,28 @@
 									placeholder="터미널/지역 이름을 검색하세요"><span class="btn">검색</span>
 							</p>
 						</div>
-						<div class="start_wrap" id="imptDepr">
-							<p class="stit">주요출발지</p>
-							<p class="tags">
-								<span onclick="fnDeprChc('010','서울경부')" name="imptDeprNm"
-									value="010">서울경부</span> <span
-									onclick="fnDeprChc('020','센트럴시티(서울)')" name="imptDeprNm"
-									value="020" class="over">센트럴시티(서울)</span> <span
-									onclick="fnDeprChc('500','광주(유·스퀘어)')" name="imptDeprNm"
-									value="500">광주(유·스퀘어)</span>
-								<!--  class="active" -->
-								<span onclick="fnDeprChc('700','부산')" name="imptDeprNm"
-									value="700">부산</span> <span onclick="fnDeprChc('703','부산사상')"
-									name="imptDeprNm" value="703">부산사상</span> <span
-									onclick="fnDeprChc('032','동서울')" name="imptDeprNm" value="032">동서울</span>
-								<span onclick="fnDeprChc('300','대전복합')" name="imptDeprNm"
-									value="300">대전복합</span> <span onclick="fnDeprChc('602','전주')"
-									name="imptDeprNm" value="602">전주</span> <span
-									onclick="fnDeprChc('360','유성')" name="imptDeprNm" value="360">유성</span>
-								<span onclick="fnDeprChc('801','동대구')" name="imptDeprNm"
-									value="801">동대구</span>
-							</p>
-						</div>
+<!-- 						<div class="start_wrap" id="imptDepr"> -->
+<!-- 							<p class="stit">주요출발지</p> -->
+<!-- 							<p class="tags"> -->
+<!-- 								<span onclick="fnDeprChc('010','서울경부')" name="imptDeprNm" -->
+<!-- 									value="010">서울경부</span> <span -->
+<!-- 									onclick="fnDeprChc('020','센트럴시티(서울)')" name="imptDeprNm" -->
+<!-- 									value="020" class="over">센트럴시티(서울)</span> <span -->
+<!-- 									onclick="fnDeprChc('500','광주(유·스퀘어)')" name="imptDeprNm" -->
+<!-- 									value="500">광주(유·스퀘어)</span> -->
+<!-- 								 class="active" -->
+<!-- 								<span onclick="fnDeprChc('700','부산')" name="imptDeprNm" -->
+<!-- 									value="700">부산</span> <span onclick="fnDeprChc('703','부산사상')" -->
+<!-- 									name="imptDeprNm" value="703">부산사상</span> <span -->
+<!-- 									onclick="fnDeprChc('032','동서울')" name="imptDeprNm" value="032">동서울</span> -->
+<!-- 								<span onclick="fnDeprChc('300','대전복합')" name="imptDeprNm" -->
+<!-- 									value="300">대전복합</span> <span onclick="fnDeprChc('602','전주')" -->
+<!-- 									name="imptDeprNm" value="602">전주</span> <span -->
+<!-- 									onclick="fnDeprChc('360','유성')" name="imptDeprNm" value="360">유성</span> -->
+<!-- 								<span onclick="fnDeprChc('801','동대구')" name="imptDeprNm" -->
+<!-- 									value="801">동대구</span> -->
+<!-- 							</p> -->
+<!-- 						</div> -->
 						<div class="terminal_wrap">
 							<p class="stit">지역별 터미널</p>
 							<div class="ternimal_box">
@@ -132,9 +131,16 @@
 									</ul>
 								</div>
 								<div class="terminal_list" id="terminalList">
-									<div class="terminal_scroll scrollbar-inner">
+<!-- 									<div class="terminal_scroll scrollbar-inner"> -->
+<!-- 									<div class = "terminal_scroll scrollbar-inner scroll-content" style="height: 433px; margin-right: -13px; margin-bottom: -13px; max-height: none;"> -->
 										<ul class="clear" id="tableTrmList">
-											<!--  출발지 터미널 -->
+<!-- 											 출발지 터미널 -->
+<li class ="over">
+											<span onclick="fnArvlChc('200','센트럴시티(서울)','N','','','300');">센트럴시티(서울)</span>
+											</li>
+											<li class ="over">
+											<span onclick="fnArvlChc('200','센트럴시티(서울)','N','','','300');">센트럴시티(서울)</span>
+											</li>
 										</ul>
 									</div>
 								</div>
@@ -145,6 +151,16 @@
 						<!-- <button data-remodal-action="confirm" class="remodal-confirm ready" id="cfmBtn" onclick="fncfmBtnChc()">선택완료</button> 버튼활성화시 'ready' class가 없음 -->
 					</div>
 				</div>
+				<form name="rotInfFrm" id="rotInfFrm" method="post" action="https://kobus.co.kr/oprninf/alcninqr/readAlcnSrch.ajax">
+		<input type="hidden" name="deprCd"         id="deprCd"         value="" /><!-- 출발지코드 -->
+		<input type="hidden" name="deprNm"         id="deprNm"         value="" /><!-- 출발지명 -->
+		<input type="hidden" name="arvlCd"         id="arvlCd"         value="" /><!-- 도착지코드 -->
+		<input type="hidden" name="arvlNm"         id="arvlNm"         value="" /><!-- 도착지명 -->
+		<input type="hidden" name="crchDeprArvlYn" id="crchDeprArvlYn" value="N" /><!-- 출도착지 스왑여부 -->
+		<input type="hidden" name="deprDtm"        id="deprDtm"        value="" /><!-- 가는날(편도,왕복) -->
+		<input type="hidden" name="busClsCd"       id="busClsCd"       value="0" /><!-- 버스등급 -->
+		<input type="hidden" name="prmmDcYn"       id="prmmDcYn"       value="N" /><!-- 시외우등할인대상노선 -->
+	</form>
 				<div class="main_box clfix">
 					<p class="main_tab">
 						<a href="#" class="tab1 on"><span>고속버스예매</span></a> <a href="#"
