@@ -1,3 +1,4 @@
+<%@page import="org.apache.catalina.connector.Response"%>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page import="java.util.List" %>
 <%@ page import="model.QnaModel" %>    
@@ -6,8 +7,8 @@
   <!-- 서비스의 메소드 호출  -->
   <%
   List <QnaModel> mList = ( List <QnaModel>)request.getAttribute("qnaList");
- 
  %>
+
 <!--  메뉴바 가져오기 -->
 <jsp:include page="/view/MainMenu/header.jsp" flush="true"></jsp:include>
 
@@ -29,6 +30,7 @@
 
 </head>
 <body>
+						
 	<div class="container">
 		<hr />
 		<a href="<%=pjName %>/qna?cmd=qnaWrite-page" id="write" name='write'><input type='button' value='글쓰기' id='bWrite'></a>
@@ -56,10 +58,9 @@
 				</div>
 			</div>
 		</div>
-		<% } %>
+		<% } //end of for%>
 		<hr />
 	</div>
-	
 	<!-- Footer -->
 	<footer>
 	<div class="footerHeader"></div>
