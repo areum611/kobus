@@ -3798,7 +3798,7 @@ tbody.collapse.in {
 }
 
 .dropdown-backdrop {
-	position: fixed;
+/* 	position: fixed; */
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -4695,7 +4695,7 @@ border-bottom-right-radius
 		}
 	}
 	.navbar-fixed-bottom, .navbar-fixed-top {
-		position: fixed;
+/* 		position: fixed; */
 		right: 0;
 		left: 0;
 		z-index: 1030

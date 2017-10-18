@@ -73,6 +73,7 @@
 	*display: inline;
 }
 
+/* 하단 슬라이드 이동 버튼 */
 .bx-wrapper .bx-pager.bx-default-pager a {
 	background: #666;
 	text-indent: -9999px;
