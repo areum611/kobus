@@ -3,7 +3,15 @@
 	String m_id = (String) request.getAttribute("loginId");
 
 	String pjName = "/kobus";
-
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>고속버스통합예매</title>
+</head>
+<body>
+	<%
 		if (m_id.equals("")) {
 			response.sendRedirect(pjName + "/login?cmd=login-page");
 
@@ -13,3 +21,4 @@
 			response.sendRedirect("/kobus/view/MainMenu/Main.jsp");
 		} // end of else
 	%>
+ 
