@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body{
-    background: #8999A8;
+/*     background: #8999A8; */
 }
 
 .navbar-wrapper {
@@ -71,3 +71,4 @@ border: none;
     text-align: center;
     color: white;
 }
+

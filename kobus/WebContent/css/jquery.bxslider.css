@@ -33,7 +33,6 @@
 	-webkit-box-shadow: 0 0 5px #ccc;
 	box-shadow: 0 0 5px #ccc;
 	border: solid #fff 5px;
-	
 	background: #fff;
 	*/
 }
@@ -134,7 +133,7 @@
 .bx-wrapper .bx-controls-auto .bx-start {
 	display: block;
 	text-indent: -9999px;
-	width: 10px;
+	width: 100px;
 	height: 11px;
 	outline: 0;
 	background: url(images/controls.png) -86px -11px no-repeat;
@@ -204,7 +203,7 @@ img {
 #banner_wrap {
 	position: relative;
 	width: 100%;
-	margin-top: 10%;
+	margin-bottom:5%;
 }
 
 #prevBtn {
