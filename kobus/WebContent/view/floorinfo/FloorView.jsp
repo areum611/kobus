@@ -55,20 +55,14 @@
             <div id="s_title">FLOOR GUIDE<br><br>
             <img src="http://www.exterminal.co.kr/images/sub_floor_title.jpg">
             </div>              
-                <li style="padding:0px; margin-top:30px;">
-								
-                <iframe src="../include/floor.jsp?floornum=" width="1000px" height="500px" scrolling="no" frameborder="0" style=" background-color:#c2c2c2;" id="floor">
-								
-                </iframe>   
-                </li>
             
               <div class="clear"></div>                           
                                                
      </div>
+<iframe src="../include/floor.jsp?floornum=" width="1000px" height="500px" scrolling="no" frameborder="0" style=" background-color:#c2c2c2;" id="floor" margin-bottom=100px>
+								
+                </iframe>   
 
-
-     <div class="clear"></div>
-     
      <!-- Footer -->
 	<footer>
 	<div class="footerHeader"></div>
