@@ -23,7 +23,7 @@ private static NoticeService service;
 		return repo.insertNotice(NM);
 	}
 	public List<NoticeModel> noticeList(){
-		return (List<NoticeModel>)repo.noticeList();
+		return repo.noticeList();
 	}
 	
 }
