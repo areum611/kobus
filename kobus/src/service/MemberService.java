@@ -22,7 +22,7 @@ private static MemberService service;
 		return repo.insertMember(m);
 	}
 	
-	public String selectLogin(MemberModel mm) {
+	public int selectLogin(MemberModel mm) {
 		return repo.selectLogin(mm);
 	}
 	

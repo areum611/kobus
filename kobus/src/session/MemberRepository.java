@@ -41,7 +41,7 @@ public class MemberRepository {
 	}
 	
 	// 로그인하기
-	public String selectLogin(MemberModel mm) {
+	public int selectLogin(MemberModel mm) {
 		SqlSession sess = getSqlSessionFactory().openSession();
 		try {
 //			HashMap hash = new HashMap();
@@ -49,7 +49,11 @@ public class MemberRepository {
 //			hash.put("m_password", mm.getM_password());
 			MemberModel result = null;
 			result = sess.selectOne(namespage + ".selectAll", mm);
-			return result.getM_id();
+			int loginCnt = 0;
+			if(result != null) {
+				loginCnt = 1;
+			}
+			return loginCnt;
 		} finally {
 			sess.close();
 		}
