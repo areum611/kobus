@@ -38,7 +38,13 @@
 		r_yn
 		from
 		v_kobus_reserlist
-		where m_id = #{ m_id } AND r_yn	= 'Y'
+		where m_id = #{ m_id } AND r_yn = 'Y'
 	</select>
+
+	<update id="payUpdateCancel" parameterType="PayModel">
+		UPDATE ko_reserinfo
+		SET r_yn = 'Y'
+		where r_no = #{r_no}
+	</update>
 </mapper>
  

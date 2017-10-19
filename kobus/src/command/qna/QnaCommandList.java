@@ -21,6 +21,7 @@ public class QnaCommandList implements Command {
 	public String execute(HttpServletRequest request, HttpServletResponse response) throws CommandException {
 		 String m_id=null;
 		 String m_gubun=null;
+		 String m_a=Character.toString('A');
 		 
 		try {
 			HttpSession session = request.getSession();
@@ -30,8 +31,8 @@ public class QnaCommandList implements Command {
 			if(m_id == null) {
 				next="qnaLogin.jsp";
 			
-			}else if(m_gubun.equals('A')) {
-				System.out.println(m_gubun);	
+			}else if(m_gubun.equals(m_a)) {
+					
 				List <QnaModel> mList = QnaService.getInstance().qnaAdminList(m_gubun);	
 			    request.setAttribute("qnaList", mList);
 			}

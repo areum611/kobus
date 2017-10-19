@@ -28,4 +28,8 @@ public class PayService {
 		return repo.payCancleList(m_id);
 	}
 
+	public int payUpdateCancel(PayModel pm) {
+		return repo.payUpdateCancel(pm);
+	}
+
 }
