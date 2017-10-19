@@ -35,6 +35,7 @@ public class QnaCommandList implements Command {
 					
 				List <QnaModel> mList = QnaService.getInstance().qnaAdminList(m_gubun);	
 			    request.setAttribute("qnaList", mList);
+			    request.setAttribute("m_gubun", m_gubun);
 			}
 			
 			else {

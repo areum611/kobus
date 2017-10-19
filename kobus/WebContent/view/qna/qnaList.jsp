@@ -7,7 +7,17 @@
   <!-- 서비스의 메소드 호출  -->
   <%
   List <QnaModel> mList = ( List <QnaModel>)request.getAttribute("qnaList");
+  String m_gubun = (String)request.getAttribute("m_gubun");
+  String m_a=Character.toString('A');
  %>
+
+<!-- 부트스트랩 링크 -->
+<link rel="stylesheet" href="/kobus/css/bootstrap.min2.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<link href="/kobus/css/qnamain.css" rel="stylesheet" />
 
 <!--  메뉴바 가져오기 -->
 <jsp:include page="/view/MainMenu/header.jsp" flush="true"></jsp:include>
@@ -18,40 +28,35 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>우리반 연습</title>
-
-<!-- 부트스트랩 링크 -->
-<link rel="stylesheet" href="/kobus/css/bootstrap.min2.css">
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<link href="/kobus/css/qnamain.css" rel="stylesheet" />
-
-
 </head>
 <body>
-						
+						<%if(m_gubun.equals('A')){ %>
+		<a href="<%=pjName %>/qna?cmd=qnaWrite-page" id="write" name='write'><input type='button' value='글쓰기' id='bWrite'></a>
+		<%}else{ %>
 	<div class="container">
 		<hr />
-		<a href="<%=pjName %>/qna?cmd=qnaWrite-page" id="write" name='write'><input type='button' value='글쓰기' id='bWrite'></a>
+		
+
 		<% for( QnaModel qnamodel : mList ) { %>
+		<input type='hidden' value='<%= qnamodel.getA_id() %>' name="aId" >
 		<div class="row">
 			<div class="col-md-6">
-				<div class="panel-group" id="accordion" role="tablist"
-					aria-multiselectable="true">
+				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 					<div class="panel panel-default">
 						<div class="panel-heading" role="tab" id="headingOne">
 							<h4 class="panel-title">
-								<a class="" role="button" data-toggle="collapse"
-									data-parent="#accordion" href="#collapseOne"
-									aria-expanded="true" aria-controls="collapseOne"> 
-									<i class="fa fa-bars"></i> <%=qnamodel.getQ_content()%>
+								<a class="" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+									aria-expanded="true" aria-controls="collapseOne" id="qnareply" > 
+									<i class="fa fa-bars"></i> 
+									<%=qnamodel.getQ_content()%>
 								</a>
 							</h4>
+								
 						</div>
-						<div id="collapseOne" class="panel-collapse collapse in"
-							role="tabpanel" aria-labelledby="headingOne">
-							<div class="panel-body"></div>
+						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+							<div class="panel-body">
+							
+							</div>
 						</div>
 					</div>
 					
@@ -59,8 +64,10 @@
 			</div>
 		</div>
 		<% } //end of for%>
+		<%} //end of else%>
 		<hr />
 	</div>
+	
 	<!-- Footer -->
 	<footer>
 	<div class="footerHeader"></div>

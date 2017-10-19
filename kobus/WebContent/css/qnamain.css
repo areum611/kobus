@@ -4,14 +4,17 @@ a:hover, a:focus{
     outline: none;
     text-decoration: none;
 }
+
 #accordion .panel{
     border:0px none;
     box-shadow:none;
 }
+
 #accordion .panel-heading{
     padding:0;
     background: #fff;
 }
+
 #accordion .panel-title a{
     display: block;
     position: relative;
@@ -53,21 +56,20 @@ a:hover, a:focus{
 #accordion .panel-title a.collapsed:hover{
     color: #6a6060;
 }
-#accordion .panel-title a:after,
-#accordion .panel-title a.collapsed:after{
-    content: "\f106";
-    font-family: FontAwesome;
-    color: #de4d4e;
-    font-size: 20px;
-    line-height: 20px;
-    position: absolute;
-    top: 14px;
-    right:25px;
-}
-#accordion .panel-title a.collapsed:after{
-    content: "\f107";
-    color:#808080;
-}
+/* #after{ */
+/*     content: "\f106"; */
+/*     font-family: FontAwesome; */
+/*     color: #de4d4e; */
+/*     font-size: 20px; */
+/*     line-height: 20px; */
+/*     position: absolute; */
+/*     top: 14px; */
+/*     right:25px; */
+/* } */
+/* #accordion .panel-title #after{ */
+/*     content: "\f107"; */
+/*     color:#808080; */
+/* } */
 #accordion .panel-body{
     border-top:0 none;
     color:#808080;
