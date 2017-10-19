@@ -252,7 +252,7 @@ body {
 }
 
 .card .input-container input:focus ~ .bar:before, .card .input-container input:focus 
-	~ .bar:after {
+	 ~ .bar:after {
 	width: 50%;
 }
 
@@ -471,7 +471,7 @@ body {
 }
 
 .card.alt .input-container input:focus ~ .bar:before, .card.alt .input-container input:focus 
-	~ .bar:after {
+	 ~ .bar:after {
 	background: #ffffff;
 }
 
@@ -535,4 +535,12 @@ keyframes buttonFadeInUp { 0% {
 .tab-pane {
 	display: none;
 	visibility: hidden
+}
+
+.containerWidth {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1170px
 }

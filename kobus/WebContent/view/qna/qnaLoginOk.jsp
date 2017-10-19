@@ -21,4 +21,4 @@
 			response.sendRedirect("/kobus/view/qna/qnaList.jsp");
 		} // end of else
 	%>
- 
+</body>

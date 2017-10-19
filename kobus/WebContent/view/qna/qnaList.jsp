@@ -33,7 +33,8 @@
 <body>
 <%if(mList == null){ %>
 <div id='qna_listConfirm'>등록된 내용이 없습니다.</div>
-<%} %>
+<br><br><br><br><br><br><br><br><br><br><br>
+<%} else { %>
 						<%if(m_gubun.equals('A')){ %>
 		<a href="<%=pjName %>/qna?cmd=qnaWrite-page" id="write" name='write'><input type='button' value='글쓰기' id='bWrite'></a>
 		<%} %>
@@ -70,6 +71,7 @@
 		<% } //end of for%>
 		<hr />
 	</div>
+	<% } %>
 	
 	<!-- Footer -->
 	<footer>

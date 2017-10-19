@@ -10,7 +10,7 @@
 	<!-- Footer -->
 	<footer>
 	<div class="footerHeader"></div>
-	<div class="container">
+	<div class="containerWidth">
 		<div class="col-md-4">
 			<h3>또이또이 5조</h3>
 			<p>허접들의 사이트에 오신것을 환영합니다</p>
