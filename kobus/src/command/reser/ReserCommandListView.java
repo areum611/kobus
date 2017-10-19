@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import command.Command;
 import command.CommandException;
-import model.ReserModel;
+import model.ScheduleModel;
 import service.ReserService;
 
 
@@ -19,8 +19,8 @@ public class ReserCommandListView implements Command{
 	}
 	public String execute(HttpServletRequest request, HttpServletResponse response) throws CommandException {
 		try {
-			List <ReserModel> mList = ReserService.getInstance().ReserList();	
-		    request.setAttribute("ReserList", mList );
+			List <ScheduleModel> mList = ReserService.getInstance().ReserList();	
+		    request.setAttribute("reserList", mList );
 		}catch (Exception ex) {
 			throw new CommandException("CommandInput.java < 입력시 > " + ex.toString() ); 
 		}

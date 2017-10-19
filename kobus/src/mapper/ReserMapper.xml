@@ -5,9 +5,9 @@
 
 <mapper namespace="mapper.ReserMapper">
 		
-		<select id="selectAll"  resultType="ReserModel">
-		SELECT cityname
-		FROM ko_city;
+		<select id="selectAll"  resultType="ScheduleModel">
+		SELECT DISTINCT DEPPLACENM
+		FROM KO_SCHEDULE
 	</select>
 
 </mapper>

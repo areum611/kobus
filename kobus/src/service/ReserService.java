@@ -2,7 +2,7 @@ package service;
 
 import java.util.List;
 
-import model.ReserModel;
+import model.ScheduleModel;
 import session.ReserRepository;
 
 public class ReserService {
@@ -19,8 +19,8 @@ private static ReserService service;
 	
 	ReserRepository repo = new ReserRepository();
 	
-	public List<ReserModel> ReserList(){
-		return (List<ReserModel>)repo.reserList();
+	public List<ScheduleModel> ReserList(){
+		return (List<ScheduleModel>)repo.reserList();
 	}
 	
 }

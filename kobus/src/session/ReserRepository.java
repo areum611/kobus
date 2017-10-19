@@ -8,7 +8,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
-import model.ReserModel;
+import model.ScheduleModel;
 
 
 public class ReserRepository {
@@ -25,7 +25,7 @@ public class ReserRepository {
 		return sessFac;
 	}
 	
-	public List<ReserModel> reserList(){
+	public List<ScheduleModel> reserList(){
 		SqlSession sess = getSqlSessionFactory().openSession();
 		// JDBC의 연결객체 -> SqlSession
 		try {

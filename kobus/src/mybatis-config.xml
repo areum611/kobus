@@ -17,6 +17,8 @@
 		<typeAlias type="model.QnaModel" alias="QnaModel" />
 		<typeAlias type="model.PayModel" alias="PayModel" />
 		<typeAlias type="model.ReserModel" alias="ReserModel"/>
+		<typeAlias type="model.ScheduleModel" alias="ScheduleModel"/>
+		
 	</typeAliases>
 
 	<environments default="development">

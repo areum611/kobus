@@ -1,7 +1,14 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%
-	String pjName = "/kobus";
-%>
+
+    <%@ page import="java.util.List" %>
+<%@ page import="model.ScheduleModel" %>    
+<%@ page import="service.ReserService" %>  
+      <% String pjName="/kobus"; %>
+  <!-- 서비스의 메소드 호출  -->
+  <%
+  List <ScheduleModel> mList = ( List <ScheduleModel>)request.getAttribute("reserList");
+ 
+ %>
 <!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
@@ -70,7 +77,7 @@
 						<div class="place">
 							<!-- focus -->
 							<ul>
-								<li class="" id="popDeprChc"><a href="<%=pjName %>/reser?cmd=list-start">
+								<li class="" id="popDeprChc">
 									<!--  class="focuson" --> <span class="stit">출발지</span></a>
 									<p class="text">
 										<span class="empty_txt">선택</span><span class="val_txt"
@@ -101,7 +108,7 @@
 								<div class = "area_scroll scrollbar-inner scroll-content" style="height: 433px; margin-right: -13px; margin-bottom: -13px; max-height: none;">
 									<ul class="area_list">
 										<li class="active" id="areaListAll"><span
-											onclick="fnDeprArvlViewList('all');">전체</span></li>
+											onclick="fnDeprArvlViewList('all');">전체</span></a></li>
 										<li><span onclick="fnDeprArvlViewList('11');">서울</span></li>
 										<li><span onclick="fnDeprArvlViewList('28');">인천/경기</span></li>
 										<li><span onclick="fnDeprArvlViewList('42');">강원</span></li>
@@ -110,12 +117,19 @@
 										<li><span onclick="fnDeprArvlViewList('29');">광주/전남</span></li>
 										<li><span onclick="fnDeprArvlViewList('45');">전북</span></li>
 										<li><span onclick="fnDeprArvlViewList('26');">부산/경남</span></li>
+									
+<%-- 											<% for( ScheduleModel SM : mList ) { %> --%>
+<!-- 											<li> -->
+<%-- 											<span><%=SM.getDepplacenm() %></span> --%>
+<!-- 											</li> -->
+<%-- 											<% }%> --%>
+								
 										<li><span onclick="fnDeprArvlViewList('27');">대구/경북</span></li>
 									</ul>
 								</div>
 								</div>
 
-
+						
 						
 								<div class="terminal_list" id="terminalList"> 
 <!-- 									<div class="scroll-wrapper terminal_scroll scrollbar-inner" style="position:relavtive;"> -->
@@ -123,10 +137,12 @@
 										<ul class="clear" id="tableTrmList">
 <!-- 											 출발지 터미널 -->
 
-											
-											<li class="">
-											<span onclick="fnDeprChc('200','강릉');">강릉</span>
+											<% for( ScheduleModel SM : mList ) { %>
+											<li class="over">
+											<span><%=SM.getDepplacenm() %></span>
 											</li>
+											<% }%>
+
 										</ul>
 									</div>
 						
