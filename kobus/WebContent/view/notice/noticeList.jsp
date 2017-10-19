@@ -36,7 +36,6 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h4>공지사항</h4>
 				<div class="table-responsive">
 
 
@@ -44,22 +43,26 @@
 
 						<thead>
 							<%
-							if (mGubun.equals(Character.toString('A'))) {
+								if (mGubun.equals(Character.toString('A'))) {
 							%>
 							<th><input type="checkbox" id="checkall" /></th>
-							<% } %>
+							<%
+								}
+							%>
 							<th>번 호</th>
 							<th width="40%">제 목</th>
 							<th>작성자</th>
 							<th>등록일</th>
 							<th>조회수</th>
 							<%
-							if (mGubun.equals(Character.toString('A'))) {
+								if (mGubun.equals(Character.toString('A'))) {
 							%>
 							<th>Edit</th>
 
 							<th>Delete</th>
-							<% } %>
+							<%
+								}
+							%>
 						</thead>
 
 
@@ -70,12 +73,14 @@
 							%>
 							<tr>
 								<%
-								if (mGubun.equals(Character.toString('A'))) {
+									if (mGubun.equals(Character.toString('A'))) {
 								%>
 								<td><input type="checkbox" class="checkthis" /></td>
-								<% } %>
+								<%
+									}
+								%>
 								<td><%=NM.getN_id()%></td>
-								<td><%=NM.getN_title()%></td>
+								<td id="tdLeft"><%=NM.getN_title()%></td>
 								<td><%=NM.getN_writer()%></td>
 								<td><%=NM.getN_date()%></td>
 								<td><%=NM.getN_hit()%></td>
@@ -106,11 +111,13 @@
 
 					</table>
 					<%
-							if (mGubun.equals(Character.toString('A'))) {
-							%>
+						if (mGubun.equals(Character.toString('A'))) {
+					%>
 					<a href="<%=pjName%>/notice?cmd=input-form" id="write" name='write'><input
 						type='button' value='글쓰기' id='bWrite'></a>
-					<% } %>
+					<%
+						}
+					%>
 					<div class="clearfix"></div>
 					<ul class="pagination pull-right">
 						<li class="disabled"><a href="#"><span
@@ -187,13 +194,12 @@
 				<div class="modal-body">
 
 					<div class="alert alert-danger">
-						<span class="glyphicon glyphicon-warning-sign"></span> Are you
-						sure you want to delete this Record?
+						<span class="glyphicon glyphicon-warning-sign"></span> 삭제하시겠습니까?
 					</div>
 
 				</div>
 				<div class="modal-footer ">
-					<button type="button" class="btn btn-success">
+					<button type="button" class="btn btn-success" name="noticeCancel" >
 						<span class="glyphicon glyphicon-ok-sign"></span> Yes
 					</button>
 					<button type="button" class="btn btn-default" data-dismiss="modal">

@@ -21,6 +21,7 @@
 		n_date,
 		n_hit
 		from notice
+		<trim prefix="ORDER BY" >n_id desc</trim>
 	</select>
 
 </mapper>
