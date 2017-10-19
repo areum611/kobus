@@ -28,8 +28,7 @@ public class QnaCommandInput implements Command {
 			
 			int groupId = service.groupId();
 			qm.setG_id(groupId);
-			System.out.println("qm.setG_id(groupId)~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" + qm.getG_id());
-		
+
 			// 순서번호(sequence_no) 지정
 			DecimalFormat dformat = new DecimalFormat("0000000000");
 			qm.setS_id( dformat.format(groupId) + "999999");

@@ -75,7 +75,7 @@ public class MemberRepository {
 		try {
 			HashMap hash = new HashMap();
 			hash.put("m_tel", m_tel);
-			return sess.selectOne(namespage + ".selectAll", hash);
+			return sess.selectOne(namespage + ".selectTel", hash);
 		} finally {
 			sess.close();
 		}

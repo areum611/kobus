@@ -13,6 +13,7 @@ import command.Command;
 import command.CommandException;
 import command.CommandNull;
 import command.member.JoinCommandMem;
+import command.member.LoginCommandIdSearch;
 import command.member.LoginCommandOk;
 
 public class MemberControl extends HttpServlet {
@@ -32,6 +33,9 @@ public class MemberControl extends HttpServlet {
 		commandMap.put("join-complete", new JoinCommandMem("joinComplete.jsp"));
 		commandMap.put("login-ok", new LoginCommandOk("loginOk.jsp"));
 		commandMap.put("logout-page", new CommandNull("logout.jsp"));
+		commandMap.put("id-search", new CommandNull("idsearch.jsp"));
+		commandMap.put("id-search", new LoginCommandIdSearch("idsearch.jsp"));
+		
 	}
 	
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

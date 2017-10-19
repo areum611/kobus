@@ -1,4 +1,7 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+	String pjName = "/kobus";
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,7 +23,7 @@
 					<input type="text" autocomplete="off" placeholder="휴대폰번호를 입력하세요" />
 					<div class="border"></div>
 				</div>
-				<a href="#" class="btn btn-block btn-warning">확인</a>
+				<a href="<%=pjName%>/login?cmd=id-search" class="btn btn-block btn-warning">확인</a>
 			</div>
 		</div>
 	</div>

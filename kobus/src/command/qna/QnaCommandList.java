@@ -35,12 +35,13 @@ public class QnaCommandList implements Command {
 				List <QnaModel> mList = QnaService.getInstance().qnaAdminList(m_gubun);	
 			    request.setAttribute("qnaList", mList);
 			    request.setAttribute("m_gubun", m_gubun);
+			    next="qnaList.jsp";
 			}
 			
 			else {
 				List <QnaModel> mList = QnaService.getInstance().qnaList(m_id);	
 			    request.setAttribute("qnaList", mList );
-			    
+			    next="qnaList.jsp";
 			}
 		}catch (Exception ex) {
 			throw new CommandException("CommandInput.java < 입력시 > " + ex.toString() ); 

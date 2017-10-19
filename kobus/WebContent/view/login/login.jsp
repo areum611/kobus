@@ -44,8 +44,8 @@
 						</div>
 					</form>
 					<div class="footer">
-						<a href="#forgotid">아이디 찾기</a> &nbsp; <a href="#forgotpassword">비밀번호
-							찾기</a>
+						<a href="<%=pjName%>/login?cmd=id-search">아이디 찾기</a> &nbsp; 
+						<a href="#forgotpassword">비밀번호찾기</a>
 					</div>
 
 				</div>

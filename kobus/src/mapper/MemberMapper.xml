@@ -34,10 +34,19 @@
 	where m_id=#{m_id}
 	</select>
 	
+	<select id="selectTel" resultType="string" parameterType="string">
+	select
+	m_id
+	from ko_member
+	where m_tel=#{m_tel}
+	</select>
+	
 	<insert id="insertMember" parameterType="MemberModel">
 		INSERT INTO ko_member (m_id, m_password, m_tel, m_email, m_born)
 		VALUES (#{m_id}, #{m_password}, #{m_tel}, #{m_email}, #{m_born})
 	</insert>
+	
+	
 
 
 </mapper>

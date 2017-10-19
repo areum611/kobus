@@ -8,7 +8,7 @@
   <%
   String m_a=Character.toString('A');
   List <QnaModel> mList = ( List <QnaModel>)request.getAttribute("qnaList");
-  String m_gubun = (String)request.getAttribute("m_gubun");
+  String m_gubun = (String)session.getAttribute("m_gubun");
   if(m_gubun == null){
 	  m_gubun = Character.toString('M');
 	  }
@@ -35,7 +35,7 @@
 <body>
 						<%if(m_gubun.equals('A')){ %>
 		<a href="<%=pjName %>/qna?cmd=qnaWrite-page" id="write" name='write'><input type='button' value='글쓰기' id='bWrite'></a>
-		<%}else{ %>
+		<%} %>
 	<div class="container">
 		<hr />
 		
@@ -67,7 +67,6 @@
 			</div>
 		</div>
 		<% } //end of for%>
-		<%} //end of else%>
 		<hr />
 	</div>
 	
