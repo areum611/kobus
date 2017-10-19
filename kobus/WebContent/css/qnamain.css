@@ -5,6 +5,14 @@ a:hover, a:focus{
     text-decoration: none;
 }
 
+#qna_confirm{
+	text-align: center;
+	font-size: 30px;
+	color: skyblue;
+	font-weight: bold;
+	margin-top:5%;
+}
+
 #accordion .panel{
     border:0px none;
     box-shadow:none;
@@ -81,4 +89,12 @@ a:hover, a:focus{
 	color: black;
 	border: 1px solid #BDBDBD;
 	width:100px;
+}
+
+#qna_listConfirm{
+	text-align: center;
+	font-size: 30px;
+	color: skyblue;
+	font-weight: bold;
+	margin-top:5%;
 }

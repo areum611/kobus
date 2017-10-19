@@ -18,14 +18,12 @@
 <link rel="stylesheet" href="/kobus/css/bootstrap.min2.css">
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <link href="/kobus/css/qnamain.css" rel="stylesheet" />
 
 <!--  메뉴바 가져오기 -->
 <jsp:include page="/view/MainMenu/header.jsp" flush="true"></jsp:include>
 
- 
 <!DOCTYPE html>
 <html>
 <head>
@@ -33,6 +31,9 @@
 <title>우리반 연습</title>
 </head>
 <body>
+<%if(mList == null){ %>
+<div id='qna_listConfirm'>등록된 내용이 없습니다.</div>
+<%} %>
 						<%if(m_gubun.equals('A')){ %>
 		<a href="<%=pjName %>/qna?cmd=qnaWrite-page" id="write" name='write'><input type='button' value='글쓰기' id='bWrite'></a>
 		<%} %>
