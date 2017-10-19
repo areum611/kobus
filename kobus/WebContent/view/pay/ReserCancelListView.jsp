@@ -42,7 +42,7 @@
 
 	<div class="container">
 	<% if(payCancleList.isEmpty()){ %>
-	취소내역이 없습니다.
+	<center>취소내역이 없습니다.</center>
 	<%}else{ %>
 		<%
 			for (PayModel paymodel : payCancleList) {

@@ -31,7 +31,7 @@ public class PayRepository {
 	public List<PayModel> payList(String m_id) {
 		SqlSession sess = getSqlSessionFactory().openSession();
 		try {
-			
+
 			return sess.selectList(namespage + ".paySelectReser", m_id);
 		} finally {
 			sess.close();
@@ -46,7 +46,21 @@ public class PayRepository {
 		} finally {
 			sess.close();
 		}
-		
+
 	}
 
+	public int payUpdateCancel(PayModel pm) {
+		SqlSession sess = getSqlSessionFactory().openSession();
+		try {
+			int result = sess.update(namespage + ".payUpdateCancel", pm);
+			if (result > 0) {
+				sess.commit();
+			} else {
+				sess.rollback();
+			}
+			return result;
+		} finally {
+			sess.close();
+		}
+	}
 }

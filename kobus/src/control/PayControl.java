@@ -30,7 +30,8 @@ public class PayControl extends HttpServlet {
 		commandMap.put("login-ok",new PayCommandMemCh("payMemCh.jsp"));
 		commandMap.put("pay-confirm", new PayCommandMain("ReserListView.jsp"));
 		commandMap.put("calcleList-page", new PayCommandCancleList("ReserCancelListView.jsp"));
-//		commandMap.put("reserCancle-page", new PayCommand);
+		commandMap.put("cancelSubmit", new PayCommandCancelSubmit("payCancelSubmit.jsp"));
+
 
 	}
 
