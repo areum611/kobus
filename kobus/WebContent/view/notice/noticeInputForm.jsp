@@ -5,6 +5,9 @@
 <%
 	String mId = (String) session.getAttribute("m_id");
 %>
+<!--  메뉴바 가져오기 -->
+<jsp:include page="/view/MainMenu/header.jsp" flush="true"></jsp:include>
+
 <!DOCTYPE>
 <html>
 <head>
