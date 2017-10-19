@@ -26,6 +26,10 @@ private static MemberService service;
 		return repo.selectLogin(mm);
 	}
 	
+	public String selectGubun(MemberModel mm) {
+		return repo.selectGubun(mm);
+	}
+	
 	public String selectId(String m_tel) {
 		return repo.selectId(m_tel);
 	}

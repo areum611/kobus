@@ -38,6 +38,17 @@ public class QnaRepository {
 		}
 	}
 	
+	public List<QnaModel> qnaAdminList(String m_gubun){
+		SqlSession sess = getSqlSessionFactory().openSession();
+		// JDBC의 연결객체 -> SqlSession
+		try {
+		return sess.selectList(namespage + ".qnaAdminListselectAll",m_gubun);
+		}finally {
+			sess.close();
+		}
+	}
+	
+	
 	public Integer qnaInsert(QnaModel qm) {
 		SqlSession sess = getSqlSessionFactory().openSession();
 		try {

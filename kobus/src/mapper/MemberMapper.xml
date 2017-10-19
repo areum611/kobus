@@ -27,8 +27,13 @@
 		</where>
 	</select>
 	
+	<select id="selectGubun" resultType="Membermodel">
+	select
+	m_gubun
+	from ko_member
+	where m_id=#{m_id}
+	</select>
 	
-
 	<insert id="insertMember" parameterType="MemberModel">
 		INSERT INTO ko_member (m_id, m_password, m_tel, m_email, m_born)
 		VALUES (#{m_id}, #{m_password}, #{m_tel}, #{m_email}, #{m_born})

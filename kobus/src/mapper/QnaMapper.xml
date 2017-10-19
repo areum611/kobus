@@ -15,8 +15,21 @@
 		q_hit,
 		m_id
 		from ko_qna
-		where m_id=#{m_id} and m_id={admin}
+		where m_id=#{m_id}
 	</select>
+	
+	<select id="qnaAdminListselectAll" resultType="QnaModel">
+	select
+		a_id,
+		g_id,
+		s_id,
+		q_content,
+		q_date,
+		q_hit,
+		m_id
+		from ko_qna
+	</select>
+
 
 <select id='qnaGroupId' resultType="int">
 select qna_gid.nextval groupId from dual

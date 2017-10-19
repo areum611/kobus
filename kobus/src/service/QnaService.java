@@ -25,6 +25,10 @@ public class QnaService {
 		return (List<QnaModel>)repo.qnaList(m_id);
 	}
 	
+	public List<QnaModel> qnaAdminList(String m_gubun){
+		return (List<QnaModel>)repo.qnaAdminList(m_gubun);
+	}
+	
 	public int qnaInsert(QnaModel qm) {
 		return repo.qnaInsert(qm);
 	}
