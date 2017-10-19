@@ -23,16 +23,19 @@ public class LoginCommandOk implements Command{
 //		mm.setM_gubun(request.getParameter("m_gubun"));
 		
 		int loginCnt = MemberService.getInstance().selectLogin(mm);
+		System.out.println(loginCnt + ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 		
 		if(loginCnt == 0) {
 			next = "login.jsp";
-		}
+		} else if (loginCnt == 1) {
 		String m_id = request.getParameter("m_id");
-		String m_gubun = MemberService.getInstance().selectGubun(m_id);
+//		String m_gubun = MemberService.getInstance().selectGubun(m_id);
+//		System.out.println("구분~~~~~~~~~~~~~~~~~~~~~~~" + m_gubun);
 		
 		request.setAttribute("loginId", m_id);
-		request.setAttribute("m_gubun", m_gubun);
-		
+//		request.setAttribute("m_gubun", m_gubun);
+		next = "loginOk.jsp";
+		}
 		return next;
 	}
 

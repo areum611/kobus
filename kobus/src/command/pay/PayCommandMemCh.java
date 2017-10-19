@@ -21,7 +21,8 @@ public class PayCommandMemCh implements Command {
 		mm.setM_id(request.getParameter("m_id"));
 		mm.setM_password(request.getParameter("m_password"));
 
-		int loginCnt = MemberService.getInstance().selectLogin(mm);
+		int loginCnt = 0;
+		loginCnt = MemberService.getInstance().selectLogin(mm);
 
 		if (loginCnt == 0) {
 			next = "login.jsp";
