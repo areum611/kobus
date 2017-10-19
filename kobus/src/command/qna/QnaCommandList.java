@@ -31,8 +31,7 @@ public class QnaCommandList implements Command {
 			if(m_id == null) {
 				next="qnaLogin.jsp";
 			
-			}else if(m_gubun.equals(m_a)) {
-					
+			}else if(m_gubun.equals(m_a)) {		
 				List <QnaModel> mList = QnaService.getInstance().qnaAdminList(m_gubun);	
 			    request.setAttribute("qnaList", mList);
 			    request.setAttribute("m_gubun", m_gubun);

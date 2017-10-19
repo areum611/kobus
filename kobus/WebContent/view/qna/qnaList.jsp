@@ -6,9 +6,12 @@
   <% String pjName="/kobus"; %>
   <!-- 서비스의 메소드 호출  -->
   <%
+  String m_a=Character.toString('A');
   List <QnaModel> mList = ( List <QnaModel>)request.getAttribute("qnaList");
   String m_gubun = (String)request.getAttribute("m_gubun");
-  String m_a=Character.toString('A');
+  if(m_gubun == null){
+	  m_gubun = Character.toString('M');
+	  }
  %>
 
 <!-- 부트스트랩 링크 -->

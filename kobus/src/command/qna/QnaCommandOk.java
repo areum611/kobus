@@ -3,11 +3,12 @@ package command.qna;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import command.Command;
 import command.CommandException;
 import model.MemberModel;
 import service.MemberService;
 
-public class QnaCommandOk {
+public class QnaCommandOk implements Command{
 public String next;
 	
 	public QnaCommandOk(String _next) {
@@ -26,11 +27,16 @@ public String next;
 		if(loginCnt == 0) {
 			next = "login.jsp";
 		}
-		String m_id = request.getParameter("m_id");
-		String m_gubun = MemberService.getInstance().selectGubun(m_id);
 		
-		request.setAttribute("loginId", m_id);
-		request.setAttribute("m_gubun", m_gubun);
+		else if(loginCnt != 0) {
+			String m_id = request.getParameter("m_id");
+			String m_gubun = MemberService.getInstance().selectGubun(m_id);
+			
+			request.setAttribute("loginId", m_id);
+			request.setAttribute("m_gubun", m_gubun);
+			
+			next = "qnaLoginOk.jsp";
+		}
 		
 		return next;
 	}
