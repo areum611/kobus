@@ -42,7 +42,7 @@
 			slider.goToPrevSlide();
 			return false; // <a>태그의 이벤트 차단하기
 		});
-
+	
 		$('#nextBtn').click(function() {
 			slider.goToNextSlide();
 			return false; // <a>태그의 이벤트 차단하기

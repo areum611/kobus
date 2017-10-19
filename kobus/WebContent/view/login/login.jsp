@@ -14,11 +14,8 @@
 
 </head>
 <body>
-
- 
 	<div class="container">
 		<div class="row">
-
 			<!-- Mixins-->
 			<!-- Pen Title-->
 			<div class="pen-title">

@@ -53,7 +53,16 @@ public class MemberRepository {
 		} finally {
 			sess.close();
 		}
-		
+	}
+	
+	// 관리자 / 사용자 구분 
+	public String selectGubun(MemberModel mm) {
+		SqlSession sess = getSqlSessionFactory().openSession();
+		try {
+			return sess.selectOne(namespage + ".selectGubun", mm);
+		} finally {
+			sess.close();
+		}	
 	}
 
 	// 아이디찾기
