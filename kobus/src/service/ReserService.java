@@ -23,4 +23,9 @@ private static ReserService service;
 		return (List<ScheduleModel>)repo.reserList();
 	}
 	
+	public List<ScheduleModel> ReserList2(String dep_placenm){
+		System.out.println(dep_placenm+"서비스");
+		return (List<ScheduleModel>)repo.reserList2(dep_placenm);
+	}
+	
 }

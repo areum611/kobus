@@ -9,5 +9,10 @@
 		SELECT DISTINCT DEPPLACENM
 		FROM KO_SCHEDULE
 	</select>
-
+	
+	<select id="selectlast" resultType="ScheduleModel" parameterType="String">
+		SELECT DISTINCT ARRPLACENM
+		FROM KO_SCHEDULE
+		WHERE DEPPLACENM = #{dep_placenm}
+	</select>
 </mapper>

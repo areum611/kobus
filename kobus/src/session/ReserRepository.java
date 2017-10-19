@@ -34,4 +34,14 @@ public class ReserRepository {
 			sess.close();
 		}
 	}
+	public List<ScheduleModel> reserList2(String dep_placenm){
+		SqlSession sess = getSqlSessionFactory().openSession();
+		// JDBC의 연결객체 -> SqlSession
+		try {
+			System.out.println(dep_placenm+"레파");
+		return sess.selectList(namespage + ".selectlast",dep_placenm);
+		}finally {
+			sess.close();
+		}
+	}
 }
