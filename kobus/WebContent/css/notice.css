@@ -23,3 +23,12 @@ font-size: 24px;
 	margin: 10px 0px 60px;
 	border: 1px solid GREY;
 	}
+	
+th, td {
+	text-align: center;
+}
+
+
+#tdLeft{
+text-align: left;
+}
