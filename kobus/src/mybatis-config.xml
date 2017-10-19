@@ -20,15 +20,13 @@
 		<typeAlias type="model.NoticeModel" alias="NoticeModel" />
 		<typeAlias type="model.QnaModel" alias="QnaModel" />
 		<typeAlias type="model.PayModel" alias="PayModel" />
-<<<<<<< HEAD
-<!-- 		<typeAlias type="model.ReserModel" alias="ReserModel"/> -->
+		<typeAlias type="model.ReserModel" alias="ReserModel"/>
 		<typeAlias type="model.ScheduleModel" alias="ScheduleModel"/>
 		
-=======
+
 		<!-- <typeAlias type="model.ReserModel" alias="ReserModel"/> -->
 		<!-- <typeAlias type="model.ScheduleModel" alias="ScheduleModel"/> -->
 
->>>>>>> branch 'master' of https://github.com/areum611/kobus
 	</typeAliases>
 
 	<environments default="development">
@@ -49,10 +47,7 @@
 		<mapper resource="mapper/NoticeMapper.xml" />
 		<mapper resource="mapper/QnaMapper.xml" />
 		<mapper resource="mapper/PayMapper.xml" />
-<<<<<<< HEAD
 		<mapper resource="mapper/ReserMapper.xml" />
-=======
-		<!-- <mapper resource="mapper/ReserMapper.xml" /> -->
->>>>>>> branch 'master' of https://github.com/areum611/kobus
+
 	</mappers>
 </configuration>
