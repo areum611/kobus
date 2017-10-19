@@ -15,4 +15,9 @@
 		FROM KO_SCHEDULE
 		WHERE DEPPLACENM = #{dep_placenm}
 	</select>
+	<select id="selectMain" resultType="ScheduleModel" parameterType="hashMap">
+		SELECT *
+		FROM KO_SCHEDULE
+		WHERE DEPPLACENM = #{dep_placenm} AND ARRPLACENM=#{arr_placenm}
+	</select>
 </mapper>

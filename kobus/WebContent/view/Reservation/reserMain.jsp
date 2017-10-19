@@ -1,5 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	      <% String pjName="/kobus"; %>
+	      <%@ page import="java.util.List" %>
+<%@ page import="model.ScheduleModel" %>    
+<%@ page import="service.ReserService" %>  
+  <!-- 서비스의 메소드 호출  -->
+  <%
+  List <ScheduleModel> mList3 = ( List <ScheduleModel>)request.getAttribute("reserList3");
+  String depplacenm = request.getParameter("dep_placenm"); 
+  String arrplacenm = request.getParameter("arr_placenm");
+ %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -15,11 +25,6 @@
 	<div class="title_wrap in_process route_chk ticketingT">
 		<a href="#" class="back">back</a> <a href="#" class="mo_toggle">메뉴</a>
 		<h2>고속버스예매</h2>
-		<ol class="process">
-			<li class="active">예매정보입력</li>
-			<li>결제정보입력</li>
-			<li>예매완료</li>
-		</ol>
 	</div>
 
 	<div class="page">
@@ -36,81 +41,83 @@
 
 				<div class="route_wrap" id="alcnRotInfo">
 					<div class="inner">
-						<p class="roundBox departure" id="alcnDeprTmlNm">서울경부</p>
+						<p class="roundBox departure" id="alcnDeprTmlNm"><%=depplacenm %></p>
 
-						<p class="roundBox arrive" id="alcnArvlTmlNm">강릉</p>
+						<p class="roundBox arrive" id="alcnArvlTmlNm"><%=arrplacenm %></p>
 					</div>
-					<div class="detail_info">
-						<span id="takeDrtm">2시간 50분 소요</span> <span id="dist">228.7
-							Km</span>
-					</div>
-					<div class="btn_r">
-						<a href="#none" class="btn btn_modify white" onclick="fnUpdRot()">수정</a>
-					</div>
-				</div>
+<!-- 					<div class="detail_info"> -->
+<!-- 						<span id="takeDrtm">2시간 50분 소요</span> <span id="dist">228.7 -->
+<!-- 							Km</span> -->
+<!-- 					</div> -->
+<!-- 					<div class="btn_r"> -->
+<!-- 						<a href="#none" class="btn btn_modify white" onclick="fnUpdRot()">수정</a> -->
+<!-- 					</div> -->
+<!-- 				</div> -->
 
-				<a href="#" class="btn_price">요금보기</a>
-				<div class="price_info bottom" id="alcnPriceInf">
-					<p class="stit">
-						요금정보<span>(일반요금)</span>
-					</p>
-					<dl>
-						<dt id="psrmFeeNm">프리미엄</dt>
-						<dd id="psrmFee">
-							<input type="hidden" name="psrmFeeVal" id="psrmFeeVal"
-								value="27,900"> 27,900 원
+<!-- 				<a href="#" class="btn_price">요금보기</a> -->
+<!-- 				<div class="price_info bottom" id="alcnPriceInf"> -->
+<!-- 					<p class="stit"> -->
+<!-- 						요금정보<span>(일반요금)</span> -->
+<!-- 					</p> -->
+<!-- 					<dl> -->
+<!-- 						<dt id="psrmFeeNm">프리미엄</dt> -->
+<!-- 						<dd id="psrmFee"> -->
+<!-- 							<input type="hidden" name="psrmFeeVal" id="psrmFeeVal" -->
+<!-- 								value="27,900"> 27,900 원 -->
 
-						</dd>
-						<dt id="prmmFeeNm">우등고속</dt>
-						<dd id="prmmFee">
-							<input type="hidden" name="prmmFeeVal" id="prmmFeeVal"
-								value="21,500"> 21,500 원
+<!-- 						</dd> -->
+<!-- 						<dt id="prmmFeeNm">우등고속</dt> -->
+<!-- 						<dd id="prmmFee"> -->
+<!-- 							<input type="hidden" name="prmmFeeVal" id="prmmFeeVal" -->
+<!-- 								value="21,500"> 21,500 원 -->
 
-						</dd>
-						<dt id="hspdFeeNm">일반고속</dt>
-						<dd id="hspdFee">
-							<input type="hidden" name="hspdFeeVal" id="hspdFeeVal"
-								value="14,600"> 14,600 원
+<!-- 						</dd> -->
+<!-- 						<dt id="hspdFeeNm">일반고속</dt> -->
+<!-- 						<dd id="hspdFee"> -->
+<!-- 							<input type="hidden" name="hspdFeeVal" id="hspdFeeVal" -->
+<!-- 								value="14,600"> 14,600 원 -->
 
-						</dd>
-						<dt id="mdntPsrmFeeNm">심야프리미엄</dt>
-						<dd id="mdntPsrmFee">
-							<input type="hidden" name="mdntPsrmFeeVal" id="mdntPsrmFeeVal"
-								value="30,600"> 30,600 원
+<!-- 						</dd> -->
+<!-- 						<dt id="mdntPsrmFeeNm">심야프리미엄</dt> -->
+<!-- 						<dd id="mdntPsrmFee"> -->
+<!-- 							<input type="hidden" name="mdntPsrmFeeVal" id="mdntPsrmFeeVal" -->
+<!-- 								value="30,600"> 30,600 원 -->
 
-						</dd>
-						<dt id="mdntPrmmFeeNm">심야우등</dt>
-						<dd id="mdntPrmmFee">
-							<input type="hidden" name="mdntPrmmFeeVal" id="mdntPrmmFeeVal"
-								value="23,600"> 23,600 원
+<!-- 						</dd> -->
+<!-- 						<dt id="mdntPrmmFeeNm">심야우등</dt> -->
+<!-- 						<dd id="mdntPrmmFee"> -->
+<!-- 							<input type="hidden" name="mdntPrmmFeeVal" id="mdntPrmmFeeVal" -->
+<!-- 								value="23,600"> 23,600 원 -->
 
-						</dd>
-						<dt id="mdntHspdFeeNm">심야고속</dt>
-						<dd id="mdntHspdFee">
-							<input type="hidden" name="mdntHspdFeeVal" id="mdntHspdFeeVal"
-								value="16,000"> 16,000 원
+<!-- 						</dd> -->
+<!-- 						<dt id="mdntHspdFeeNm">심야고속</dt> -->
+<!-- 						<dd id="mdntHspdFee"> -->
+<!-- 							<input type="hidden" name="mdntHspdFeeVal" id="mdntHspdFeeVal" -->
+<!-- 								value="16,000"> 16,000 원 -->
 
-						</dd>
-						<dt id="mdntPsrmExchFeeNm">할증프리미엄</dt>
-						<dd id="mdntPsrmExchFee">
-							<input type="hidden" name="mdntPsrmExchFeeVal"
-								id="mdntPsrmExchFeeVal" value="33,400"> 33,400 원
+<!-- 						</dd> -->
+<!-- 						<dt id="mdntPsrmExchFeeNm">할증프리미엄</dt> -->
+<!-- 						<dd id="mdntPsrmExchFee"> -->
+<!-- 							<input type="hidden" name="mdntPsrmExchFeeVal" -->
+<!-- 								id="mdntPsrmExchFeeVal" value="33,400"> 33,400 원 -->
 
-						</dd>
-						<dt id="mdntPrmmExchFeeNm">할증우등</dt>
-						<dd id="mdntPrmmExchFee">
-							<input type="hidden" name="mdntPrmmExchFeeVal"
-								id="mdntPrmmExchFeeVal" value="23,600"> 23,600 원
+<!-- 						</dd> -->
+<!-- 						<dt id="mdntPrmmExchFeeNm">할증우등</dt> -->
+<!-- 						<dd id="mdntPrmmExchFee"> -->
+<!-- 							<input type="hidden" name="mdntPrmmExchFeeVal" -->
+<!-- 								id="mdntPrmmExchFeeVal" value="23,600"> 23,600 원 -->
 
-						</dd>
-						<dt id="mdntHspdExchFeeNm">할증고속</dt>
-						<dd id="mdntHspdExchFee">
-							<input type="hidden" name="mdntHspdExchFeeVal"
-								id="mdntHspdExchFeeVal" value="16,000"> 16,000 원
-						</dd>
-					</dl>
-				</div>
+<!-- 						</dd> -->
+<!-- 						<dt id="mdntHspdExchFeeNm">할증고속</dt> -->
+<!-- 						<dd id="mdntHspdExchFee"> -->
+<!-- 							<input type="hidden" name="mdntHspdExchFeeVal" -->
+<!-- 								id="mdntHspdExchFeeVal" value="16,000"> 16,000 원 -->
+<!-- 						</dd> -->
+<!-- 					</dl> -->
+<!-- 				</div> -->
 			</div>
+			</div>
+			
 			<!-- //좌측 infoBox -->
 			<!-- 우측 detailBox -->
 			<div class="detailBox">
@@ -145,14 +152,16 @@
 					</ul>
 					<div class="bustime_wrap">
 						<p class="bustime_head">
-							<span class="start_time">출발</span> <span class="bus_info">고속사/등급</span>
+							<span class="start_time">출발시간</span> 
+							<span class="bus_info">도착시간</span>
 							<!-- tablet / mobile 사이즈에서 보임 -->
-							<span class="bus_com">고속사</span>
+<!-- 							<span class="bus_com">출발지</span> -->
 							<!-- pc 사이즈에서만 보임 -->
-							<span class="grade" style="">등급</span>
+							<span class="grade">출발지</span>
 							<!-- pc 사이즈에서만 보임 -->
-							<span class="temp"></span> <span class="remain">잔여석</span> <span
-								class="status"></span>
+							<span class="temp">도착지</span> 
+							<span class="remain">비용</span> 
+							<span class="status">선택</span>
 						</p>
 						<div class="bus_time">
 							<!-- 동양고속 class="dyexpress" 삼화고속 class="samhwa" 중앙고속 class="jabus" 금호고속 class="kumho" 천일고속 class="chunil" 한일고속 class="hanil" 동부고속 class="dongbu" 금호속리산고속 class="songnisan" 코버스 class="kobus" -->
@@ -170,22 +179,23 @@
 
 							<!-- <p class="noselect premium" data-time="09"> -->
 							<!-- 선택할수 목록(1. 시간이 지났을경우, 2. 잔여좌석이 0일경우) 에 class = 'noselect', 등급이 프리미엄일 경우 class = "premium" -->
+								<% for( ScheduleModel SM3 : mList3 ) { %> 
 							<p class="" data-time="05">
 								<a href="#" class=""
 									onclick="fnSatsChc('20171014','060000','060000','010','200','1','06','N','Y');">
-									<span class="start_time">06 : 00</span> <span class="bus_info"><span
-										class="jabus">(주)중앙고속</span><span class="grade_mo">우등<br>
-											<span style="font-size: 8pt; color: #333;"></span></span></span> <!-- tablet / mobile 사이즈에서 보임 -->
-									<span class="bus_com"><span class="jabus">(주)중앙고속</span></span>
-									<!-- pc 사이즈에서만 보임 --> <span class="grade">우등 <br> <span
-										style="font-size: 8pt; color: #333;"></span></span> <!-- pc 사이즈에서만 보임 -->
-									<span class="temp"></span> <!-- pc 사이즈에서만 보임 --> <span
-									class="remain">27 석</span> <span class="status"> <span
-										class="accent btn_arrow">선택</span> <!-- fnSatsChc(deprTime,alcnDeprTime,alcnDeprTrmlNo,alcnArvlTrmlNo,indVBusClsCd,cacmCd) -->
+									<span class="start_time"><%=SM3.getDepplandtime() %></span> 
+									<span class="bus_info"><%=SM3.getArrplandtime() %></span>
+<!-- 									<span style="font-size: 8pt; color: #333;"></span></span></span> tablet / mobile 사이즈에서 보임 -->
+<%-- 									<span class="bus_com"><%=SM3.getDepplacenm() %></span></span><span style="font-size: 8pt; color: #333;"></span></span> <!-- pc 사이즈에서만 보임 --> --%>
+									<span class="grade"><%=SM3.getDepplacenm() %></span>
+									<span class="temp"><%=SM3.getArrplacenm() %></span> <!-- pc 사이즈에서만 보임 --> 
+									<span class="remain"><%=SM3.getCharge() %></span> 
+									<span class="status"> 
+									<span class="accent btn_arrow">선택</span> <!-- fnSatsChc(deprTime,alcnDeprTime,alcnDeprTrmlNo,alcnArvlTrmlNo,indVBusClsCd,cacmCd) -->
 								</span>
 								</a>
 							</p>
-							
+							<%} %>
 						</div>
 					</div>
 				</div>
