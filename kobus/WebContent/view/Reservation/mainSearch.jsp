@@ -183,15 +183,21 @@
 										<li><a href="#" id="readDeprInfoList"
 											onclick="fnReadDeprInfoList(event);"> <span class="name">출발지</span>
 												<p class="text empty">
-													<span class="empty_txt"></span><span class="val_txt"
-														id="deprNmSpn"><%=depplacenm %></span>
+												<%if(mList != null){ %>
+													<span class="empty_txt">선택</span>
+													<%}else{ %>
+													<span class="val_txt" id="deprNmSpn"><%=depplacenm %></span>
+													<%} %>
 												</p> <!-- 값이 있을경우 'empty' class가 없음 -->
 										</a>
 										<li><a href="#" id="readArvlInfoList"
 											onclick="fnReadArvlInfoList(event);"> <span class="name">도착지</span>
 												<p class="text empty">
-													<span class="empty_txt"></span><span class="val_txt"
-														id="arvlNmSpn"><%=arrplacenm %></span>
+												<%if(mList2 != null || mList !=null){ %>
+													<span class="empty_txt">선택</span>
+													<%}else{ %>
+													<span class="val_txt" id="arvlNmSpn"><%=arrplacenm %></span>
+												<%} %>
 												</p> <!-- 값이 없을경우 'empty' class가 있음 -->
 										</a></li>
 									</ul>
