@@ -20,7 +20,12 @@ public class PayService {
 	
 	// 예매내역
 	public List <PayModel> payList(String m_id){
-		return (List<PayModel>)repo.payList(m_id);
+		return repo.payList(m_id);
+	}
+
+	// 취소내역
+	public List<PayModel> payCancleList(String m_id) {
+		return repo.payCancleList(m_id);
 	}
 
 }

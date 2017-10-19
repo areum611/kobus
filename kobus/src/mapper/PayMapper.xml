@@ -22,5 +22,23 @@
 		v_kobus_reserlist
 		where m_id = #{ m_id } AND r_yn = 'N'
 	</select>
+
+	<select id="payCancleSelect" resultType="PayModel">
+		select
+		m_id,
+		r_no,
+		depplacenm,
+		arrplacenm,
+		rdate,
+		depplandtime,
+		gradenm,
+		cnt,
+		seatnum,
+		price,
+		r_yn
+		from
+		v_kobus_reserlist
+		where m_id = #{ m_id } AND r_yn	= 'Y'
+	</select>
 </mapper>
  
