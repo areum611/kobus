@@ -19,10 +19,10 @@
 <!-- 부트스트랩 끝-->
 
 </head>
-<body>
+<body >
 <!-- Menu Bar -->
-	<div class="navbar-wrapper">
-		<div class="container-fluid">
+	<div  class="navbar-wrapper">
+		<div class="container-fluid" style="height: 80px;">
 			<nav class="navbar navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">

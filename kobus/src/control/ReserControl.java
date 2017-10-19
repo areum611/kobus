@@ -14,6 +14,7 @@ import command.CommandException;
 import command.CommandNull;
 import command.reser.ReserCommandListView;
 import command.reser.ReserCommandListView2;
+import command.reser.ReserCommandMain;
 
 public class ReserControl extends HttpServlet{
 	private HashMap commandMap;
@@ -30,6 +31,7 @@ public class ReserControl extends HttpServlet{
 		commandMap.put("reser-main", new CommandNull("mainSearch.jsp") );
 		commandMap.put("list-start",new ReserCommandListView("mainSearch.jsp"));
 		commandMap.put("list-last",new ReserCommandListView2("mainSearch.jsp"));
+		commandMap.put("list-view",new ReserCommandMain("reserMain.jsp"));
 	}
 	
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

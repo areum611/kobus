@@ -8,6 +8,8 @@
   <%
   List <ScheduleModel> mList = ( List <ScheduleModel>)request.getAttribute("reserList");
   List <ScheduleModel> mList2 = ( List <ScheduleModel>)request.getAttribute("reserList2");
+  String depplacenm = request.getParameter("dep_placenm"); 
+  String arrplacenm = request.getParameter("arr_placenm");
  %>
 <!DOCTYPE html>
 <head>
@@ -147,7 +149,7 @@
 				<% }else if(mList2 !=null){ %>
 
 				<% for( ScheduleModel SM2 : mList2 ) { %> 
-				<a href="<%= pjName %>/view/Reservation/mainSearch.jsp?arrplacenm=<%=SM2.getArrplacenm() %>&dep_placenm=<%=request.getParameter("dep_placenm")%>"><span><%=SM2.getArrplacenm() %></span></a>
+				<a href="<%= pjName %>/view/Reservation/mainSearch.jsp?arr_placenm=<%=SM2.getArrplacenm() %>&dep_placenm=<%=depplacenm%>"><span><%=SM2.getArrplacenm() %></span></a>
 				<% }%>
 				<%} %>
 							</div>
@@ -168,13 +170,6 @@
 						<!-- <button data-remodal-action="confirm" class="remodal-confirm ready" id="cfmBtn" onclick="fncfmBtnChc()">선택완료</button> 버튼활성화시 'ready' class가 없음 -->
 					</div>
 				</div>
-				<form name="rotInfFrm" id="rotInfFrm" method="post" action="https://kobus.co.kr/oprninf/alcninqr/readAlcnSrch.ajax">
-
-		<input type="hidden" name="deprNm"         id="deprNm"         value="" />출발지명
-		<input type="hidden" name="arvlNm"         id="arvlNm"         value="" />도착지명
-		<input type="hidden" name="deprDtm"        id="deprDtm"        value="" />가는날(편도,왕복)
-		<input type="hidden" name="busClsCd"       id="busClsCd"       value="0" />버스등급
-	</form>
 				<div class="main_box clfix">
 					<p class="main_tab">
 						<a href="#" class="tab1 on"><span>고속버스예매</span></a> <a href="#"
@@ -188,15 +183,15 @@
 										<li><a href="#" id="readDeprInfoList"
 											onclick="fnReadDeprInfoList(event);"> <span class="name">출발지</span>
 												<p class="text empty">
-													<span class="empty_txt"><%=request.getParameter("dep_placenm") %></span><span class="val_txt"
-														id="deprNmSpn"></span>
+													<span class="empty_txt"></span><span class="val_txt"
+														id="deprNmSpn"><%=depplacenm %></span>
 												</p> <!-- 값이 있을경우 'empty' class가 없음 -->
 										</a>
 										<li><a href="#" id="readArvlInfoList"
 											onclick="fnReadArvlInfoList(event);"> <span class="name">도착지</span>
 												<p class="text empty">
-													<span class="empty_txt"><%=request.getParameter("arrplacenm") %></span><span class="val_txt"
-														id="arvlNmSpn"></span>
+													<span class="empty_txt"></span><span class="val_txt"
+														id="arvlNmSpn"><%=arrplacenm %></span>
 												</p> <!-- 값이 없을경우 'empty' class가 있음 -->
 										</a></li>
 									</ul>
@@ -256,10 +251,19 @@
 											</span>
 										</p>
 									</div>
-									<p class="check" id="alcnSrchBtn">
-										<button type="button" class="btn_confirm ready"
-											onclick="fnAlcnSrchBef();">조회하기</button>
+									<form name="rotInfFrm" id="rotInfFrm" method="post" action="<%= pjName %>/reser?cmd=list-view">
+
+	
+		<input type="hidden" name="dep_placenm"        id="depplacenm"        value="<%=depplacenm %>" />
+		<input type="hidden" name="arr_placenm"       id="arrplacenm"       value="<%=arrplacenm %>" />
+			<p class="check" >
+										<button type="submit" >조회하기</button>
+<!-- 										id="alcnSrchBtn"  -->
+<!-- 										class="btn_confirm ready" -->
 									</p>
+	</form>
+				
+							
 								</div>
 							</div>
 						</div>
