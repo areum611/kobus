@@ -56,10 +56,10 @@ public class MemberRepository {
 	}
 	
 	// 관리자 / 사용자 구분 
-	public String selectGubun(MemberModel mm) {
+	public String selectGubun(String m_id) {
 		SqlSession sess = getSqlSessionFactory().openSession();
 		try {
-			return sess.selectOne(namespage + ".selectGubun", mm);
+			return sess.selectOne(namespage + ".selectGubun", m_id);
 		} finally {
 			sess.close();
 		}	

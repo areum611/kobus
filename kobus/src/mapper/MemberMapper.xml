@@ -27,7 +27,7 @@
 		</where>
 	</select>
 	
-	<select id="selectGubun" resultType="Membermodel">
+	<select id="selectGubun" resultType="string" parameterType="string">
 	select
 	m_gubun
 	from ko_member
