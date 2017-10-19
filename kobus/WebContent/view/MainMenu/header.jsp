@@ -22,8 +22,8 @@
 <body >
 <!-- Menu Bar -->
 	<div  class="navbar-wrapper">
-		<div class="container-fluid" style="height: 80px;">
-			<nav class="navbar navbar-fixed-top">
+		<div class="container-fluid" style="height: 80px; background-color: white">
+			<nav class="navbar ">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed"
