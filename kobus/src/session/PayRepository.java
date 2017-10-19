@@ -39,4 +39,14 @@ public class PayRepository {
 
 	}
 
+	public List<PayModel> payCancleList(String m_id) {
+		SqlSession sess = getSqlSessionFactory().openSession();
+		try {
+			return sess.selectList(namespage + ".payCancleSelect", m_id);
+		} finally {
+			sess.close();
+		}
+		
+	}
+
 }
