@@ -61,7 +61,7 @@
 		%>
 		<form method="post" action="<%=pjName%>/pay?cmd=cancelSubmit">
 			<input type="hidden" name="rNo" value="<%=paymodel.getR_no()%>" />
-			<div class="row">
+			<div class="">
 				<div class="col-md-4">
 					<div class="panel panel-danger">
 						<div class="panel-heading">

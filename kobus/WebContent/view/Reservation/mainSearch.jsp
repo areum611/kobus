@@ -1,16 +1,19 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-    <%@ page import="java.util.List" %>
-<%@ page import="model.ScheduleModel" %>    
-<%@ page import="service.ReserService" %>  
-      <% String pjName="/kobus"; %>
-  <!-- 서비스의 메소드 호출  -->
-  <%
-  List <ScheduleModel> mList = ( List <ScheduleModel>)request.getAttribute("reserList");
-  List <ScheduleModel> mList2 = ( List <ScheduleModel>)request.getAttribute("reserList2");
-  String depplacenm = request.getParameter("dep_placenm"); 
-  String arrplacenm = request.getParameter("arr_placenm");
- %>
+<%@ page import="java.util.List"%>
+<%@ page import="model.ScheduleModel"%>
+<%@ page import="service.ReserService"%>
+<%
+	String pjName = "/kobus";
+%>
+<!-- 서비스의 메소드 호출  -->
+<%
+	List<ScheduleModel> mList = (List<ScheduleModel>) request.getAttribute("reserList");
+	List<ScheduleModel> mList2 = (List<ScheduleModel>) request.getAttribute("reserList2");
+	String depplacenm = request.getParameter("dep_placenm");
+	String arrplacenm = request.getParameter("arr_placenm");
+%>
+
 <!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
@@ -54,15 +57,13 @@
 			<div id="contents">
 				<script type="text/javascript"
 					src="https://kobus.co.kr/js/kor/main/Main.js"></script>
-				<script type="text/javascript"
-					src="/kobus/js/popup.js"></script>
-					<script type="text/javascript"
-					src="/kobus/js/OprnAlcnlnqr.js"></script>
+				<script type="text/javascript" src="/kobus/js/popup.js"></script>
+				<script type="text/javascript" src="/kobus/js/OprnAlcnlnqr.js"></script>
 
 
 				<script type="text/javascript"
 					src="https://kobus.co.kr/js/kor/mrs/rotinf/RotInf.js"></script>
-		
+
 				<script type="text/javascript"
 					src="https://kobus.co.kr/js/kor/mrs/mrscfm/MrsCfmLgn.js"></script>
 
@@ -79,32 +80,38 @@
 						<div class="place">
 							<!-- focus -->
 							<ul>
-							
+
 								<li class="" id="popDeprChc">
 									<!--  class="focuson" --> <span class="stit">출발지</span></a>
 									<p class="text">
-										<%if(depplacenm == null){ %>
+										<%
+											if (depplacenm == null) {
+										%>
 										<span class="empty_txt">선택</span>
-										<%}else if(depplacenm != null ){ %>
-										<span class="val_txt"
-											id="popDeprNmSpn"><%=depplacenm %></span>
-									<%} %>
+										<%
+											} else if (depplacenm != null) {
+										%>
+										<span class="val_txt" id="popDeprNmSpn"><%=depplacenm%></span>
+										<%
+											}
+										%>
 									</p>
-									
+
 								</li>
-								<li class = "" id="popArvlChc"><span class="stit">도착지</span>
+								<li class="" id="popArvlChc"><span class="stit">도착지</span>
 									<p class="text">
-									<%if(arrplacenm == null){ %>
+										<%
+											if (arrplacenm == null) {
+										%>
 										<span class="empty_txt">선택</span>
-										<%}else{ %>
-										<span class="val_txt"
-											id="popArvlNmSpn"><%=arrplacenm %></span>
-									<%} %>
-									</p>
-									
-												
-												
-									</li>
+										<%
+											} else {
+										%>
+										<span class="val_txt" id="popArvlNmSpn"><%=arrplacenm%></span>
+										<%
+											}
+										%>
+									</p></li>
 							</ul>
 							<p class="btn_change">출,도착지 교체</p>
 						</div>
@@ -116,13 +123,13 @@
 							</p>
 						</div>
 
-						
+
 						<div class="terminal_wrap">
 							<p class="stit">지역별 터미널</p>
 							<div class="ternimal_box">
-<!-- 								<div class="area_scroll scrollbar-inner" style = "position:relative;"> -->
-									<div class="area_scroll scrollbar-inner" >
-<!-- 								<div class = "area_scroll scrollbar-inner scroll-content" style="height: 433px; margin-right: -13px; margin-bottom: -13px; max-height: none;"> -->
+								<!-- 								<div class="area_scroll scrollbar-inner" style = "position:relative;"> -->
+								<div class="area_scroll scrollbar-inner">
+									<!-- 								<div class = "area_scroll scrollbar-inner scroll-content" style="height: 433px; margin-right: -13px; margin-bottom: -13px; max-height: none;"> -->
 									<ul class="area_list">
 										<li class="active" id="areaListAll"><span
 											onclick="fnDeprArvlViewList('all');">전체</span></a></li>
@@ -136,49 +143,65 @@
 										<li><span onclick="fnDeprArvlViewList('26');">부산/경남</span></li>
 										<li><span onclick="fnDeprArvlViewList('27');">대구/경북</span></li>
 									</ul>
-									<div>
-							</div>
+									<div></div>
 								</div>
-<!-- 								<div class="terminal_list" id="terminalList"> -->
-<!-- <!-- 							<div class="terminal_scroll scrollbar-inner"> --> 
-<!-- 								<ul class="clear" id="tableTrmList"> 출발지 터미널 -->
-<%-- 									<% for( ScheduleModel SM : mList ) { %> --%>
-<!-- 											<li class="over"> -->
-<%-- 											<span><%=SM.getDepplacenm() %></span> --%>
-<!-- 											</li> -->
-<%-- 											<% }%> --%>
-<!-- 								</ul> -->
-<!-- <!-- 							</div> -->
-<!-- 						</div> -->
-							
-					
+								<!-- 								<div class="terminal_list" id="terminalList"> -->
+								<!-- <!-- 							<div class="terminal_scroll scrollbar-inner"> -->
+								<!-- 								<ul class="clear" id="tableTrmList"> 출발지 터미널 -->
+								<%-- 									<% for( ScheduleModel SM : mList ) { %> --%>
+								<!-- 											<li class="over"> -->
+								<%-- 											<span><%=SM.getDepplacenm() %></span> --%>
+								<!-- 											</li> -->
+								<%-- 											<% }%> --%>
+								<!-- 								</ul> -->
+								<!-- <!-- 							</div> -->
+								<!-- 						</div> -->
+
+
 							</div>
 							<div class="start_wrap" id="imptDepr">
-					<p class="stit">주요출발지</p>
-					<% if(mList != null) { %>
-					<p class="tags">
-					<% for( ScheduleModel SM : mList ) { %> 
-						<a href="<%= pjName %>/reser?cmd=list-last&dep_placenm=<%=SM.getDepplacenm() %>"><span><%=SM.getDepplacenm() %></span></a>
-						<% } %>
-				<% }else if(mList2 !=null){ %>
+								<p class="stit">주요출발지</p>
+								<%
+									if (mList != null) {
+								%>
+								<p class="tags">
+									<%
+										for (ScheduleModel SM : mList) {
+									%>
+									<a
+										href="<%=pjName%>/reser?cmd=list-last&dep_placenm=<%=SM.getDepplacenm()%>"><span><%=SM.getDepplacenm()%></span></a>
+									<%
+										}
+									%>
+									<%
+										} else if (mList2 != null) {
+									%>
 
-				<% for( ScheduleModel SM2 : mList2 ) { %> 
-				<a href="<%= pjName %>/view/Reservation/mainSearch.jsp?arr_placenm=<%=SM2.getArrplacenm() %>&dep_placenm=<%=depplacenm%>"><span><%=SM2.getArrplacenm() %></span></a>
-				<% }%>
-				<%} %>
+									<%
+										for (ScheduleModel SM2 : mList2) {
+									%>
+									<a
+										href="<%=pjName%>/view/Reservation/mainSearch.jsp?arr_placenm=<%=SM2.getArrplacenm()%>&dep_placenm=<%=depplacenm%>"><span><%=SM2.getArrplacenm()%></span></a>
+									<%
+										}
+									%>
+									<%
+										}
+									%>
+								
 							</div>
 						</div>
-						
+
 
 					</div>
 
-<!-- 								<div class="terminal_list" id="terminalList">  -->
-<!-- <!-- 									<div class="scroll-wrapper terminal_scroll scrollbar-inner" style="position:relavtive;"> --> 
-<!-- <!-- 									<div class = "terminal_scroll scrollbar-inner scroll-content scroll-scrolly_visible" style="height: auto; margin-right: -13px; margin-bottom: -13px; max-height: 433px;"> --> 
-<!-- 										<ul id="tableTrmList"> -->
-<!-- <!-- 											 출발지 터미널 -->
-<!-- 										</ul> -->
-<!-- 									</div> -->
+					<!-- 								<div class="terminal_list" id="terminalList">  -->
+					<!-- <!-- 									<div class="scroll-wrapper terminal_scroll scrollbar-inner" style="position:relavtive;"> -->
+					<!-- <!-- 									<div class = "terminal_scroll scrollbar-inner scroll-content scroll-scrolly_visible" style="height: auto; margin-right: -13px; margin-bottom: -13px; max-height: 433px;"> -->
+					<!-- 										<ul id="tableTrmList"> -->
+					<!-- <!-- 											 출발지 터미널 -->
+					<!-- 										</ul> -->
+					<!-- 									</div> -->
 
 					<div class="btns">
 						<!-- <button data-remodal-action="confirm" class="remodal-confirm ready" id="cfmBtn" onclick="fncfmBtnChc()">선택완료</button> 버튼활성화시 'ready' class가 없음 -->
@@ -197,21 +220,33 @@
 										<li><a href="#" id="readDeprInfoList"
 											onclick="fnReadDeprInfoList(event);"> <span class="name">출발지</span>
 												<p class="text empty">
-												<%if(mList != null){ %>
+													<%
+														if (mList != null) {
+													%>
 													<span class="empty_txt">선택</span>
-													<%}else{ %>
-													<span class="val_txt" id="deprNmSpn"><%=depplacenm %></span>
-													<%} %>
+													<%
+														} else {
+													%>
+													<span class="val_txt" id="deprNmSpn"><%=depplacenm%></span>
+													<%
+														}
+													%>
 												</p> <!-- 값이 있을경우 'empty' class가 없음 -->
 										</a>
 										<li><a href="#" id="readArvlInfoList"
 											onclick="fnReadArvlInfoList(event);"> <span class="name">도착지</span>
 												<p class="text empty">
-												<%if(mList2 != null || mList !=null){ %>
+													<%
+														if (mList2 != null || mList != null) {
+													%>
 													<span class="empty_txt">선택</span>
-													<%}else{ %>
-													<span class="val_txt" id="arvlNmSpn"><%=arrplacenm %></span>
-												<%} %>
+													<%
+														} else {
+													%>
+													<span class="val_txt" id="arvlNmSpn"><%=arrplacenm%></span>
+													<%
+														}
+													%>
 												</p> <!-- 값이 없을경우 'empty' class가 있음 -->
 										</a></li>
 									</ul>
@@ -271,19 +306,22 @@
 											</span>
 										</p>
 									</div>
-									<form name="rotInfFrm" id="rotInfFrm" method="post" action="<%= pjName %>/reser?cmd=list-view">
+									<form name="rotInfFrm" id="rotInfFrm" method="post"
+										action="<%=pjName%>/reser?cmd=list-view">
 
-	
-		<input type="hidden" name="dep_placenm"        id="depplacenm"        value="<%=depplacenm %>" />
-		<input type="hidden" name="arr_placenm"       id="arrplacenm"       value="<%=arrplacenm %>" />
-			<p class="check" >
-										<button type="submit" id="alcnSrchBtn" class="btn_confirm ready" >조회하기</button>
-<!-- 										id="alcnSrchBtn"  -->
-<!-- 										class="btn_confirm ready" -->
-									</p>
-	</form>
-				
-							
+
+										<input type="hidden" name="dep_placenm" id="depplacenm"
+											value="<%=depplacenm%>" /> <input type="hidden"
+											name="arr_placenm" id="arrplacenm" value="<%=arrplacenm%>" />
+										<p class="check">
+											<button type="submit" id="alcnSrchBtn"
+												class="btn_confirm ready">조회하기</button>
+											<!-- 										id="alcnSrchBtn"  -->
+											<!-- 										class="btn_confirm ready" -->
+										</p>
+									</form>
+
+
 								</div>
 							</div>
 						</div>
@@ -292,6 +330,5 @@
 			</div>
 		</div>
 	</div>
-	
 </body>
 </html>
