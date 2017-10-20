@@ -41,6 +41,14 @@
 	where m_tel=#{m_tel}
 	</select>
 	
+	<select id="selectEmail" resultType="MemberModel" parameterType="string">
+	select
+	m_email,
+	m_password
+	from ko_member
+	where m_id=#{m_id}
+	</select>
+	
 	<insert id="insertMember" parameterType="MemberModel">
 		INSERT INTO ko_member (m_id, m_password, m_tel, m_email, m_born)
 		VALUES (#{m_id}, #{m_password}, #{m_tel}, #{m_email}, #{m_born})

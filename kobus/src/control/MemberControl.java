@@ -15,6 +15,7 @@ import command.CommandNull;
 import command.member.JoinCommandMem;
 import command.member.LoginCommandIdSearch;
 import command.member.LoginCommandOk;
+import command.member.LoginCommnadPwSearch;
 
 public class MemberControl extends HttpServlet {
 	private HashMap commandMap;
@@ -34,7 +35,10 @@ public class MemberControl extends HttpServlet {
 		commandMap.put("login-ok", new LoginCommandOk("loginOk.jsp"));
 		commandMap.put("logout-page", new CommandNull("logout.jsp"));
 		commandMap.put("id-search", new CommandNull("idsearch.jsp"));
-		commandMap.put("id-search", new LoginCommandIdSearch("idsearch.jsp"));
+		commandMap.put("id-searchOk", new LoginCommandIdSearch("idsearch.jsp"));
+		commandMap.put("pw-search", new CommandNull("pwsearch.jsp"));
+		commandMap.put("pw-searchOk", new LoginCommnadPwSearch("pwsearch.jsp"));
+		
 		
 	}
 	
