@@ -20,15 +20,12 @@ public class LoginCommandIdSearch implements Command{
 		MemberModel mm = new MemberModel();
 
 		MemberService service = MemberService.getInstance();
-		String m_tel = request.getParameter("m_tel");
+	
+		String m_tel = request.getParameter("m_tell");		
+		String m_checkId = service.getInstance().selectId(m_tel);
 		
-		request.setAttribute("m_tel", m_tel);
-		
-		mm.setM_tel(request.getParameter("m_tel"));
-		
-		
-		service.getInstance().selectId(m_tel);
-		
+		request.setAttribute("m_tell", m_tel);
+		request.setAttribute("m_checkId", m_checkId);
 		return next;
 	}
 

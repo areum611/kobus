@@ -18,8 +18,14 @@ public class NoticeCommandList implements Command{
 	}
 	public String execute(HttpServletRequest request, HttpServletResponse response) throws CommandException {
 		try {
+			NoticeModel nm = new NoticeModel();
+		
 			List <NoticeModel> mList = NoticeService.getInstance().noticeList();	
-		    request.setAttribute("noticeList", mList );
+		    int id= nm.getN_id();
+			System.out.println(id);
+			request.setAttribute("noticeList", mList );
+		    
+		    
 		}catch (Exception ex) {
 			throw new CommandException("CommandInput.java < 입력시 > " + ex.toString() ); 
 		}
