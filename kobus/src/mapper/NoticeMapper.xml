@@ -8,11 +8,12 @@
 	<insert id="insertNotice" parameterType="NoticeModel">
 		INSERT
 		INTO notice
-		VALUES (SEQ_KO_TER_TERCODE.nextVal, #{n_writer}, #{n_title}, #{n_content},
+		VALUES
+		(SEQ_KO_TER_TERCODE.nextVal, #{n_writer}, #{n_title}, #{n_content},
 		sysdate, 0)
 	</insert>
-		
-		<select id="selectAll"  resultType="NoticeModel">
+
+	<select id="selectAll" resultType="NoticeModel">
 		select
 		n_id,
 		n_writer,
@@ -21,7 +22,21 @@
 		n_date,
 		n_hit
 		from notice
-		<trim prefix="ORDER BY" >n_id desc</trim>
+		<trim prefix="ORDER BY">n_id desc</trim>
+	</select>
+
+	<select id="noticeSelectView" resultType="NoticeModel"
+		parameterType="int">
+		select
+		n_id,
+		n_writer,
+		n_title,
+		n_content,
+		n_date,
+		n_hit
+		from
+		notice
+		where n_id=#{n_id}
 	</select>
 
 </mapper>

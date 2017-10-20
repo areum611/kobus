@@ -92,7 +92,6 @@
 						%>
 						<li><a href="<%=pjName%>/login?cmd=login-page" id="login"
 							name='login'>로그인 </a>
-						<li><a href="#" id='join' name='join'>회원가입 </a></li>
 						<%
 							} // end of if 
 							else {

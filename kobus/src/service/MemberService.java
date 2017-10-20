@@ -34,7 +34,7 @@ private static MemberService service;
 		return repo.selectId(m_tel);
 	}
 	
-	public String selectPw (String m_id) {
+	public MemberModel selectPw (String m_id) {
 		return repo.selectPw(m_id);
 	}
 	

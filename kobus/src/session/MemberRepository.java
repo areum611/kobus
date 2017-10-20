@@ -82,12 +82,12 @@ public class MemberRepository {
 	}
 
 	// 비밀번호찾기
-	public String selectPw(String m_id) {
+	public MemberModel selectPw(String m_id) {
 		SqlSession sess = getSqlSessionFactory().openSession();
 		try {
 			HashMap hash = new HashMap();
 			hash.put("m_id", m_id);
-			return sess.selectOne(namespage + ".selectAll", hash);
+			return sess.selectOne(namespage + ".selectEmail", hash);
 		} finally {
 			sess.close();
 		}
