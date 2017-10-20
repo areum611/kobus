@@ -15,9 +15,16 @@
 		FROM KO_SCHEDULE
 		WHERE DEPPLACENM = #{dep_placenm}
 	</select>
+	
 	<select id="selectMain" resultType="ScheduleModel" parameterType="hashMap">
 		SELECT *
 		FROM KO_SCHEDULE
 		WHERE DEPPLACENM = #{dep_placenm} AND ARRPLACENM=#{arr_placenm}
+	</select>
+	
+	<select id="selectSeat" resultType="ScheduleModel" parameterType="int">
+		SELECT *
+		FROM KO_SCHEDULE
+		WHERE S_ID = #{s_id}
 	</select>
 </mapper>

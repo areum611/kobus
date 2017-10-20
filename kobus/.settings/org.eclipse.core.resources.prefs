@@ -2,6 +2,7 @@
 <<<<<<<=HEAD
 >>>>>>>=branch 'master' of https\://github.com/areum611/kobus
 eclipse.preferences.version=1
+encoding//WebContent/view/Reservation/reserSeatChoice.jsp=UTF-8
 encoding//WebContent/view/notice/noticeView.jsp=UTF-8
 encoding//WebContent/view/pay/PaySelectView.jsp=UTF-8
 encoding/<project>=UTF-8

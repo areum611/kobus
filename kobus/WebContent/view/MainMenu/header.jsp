@@ -44,7 +44,7 @@
 						<li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 							aria-expanded="false">예매<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-								<li class=" dropdown"><a href="<%= pjName %>/reser?cmd=reser-main">고속버스예매 </a></li>
+								<li class=" dropdown"><a href="<%= pjName %>/reser?cmd=list-start">고속버스예매 </a></li>
 								<li><a href="<%= pjName %>/pay?cmd=pay-main">예매확인</a></li>
 							</ul></li>
 						

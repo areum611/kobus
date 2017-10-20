@@ -79,18 +79,32 @@
 						<div class="place">
 							<!-- focus -->
 							<ul>
+							
 								<li class="" id="popDeprChc">
 									<!--  class="focuson" --> <span class="stit">출발지</span></a>
 									<p class="text">
-										<span class="empty_txt">선택</span><span class="val_txt"
-											id="popDeprNmSpn"></span>
+										<%if(depplacenm == null){ %>
+										<span class="empty_txt">선택</span>
+										<%}else if(depplacenm != null ){ %>
+										<span class="val_txt"
+											id="popDeprNmSpn"><%=depplacenm %></span>
+									<%} %>
 									</p>
+									
 								</li>
 								<li class = "" id="popArvlChc"><span class="stit">도착지</span>
 									<p class="text">
-										<span class="empty_txt">선택</span><span class="val_txt"
-											id="popArvlNmSpn">출발지선택</span>
-									</p></li>
+									<%if(arrplacenm == null){ %>
+										<span class="empty_txt">선택</span>
+										<%}else{ %>
+										<span class="val_txt"
+											id="popArvlNmSpn"><%=arrplacenm %></span>
+									<%} %>
+									</p>
+									
+												
+												
+									</li>
 							</ul>
 							<p class="btn_change">출,도착지 교체</p>
 						</div>
@@ -263,7 +277,7 @@
 		<input type="hidden" name="dep_placenm"        id="depplacenm"        value="<%=depplacenm %>" />
 		<input type="hidden" name="arr_placenm"       id="arrplacenm"       value="<%=arrplacenm %>" />
 			<p class="check" >
-										<button type="submit" >조회하기</button>
+										<button type="submit" id="alcnSrchBtn" class="btn_confirm ready" >조회하기</button>
 <!-- 										id="alcnSrchBtn"  -->
 <!-- 										class="btn_confirm ready" -->
 									</p>

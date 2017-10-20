@@ -58,4 +58,15 @@ return sess.selectList(namespage + ".selectMain",hash);
 			sess.close();
 		}
 	}
+	
+	public List<ScheduleModel> reserList4(int s_id){
+		SqlSession sess = getSqlSessionFactory().openSession();
+		// JDBC의 연결객체 -> SqlSession
+		try {
+
+		return sess.selectList(namespage + ".selectSeat",s_id);
+		}finally {
+			sess.close();
+		}
+	}
 }

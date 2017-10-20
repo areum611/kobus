@@ -24,12 +24,15 @@ private static ReserService service;
 	}
 	
 	public List<ScheduleModel> ReserList2(String dep_placenm){
-		System.out.println(dep_placenm+"서비스");
+
 		return (List<ScheduleModel>)repo.reserList2(dep_placenm);
 	}
 	public List<ScheduleModel> ReserList3(String dep_placenm, String arr_placenm){
-		System.out.println(dep_placenm+"서비스");
+
 		return repo.reserList3(dep_placenm,arr_placenm);
 	}
+	public List<ScheduleModel> ReserList4(int s_id){
 	
+		return (List<ScheduleModel>)repo.reserList4(s_id);
+	}
 }
