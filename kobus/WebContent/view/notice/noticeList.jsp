@@ -22,10 +22,26 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>우리반연습</title>
+<title>고속버스통합예매 - 공지사항</title>
 <link href="/kobus/css/notice.css" rel="stylesheet" />
 <script src="/kobus/js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="/kobus/js/noticelist.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	$("tr #tdLeft").hover(function(){
+		$(this).css("color", "#68b3ce");
+	}, function(){
+		$(this).css("color", "black");
+	});
+	$("tr #tdLeft").click(function(){
+	// 현재 클릭된 Row(<tr>)
+	var nId = $(this).parents('tr').find('td:eq(0)').text();
+	location.replace('/kobus/notice?cmd=notice-view&nId=' + nId);
+	});
+		
+	});
+</script>
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
 </head>
 <body>
@@ -42,13 +58,6 @@
 					<table id="mytable" class="table table-bordred table-striped">
 
 						<thead>
-							<%
-								if (mGubun.equals(Character.toString('A'))) {
-							%>
-							<th><input type="checkbox" id="checkall" /></th>
-							<%
-								}
-							%>
 							<th>번 호</th>
 							<th width="40%">제 목</th>
 							<th>작성자</th>
@@ -64,22 +73,12 @@
 								}
 							%>
 						</thead>
-
-
-
-						<tbody>
+						<tbody id="noticeView">
 							<%
 								for (NoticeModel NM : mList) {
 							%>
 							<tr>
-								<%
-									if (mGubun.equals(Character.toString('A'))) {
-								%>
-								<td><input type="checkbox" class="checkthis" /></td>
-								<%
-									}
-								%>
-								<td><%=NM.getN_id()%></td>
+								<td name="nId" id="nId"><%=NM.getN_id()%></td>
 								<td id="tdLeft"><%=NM.getN_title()%></td>
 								<td><%=NM.getN_writer()%></td>
 								<td><%=NM.getN_date()%></td>
@@ -199,7 +198,7 @@
 
 				</div>
 				<div class="modal-footer ">
-					<button type="button" class="btn btn-success" name="noticeCancel" >
+					<button type="button" class="btn btn-success" name="noticeCancel">
 						<span class="glyphicon glyphicon-ok-sign"></span> Yes
 					</button>
 					<button type="button" class="btn btn-default" data-dismiss="modal">

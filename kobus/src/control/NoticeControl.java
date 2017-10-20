@@ -14,6 +14,7 @@ import command.CommandException;
 import command.CommandNull;
 import command.notice.NoticeCommandInput;
 import command.notice.NoticeCommandList;
+import command.notice.NoticeCommandView;
 
 
 public class NoticeControl extends HttpServlet {
@@ -34,6 +35,7 @@ public class NoticeControl extends HttpServlet {
 		commandMap.put("notice-list", new NoticeCommandList("noticeList.jsp"));
 		commandMap.put("input-form", new CommandNull("noticeInputForm.jsp"));
 		commandMap.put("input-firm", new NoticeCommandInput("noticeSave.jsp"));
+		commandMap.put("notice-view", new NoticeCommandView("noticeView.jsp"));
 
 		
 	}

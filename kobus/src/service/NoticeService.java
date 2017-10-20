@@ -25,5 +25,10 @@ private static NoticeService service;
 	public List<NoticeModel> noticeList(){
 		return repo.noticeList();
 	}
+
+	public NoticeModel noticeSelectView(int nId) {
+		return repo.noticeSelectView(nId);
+		
+	}
 	
 }

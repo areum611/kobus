@@ -51,4 +51,13 @@ public class NoticeRepository {
 		}
 	}
 
+	public NoticeModel noticeSelectView(int nId) {
+		SqlSession sess = getSqlSessionFactory().openSession();
+		try {
+			return (NoticeModel) sess.selectOne(namespage + ".noticeSelectView", nId);
+		} finally {
+			sess.close(); 
+		}
+	}
+
 }
