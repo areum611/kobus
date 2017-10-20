@@ -93,7 +93,7 @@ body {
 			</div>
 
 			<p class="btns col1">
-				<a href="#" class="btnL btn_normal">목록</a>
+				<a href="<%= pjName %>/notice?cmd=notice-list" class="btnL btn_normal">목록</a>
 			</p>
 
 
